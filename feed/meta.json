@@ -21,5 +21,7 @@
     "iracing": 0,
     "lmu": 0
   },
-  "notes": "Public user-facing feed. No secrets or private audit data."
+  "notes": "Public transport for INTERNAL app validation only. Do not use this repository for paid/protected production content.",
+  "environment": "internal-test",
+  "access_control": "none"
 }
