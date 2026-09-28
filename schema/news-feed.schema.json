@@ -140,6 +140,20 @@
               },
               "additionalProperties": false
             }
+          },
+          "access_tier": {
+            "type": "string",
+            "enum": [
+              "PRO",
+              "FULL"
+            ]
+          },
+          "translation_status": {
+            "type": "string",
+            "enum": [
+              "complete",
+              "fallback_it"
+            ]
           }
         },
         "additionalProperties": true
