@@ -1,7 +1,44 @@
 {
   "schema_version": 1,
-  "feed_version": 1,
-  "generated_utc": null,
+  "feed_version": 2,
+  "generated_utc": "2026-09-28T13:30:00+00:00",
   "simulator": "LMU",
-  "items": []
+  "items": [
+    {
+      "id": "TEST-LMU-LIVE-001",
+      "issue_id": "TEST-LMU-LIVE-001",
+      "sim": "LMU",
+      "published_utc": "2026-09-28T13:30:00+00:00",
+      "category": "system/test",
+      "status": "CONFIRMED",
+      "severity": "LOW",
+      "confidence": 100,
+      "renova_relevance": 100,
+      "build": "",
+      "is_integrity": false,
+      "access_tier": "PRO",
+      "integrity_type": "",
+      "competitive_impact": "",
+      "affected_mode": "APP INTERNAL TEST",
+      "change_reason": "LIVE_FEED_SYNC_TEST",
+      "translation_status": "complete",
+      "it": {
+        "title": "TEST LIVE FEED — sincronizzazione Le Mans Ultimate attiva",
+        "summary": "News di test pubblicata nel repository RENOVA_SIM_NEWS_FEED per verificare download, parsing, cache locale e visualizzazione del feed Le Mans Ultimate nell'app Android.",
+        "workaround": "Nessuna azione richiesta. Questa voce verrà rimossa dopo la validazione del LIVE FEED."
+      },
+      "en": {
+        "title": "LIVE FEED TEST — Le Mans Ultimate synchronization active",
+        "summary": "Test news published in RENOVA_SIM_NEWS_FEED to validate download, parsing, local cache and Le Mans Ultimate feed rendering in the Android app.",
+        "workaround": "No action required. This item will be removed after LIVE FEED validation."
+      },
+      "sources": [
+        {
+          "name": "RENOVA Simulator News Hub feed",
+          "url": "https://github.com/Carlobruno78/RENOVA_SIM_NEWS_FEED",
+          "tier": "INTERNAL_TEST"
+        }
+      ]
+    }
+  ]
 }
