@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "feed_version": 1,
+  "generated_utc": null,
+  "source": "RENOVA AI_AUDIT",
+  "publication_schedule": {
+    "timezone": "Europe/Rome",
+    "scan": "09:00 daily",
+    "publish": [
+      "Tuesday 09:20",
+      "Friday 09:20",
+      "Sunday 09:20"
+    ]
+  },
+  "simulators": [
+    "IRACING",
+    "LMU"
+  ],
+  "counts": {
+    "all": 0,
+    "iracing": 0,
+    "lmu": 0
+  },
+  "notes": "Public user-facing feed. No secrets or private audit data."
+}
