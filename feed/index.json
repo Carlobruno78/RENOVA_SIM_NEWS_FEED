@@ -1,6 +1,45 @@
 {
   "schema_version": 1,
-  "feed_version": 1,
-  "generated_utc": null,
-  "items": []
+  "feed_version": 2,
+  "generated_utc": "2026-09-28T13:30:00+00:00",
+  "items": [
+    {
+      "id": "TEST-IRACING-LIVE-001",
+      "sim": "IRACING",
+      "published_utc": "2026-09-28T13:30:00+00:00",
+      "category": "system/test",
+      "status": "CONFIRMED",
+      "severity": "LOW",
+      "renova_relevance": 100,
+      "build": "",
+      "is_integrity": false,
+      "access_tier": "PRO",
+      "translation_status": "complete",
+      "it": {
+        "title": "TEST LIVE FEED — sincronizzazione iRacing attiva"
+      },
+      "en": {
+        "title": "LIVE FEED TEST — iRacing synchronization active"
+      }
+    },
+    {
+      "id": "TEST-LMU-LIVE-001",
+      "sim": "LMU",
+      "published_utc": "2026-09-28T13:30:00+00:00",
+      "category": "system/test",
+      "status": "CONFIRMED",
+      "severity": "LOW",
+      "renova_relevance": 100,
+      "build": "",
+      "is_integrity": false,
+      "access_tier": "PRO",
+      "translation_status": "complete",
+      "it": {
+        "title": "TEST LIVE FEED — sincronizzazione Le Mans Ultimate attiva"
+      },
+      "en": {
+        "title": "LIVE FEED TEST — Le Mans Ultimate synchronization active"
+      }
+    }
+  ]
 }
