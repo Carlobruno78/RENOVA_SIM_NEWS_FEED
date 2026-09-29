@@ -1,28 +1,19 @@
 {
-  "schema_version": 1,
-  "feed_version": 2,
-  "generated_utc": "2026-09-28T13:30:00+00:00",
-  "environment": "internal-test",
   "access_control": "none",
-  "source": "RENOVA AI_AUDIT",
-  "publication_schedule": {
-    "timezone": "Europe/Rome",
-    "scan": "09:00 daily",
-    "publish": [
-      "Tuesday 09:20",
-      "Friday 09:20",
-      "Sunday 09:20"
-    ]
+  "counts": {
+    "all": 0,
+    "iracing": 0,
+    "lmu": 0,
+    "withheld_full": 0
   },
+  "environment": "internal-test",
+  "feed_version": 1,
+  "generated_utc": null,
+  "notes": "Public transport for INTERNAL app validation. FULL / competitive-integrity items are withheld from this public transport. Do not use this repository for paid production content.",
+  "schema_version": 1,
   "simulators": [
     "IRACING",
     "LMU"
   ],
-  "counts": {
-    "all": 2,
-    "iracing": 1,
-    "lmu": 1,
-    "withheld_full": 0
-  },
-  "notes": "INTERNAL LIVE FEED validation seed. FULL / competitive-integrity items are withheld from this public transport. Test items will be removed after Android sync validation."
+  "source": "RENOVA AI_AUDIT"
 }
