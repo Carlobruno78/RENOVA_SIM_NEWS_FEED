@@ -24,6 +24,6 @@ The Android app reads this repository as a public source. Paid or restricted con
 ## Publishing cadence
 
 - Source audit: daily at 09:00 Europe/Rome
-- Publication: Tuesday, Friday and Sunday
+- Publication: Tuesday and Friday
 - The feed is updated from the same approved publication payload used by the user-facing news pipeline.
 
