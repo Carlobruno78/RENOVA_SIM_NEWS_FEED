@@ -1,7 +1,45 @@
 {
-  "feed_version": 11,
-  "generated_utc": "2026-10-02T08:16:34+00:00",
+  "feed_version": 13,
+  "generated_utc": "2026-10-02T13:35:03+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "FFB/input/setup/physics",
+      "en": {
+        "title": "New reports of severe Hypercar oscillation on straights"
+      },
+      "id": "f5b371bb1d1e7cf58e3f923a",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuove segnalazioni di forte oscillazione delle Hypercar sui rettilinei"
+      },
+      "published_utc": "2026-10-02T13:35:03+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "software/performance",
+      "en": {
+        "title": "New report of high disk utilization associated with game freezes"
+      },
+      "id": "b7e9de58fb8497535ae7fa10",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova segnalazione di utilizzo elevato del disco associato a freeze del gioco"
+      },
+      "published_utc": "2026-10-02T13:35:03+00:00",
+      "renova_relevance": 72,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Termini/documentazione aggiornati il 2026-09-30; build del simulatore non indicata",

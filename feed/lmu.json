@@ -1,7 +1,79 @@
 {
-  "feed_version": 11,
-  "generated_utc": "2026-10-02T08:16:34+00:00",
+  "feed_version": 13,
+  "generated_utc": "2026-10-02T13:35:03+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "POTENZIALMENTE SESSIONI DI GUI",
+      "build": "",
+      "category": "FFB/input/setup/physics",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 58,
+      "en": {
+        "summary": "A new community report describes severe Hypercar oscillation on straights. The report may indicate an FFB, setup, or physics problem, but it remains unverified and lacks sufficient reproduction details.",
+        "title": "New reports of severe Hypercar oscillation on straights",
+        "workaround": "No confirmed workaround. Do not treat the behavior as an integrity issue until reproducible vehicle, track, setup, FFB-device, video, or telemetry details are available."
+      },
+      "id": "f5b371bb1d1e7cf58e3f923a",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "b4ccb97802eab29aa152",
+      "it": {
+        "summary": "Impatto RENOVA: Può compromettere il controllo della vettura, la stabilità ad alta velocità e la parità competitiva; la segnalazione è ancora community-only e non confermata.\n\nSintomo: Segnalata una forte oscillazione delle Hypercar sui rettilinei. Non sono ancora disponibili dettagli sufficienti per determinare se la causa sia FFB, setup, fisica o una combinazione dei fattori.\n\nNovità: È comparsa una nuova segnalazione nella community durante la finestra di monitoraggio; nessuna conferma ufficiale o regressione di build è stata individuata.",
+        "title": "Nuove segnalazioni di forte oscillazione delle Hypercar sui rettilinei",
+        "workaround": "Nessun workaround confermato. Evitare di considerare il comportamento come un problema di integrità finché non saranno disponibili vettura, circuito, setup, dispositivo FFB e video o telemetria riproducibili."
+      },
+      "published_utc": "2026-10-02T13:35:03+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Hard oscillation with Hypercars on straights",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto%2Fpost=&id=2899"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "POTENZIALMENTE TUTTE LE MODALI",
+      "build": "",
+      "category": "software/performance",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE ABBANDONO",
+      "confidence": 55,
+      "en": {
+        "summary": "A new community report links high disk utilization with LMU game freezes. It is a low-detail, unverified software-performance report with no confirmed build relationship or workaround.",
+        "title": "New report of high disk utilization associated with game freezes",
+        "workaround": "No specific workaround is confirmed. Collect disk-usage data, system logs, LMU traces, session phase, and configuration before attributing the freeze to a game regression."
+      },
+      "id": "b7e9de58fb8497535ae7fa10",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e7cf012d4382779fb959",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare blocchi durante l’utilizzo del simulatore e interrompere sessioni o gare; al momento non è chiaro se il problema sia specifico di LMU, di una configurazione locale o di una regressione recente.\n\nSintomo: Segnalato un utilizzo elevato del disco con conseguente freeze del gioco. Il titolo della segnalazione non specifica durata, frequenza, fase della sessione o configurazione hardware.\n\nNovità: È comparsa una nuova segnalazione nella community durante la finestra di monitoraggio; non risultano ancora conferme multiple, root cause o fix ufficiali.",
+        "title": "Nuova segnalazione di utilizzo elevato del disco associato a freeze del gioco",
+        "workaround": "Nessun workaround specifico confermato. Raccogliere utilizzo disco, log di sistema, trace LMU, fase della sessione e configurazione prima di attribuire il freeze a una regressione del gioco."
+      },
+      "published_utc": "2026-10-02T13:35:03+00:00",
+      "renova_relevance": 72,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Disk high utilization causing game freeze",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto%2Fpost=&id=34654"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "GARE CON PARTENZA SU LAYOUT CO",
