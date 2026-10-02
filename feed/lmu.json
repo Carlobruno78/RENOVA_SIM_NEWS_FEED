@@ -1,7 +1,270 @@
 {
-  "feed_version": 1,
-  "generated_utc": null,
-  "items": [],
+  "feed_version": 11,
+  "generated_utc": "2026-10-02T08:16:34+00:00",
+  "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE CON PARTENZA SU LAYOUT CO",
+      "build": "V1.4.2.3 / Build ID 25611540",
+      "category": "race control/integrity",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE ALTERAZION",
+      "confidence": 60,
+      "en": {
+        "summary": "Studio 397 released V1.4.2.3 on September 30, 2026. The hotfix fixes mass penalties incorrectly occurring at race starts on shorter layouts with large grids. This could affect competitive race results, but the issue is officially marked as fixed.",
+        "title": "V1.4.2.3 fixes mass-penalty issues at race starts on short layouts with large grids",
+        "workaround": "Update LMU to V1.4.2.3 or later. Until updated, avoid race starts on short layouts with large grids where possible and review penalties assigned after the start."
+      },
+      "id": "83dfb023c15fdb3332e99851",
+      "integrity_type": "race-control penalty application error",
+      "is_integrity": true,
+      "issue_id": "e5c9935f8ded8968dc5e",
+      "it": {
+        "summary": "Impatto RENOVA: Rischio di penalità collettive o applicate erroneamente alla partenza, con possibile alterazione dei risultati nelle gare online su layout corti e griglie numerose. Il problema risulta corretto nell’hotfix V1.4.2.3.\n\nSintomo: Penalità di massa applicate durante le partenze di gara su layout corti con griglie numerose.\n\nNovità: L’hotfix ufficiale V1.4.2.3 del 30 settembre 2026 dichiara la correzione del problema delle penalità di massa alla partenza su layout corti con griglie numerose.",
+        "title": "V1.4.2.3 corregge le problema delle penalità di massa alla partenza su layout corti con griglie numerose",
+        "workaround": "Aggiornare LMU a V1.4.2.3 o successiva. Fino all’aggiornamento, evitare se possibile partenze su layout corti con griglie numerose e verificare le penalità assegnate dopo il via."
+      },
+      "published_utc": "2026-10-02T08:16:33+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate — V1.4.2.3 official announcement",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/announcements/"
+        }
+      ],
+      "status": "WORKAROUND",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "VR; CARICAMENTO SESSIONE",
+      "build": "v1.4.2",
+      "category": "graphics/VR/software/loading",
+      "change_reason": "STATUS UNVERIFIED → INVESTIGATING",
+      "competitive_impact": "POSSIBILE MANCATO IN",
+      "confidence": 61,
+      "en": {
+        "summary": "A new community report links the existing 48% session-loading hang specifically to VR. The report is not yet officially confirmed and does not establish a new root cause.",
+        "title": "Community confirmation of loading stuck at 48% in VR",
+        "workaround": "No workaround is confirmed in the report."
+      },
+      "id": "d2200c00bca9e573410712a4",
+      "integrity_type": "non-integrity; session availability",
+      "is_integrity": false,
+      "issue_id": "cfceba7cebd468732109",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l’ingresso a una sessione VR e causare abbandoni o mancata partecipazione a eventi online.\n\nSintomo: Il caricamento della sessione resta bloccato al 48%, con una segnalazione specifica per l’uso in VR.\n\nNovità: Il 30 settembre 2026 è comparso un nuovo thread community che ripropone il blocco al 48% in VR, aggiornando il problema storico con una superficie VR esplicita.",
+        "title": "Conferma community di caricamento bloccato al 48% in VR",
+        "workaround": "Nessun workaround confermato nella segnalazione."
+      },
+      "published_utc": "2026-10-02T08:16:32+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community - Stuck at 48% when in VR",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?threads/stuck-at-48-when-in-vr.19068/post-100236="
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "VR STARTUP AND ONLINE-ENABLED",
+      "build": "",
+      "category": "anti-cheat/graphics/VR/plugin/software",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA DELL’ACCESSO",
+      "confidence": 60,
+      "en": {
+        "summary": "Recent community evidence confirms that the latest EAC behavior is not uniformly blocking all VR tools. The clearest affected case is modified OpenXRTools with crop2fov, while compatibility appears to vary by tool and runtime.",
+        "title": "Updated confirmation of EAC blocking modified OpenXRTools, with inconsistent compatibility across VR tools",
+        "workaround": "Temporarily disable modified OpenXRTools and try the standard OpenXR Toolkit, the game’s built-in VR settings or an alternative runtime not reported as blocked. Check for official updates before using third-party plugins in online mode."
+      },
+      "id": "d63af1096c0a761741a4430e",
+      "integrity_type": "ANTI-CHEAT compatibility gate / possible false positive affe",
+      "is_integrity": true,
+      "issue_id": "1fc744ea9bc95396a60d",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l’avvio di LMU in VR o rimuovere strumenti di ottimizzazione usati per mantenere frame rate e stabilità accettabili.\n\nSintomo: Con OpenXRTools abilitato, LMU può non avviarsi dopo l’ultimo aggiornamento per un blocco EAC. Le segnalazioni indicano che il comportamento varia tra OpenXRTools modificato, OpenXR Toolkit standard e altri runtime o strumenti VR.\n\nNovità: Nuova segnalazione nella finestra osservata che restringe il problema soprattutto a OpenXRTools modificato con crop2fov: alcuni utenti riferiscono che il toolkit standard continua a funzionare, mentre altri strumenti, come Virtual Desktop, risultano non bloccati.",
+        "title": "Conferma aggiornata del blocco EAC per OpenXRTools modificato, con compatibilità non uniforme tra strumenti VR",
+        "workaround": "Disabilitare temporaneamente OpenXRTools modificato e provare il toolkit OpenXR standard, le impostazioni VR integrate nel gioco o un runtime alternativo non segnalato come bloccato. Verificare eventuali aggiornamenti ufficiali prima di usare plugin di terze parti in modalità online."
+      },
+      "published_utc": "2026-10-02T08:16:31+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC – LMU EAC update and openxrtools",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wsh9yn/lmu_eac_update_and_openxrtools/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE MULTIPLAYER; RACECONTRO",
+      "build": "v1.4.2",
+      "category": "network/netcode/race control",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILI COLLISIONI",
+      "confidence": 58,
+      "en": {
+        "summary": "A fresh community case reports a netcode-attributed collision with an online DNF. It is deduplicated into the existing RUDP phantom-collision/disconnection issue and remains unconfirmed.",
+        "title": "New report of a netcode-caused collision resulting in an online DNF",
+        "workaround": "No workaround is confirmed; retain replay, telemetry, and network logs for incident review."
+      },
+      "id": "a5bfe0d49b9404fe957a4b8b",
+      "integrity_type": "non-integrity; possible netcode-induced race-result impact",
+      "is_integrity": false,
+      "issue_id": "997c24f0556d64382214",
+      "it": {
+        "summary": "Impatto RENOVA: Una collisione attribuita al netcode può causare danni, DNF e impatto diretto sui risultati e sulla reputazione dei piloti online.\n\nSintomo: Collisione online attribuita alla sincronizzazione di rete, con DNF dell’altro pilota e richiesta di chiarimento su come segnalarla.\n\nNovità: Il 30 settembre 2026 è stata pubblicata una nuova segnalazione community che riporta un caso concreto di collisione da netcode; non dimostra però un nuovo meccanismo oltre al problema RUDP già noto.",
+        "title": "Nuova segnalazione di collisione causata dal netcode con DNF online",
+        "workaround": "Nessun workaround confermato; conservare replay, telemetria e log di rete per la revisione dell’incidente."
+      },
+      "published_utc": "2026-10-02T08:16:31+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community - Netcode caused collision. DNF'ed other driver. How to report myself?",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?threads/netcode-caused-collision-dnfed-other-driver-how-to-report-myself.19151/post-100489="
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "RACE SESSIONS, INCLUDING ONLIN",
+      "build": "Post-v1.4.1.4 / v1.4.2.x",
+      "category": "graphics/performance/software",
+      "change_reason": "BUILD 1.4.2 → 1.4.1.4",
+      "competitive_impact": "CALO PRESTAZIONALE D",
+      "confidence": 60,
+      "en": {
+        "summary": "Recent reports add a more specific reproduction pattern to the known post-update performance regression: practice and qualifying may remain smooth while the race session becomes nearly unplayable. Background software and focus changes are possible contributing factors, but no single root cause is confirmed.",
+        "title": "Performance-regression update: FPS collapses occurring mainly when entering race sessions",
+        "workaround": "As an unofficial mitigation, restart LMU before the race, return focus to the game window and test without overlays or background hardware-management applications. Temporarily reducing visible cars and the heaviest effects may limit the impact."
+      },
+      "id": "71522917f608a9047cad5825",
+      "integrity_type": "non-integrity; possible indirect interaction with anti-cheat",
+      "is_integrity": true,
+      "issue_id": "40cb1b817c1127db4e99",
+      "it": {
+        "summary": "Impatto RENOVA: Può rendere la vettura inguidabile all’avvio della gara anche quando practice e qualifiche funzionano normalmente, causando ritiro o incidenti.\n\nSintomo: Frame rate elevato in practice e qualifiche, ma crollo improvviso a circa 10–20 FPS nella sessione di gara, talvolta dopo un cambio di focus, modifica del volume o uso di applicazioni in background.\n\nNovità: Nuova evidenza nella finestra osservata che caratterizza la regressione come prevalentemente race-session-specifica e segnala possibili interazioni con focus della finestra, overlay o applicazioni come Process Lasso, Moza Pit House e SimHub. Il collegamento causale con EAC non è confermato.",
+        "title": "Aggiornamento del degrado prestazionale: crolli FPS soprattutto all’ingresso nella sessione di gara",
+        "workaround": "Come mitigazione non ufficiale, riavviare LMU prima della gara, riportare il focus alla finestra del gioco e provare senza overlay o applicazioni di gestione hardware in background. Ridurre temporaneamente il numero di vetture visibili e gli effetti più pesanti può limitare l’impatto."
+      },
+      "published_utc": "2026-10-02T08:16:31+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC – Serious framerate issues",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wrm2wz/serious_framerate_issues/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE PRACTICE, QUALIFICHE, G",
+      "build": "",
+      "category": "anti-cheat/network/race control/software",
+      "change_reason": "NEW",
+      "competitive_impact": "PUÒ IMPEDIRE PRACTIC",
+      "confidence": 70,
+      "en": {
+        "summary": "Recent reports indicate that post-update session joins can fail because the local Installed content does not match the server, even when EAC itself connects successfully. This materially clarifies the existing post-update anti-cheat/session-expulsion issue and provides a more targeted recovery path.",
+        "title": "Unable to join sessions after the update بسبب a local content mismatch",
+        "workaround": "Close LMU, remove only the Installed folder from the game directory, leave UserData untouched, and use Steam’s file-integrity verification to restore the content. If the issue persists, collect the logs and submit an official support ticket."
+      },
+      "id": "93e97f8d21ed7fd7b5253437",
+      "integrity_type": "ANTI-CHEAT content-integrity gate / false positive or stale",
+      "is_integrity": true,
+      "issue_id": "c15ad5ec2afdfa42a197",
+      "it": {
+        "summary": "Impatto RENOVA: Il controllo di integrità può rifiutare l’accesso a practice e gare anche quando EAC si connette correttamente, causando crash, mancata partecipazione e possibile perdita di DR.\n\nSintomo: Dopo l’aggiornamento, il tentativo di entrare in practice o gara restituisce “unable to join server”, crash o chiusura automatica. I log possono indicare contenuto locale illegale o non corrispondente al contenuto atteso dal server.\n\nNovità: Nuova conferma comunitaria di un caso specifico in cui EAC risulta connesso, ma versioni obsolete o duplicate nella cartella Installed fanno fallire il controllo del contenuto e impediscono l’ingresso nelle sessioni.",
+        "title": "Impossibilità di entrare nelle sessioni dopo l’aggiornamento per mismatch del contenuto locale",
+        "workaround": "Chiudere LMU, rimuovere solo la cartella Installed nella directory del gioco, lasciare UserData intatta e usare la verifica dell’integrità dei file Steam per ripristinare il contenuto. Se il problema persiste, raccogliere i log e aprire un ticket ufficiale."
+      },
+      "published_utc": "2026-10-02T08:16:30+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – Unable to join since the update",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1ws6rm3/unable_to_join_since_the_update/"
+        },
+        {
+          "name": "Steam Community – Le Mans Ultimate General Discussions",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/discussions/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "VR, AVVIO DEL GIOCO, SESSIONI",
+      "build": "",
+      "category": "anti-cheat/graphics/VR/plugin/software",
+      "change_reason": "STATUS UNVERIFIED → INVESTIGATING",
+      "competitive_impact": "PUÒ IMPEDIRE L’ACCES",
+      "confidence": 70,
+      "en": {
+        "summary": "A recent community report indicates that the latest LMU/EAC update can prevent launch when OpenXRTools is enabled. The report is community-level evidence and may represent an expansion of the existing OpenXR compatibility issue rather than a separate defect.",
+        "title": "EAC blocks OpenXRTools after the latest LMU update",
+        "workaround": "Temporarily disable OpenXRTools/OpenXR Toolkit and try the OpenXR runtime bundled with the game, SteamVR, or Virtual Desktop. Do not use unapproved tools during online races until EAC compatibility is clarified."
+      },
+      "id": "7491dcb9e89ada37a3b7f1d3",
+      "integrity_type": "ANTI-CHEAT compatibility gate / possible false positive",
+      "is_integrity": true,
+      "issue_id": "da5d6b46cf80e55387d0",
+      "it": {
+        "summary": "Impatto RENOVA: Regressione di compatibilità tra EAC e strumenti OpenXR di terze parti, con possibile impossibilità di avviare LMU in VR o crash durante l’avvio.\n\nSintomo: Con OpenXRTools o strumenti OpenXR di terze parti attivi, EAC può impedire l’avvio di LMU; alcuni utenti riportano che il gioco funziona solo usando il runtime OpenXR standard o Virtual Desktop.\n\nNovità: Segnalazione recente che collega esplicitamente il blocco di OpenXRTools all’aggiornamento EAC/LMU più recente; il problema è coerente con il precedente malfunzionamento di OpenXR Toolkit, ma amplia il perimetro agli strumenti OpenXR attivi durante il controllo EAC.",
+        "title": "EAC blocca OpenXRTools dopo l’ultimo aggiornamento LMU",
+        "workaround": "Disabilitare temporaneamente OpenXRTools/OpenXR Toolkit e provare il runtime OpenXR incluso nel gioco, SteamVR o Virtual Desktop. Non usare strumenti non consentiti durante gare online finché la compatibilità EAC non è chiarita."
+      },
+      "published_utc": "2026-10-02T08:16:30+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – LMU EAC update and OpenXRTools",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wsh9yn/lmu_eac_update_and_openxrtools/"
+        },
+        {
+          "name": "Steam Community – Le Mans Ultimate General Discussions",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/discussions/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    }
+  ],
   "schema_version": 1,
   "simulator": "LMU"
 }

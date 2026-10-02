@@ -1,6 +1,197 @@
 {
-  "feed_version": 1,
-  "generated_utc": null,
-  "items": [],
+  "feed_version": 11,
+  "generated_utc": "2026-10-02T08:16:34+00:00",
+  "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Termini/documentazione aggiornati il 2026-09-30; build del simulatore non indicata",
+      "category": "plugin",
+      "en": {
+        "title": "iRacing updates third-party development terms: new restrictions on APIs, SDKs, and member identifiers"
+      },
+      "id": "cf1e57838b4888b17dfbf918",
+      "is_integrity": false,
+      "it": {
+        "title": "iRacing aggiorna i termini per lo sviluppo di terze parti: nuovi vincoli su API, SDK e identificativi degli utenti"
+      },
+      "published_utc": "2026-10-02T08:16:34+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Versione non indicata; sistema segnalato con RTX 3070 e Intel i7-11700K",
+      "category": "graphics/VR",
+      "en": {
+        "title": "Possible black-screen crash and PC restart during scene changes or car resets"
+      },
+      "id": "db4b4614c925501d1a495f85",
+      "is_integrity": false,
+      "it": {
+        "title": "Possibile crash con black screen e riavvio del PC durante il cambio scena o il reset della vettura"
+      },
+      "published_utc": "2026-10-02T08:16:33+00:00",
+      "renova_relevance": 76,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "V1.4.2.3 / Build ID 25611540",
+      "category": "race control/integrity",
+      "en": {
+        "title": "V1.4.2.3 fixes mass-penalty issues at race starts on short layouts with large grids"
+      },
+      "id": "83dfb023c15fdb3332e99851",
+      "is_integrity": true,
+      "it": {
+        "title": "V1.4.2.3 corregge le problema delle penalità di massa alla partenza su layout corti con griglie numerose"
+      },
+      "published_utc": "2026-10-02T08:16:33+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "WORKAROUND",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "v1.4.2",
+      "category": "graphics/VR/software/loading",
+      "en": {
+        "title": "Community confirmation of loading stuck at 48% in VR"
+      },
+      "id": "d2200c00bca9e573410712a4",
+      "is_integrity": false,
+      "it": {
+        "title": "Conferma community di caricamento bloccato al 48% in VR"
+      },
+      "published_utc": "2026-10-02T08:16:32+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Versione non indicata",
+      "category": "race control",
+      "en": {
+        "title": "Possible race-order corruption after an immediate pit return at Oulton Park"
+      },
+      "id": "47670df7453cd098880515d3",
+      "is_integrity": false,
+      "it": {
+        "title": "Possibile corruzione dell'ordine di gara dopo rientro immediato ai box a Oulton Park"
+      },
+      "published_utc": "2026-10-02T08:16:32+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "anti-cheat/graphics/VR/plugin/software",
+      "en": {
+        "title": "Updated confirmation of EAC blocking modified OpenXRTools, with inconsistent compatibility across VR tools"
+      },
+      "id": "d63af1096c0a761741a4430e",
+      "is_integrity": true,
+      "it": {
+        "title": "Conferma aggiornata del blocco EAC per OpenXRTools modificato, con compatibilità non uniforme tra strumenti VR"
+      },
+      "published_utc": "2026-10-02T08:16:31+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "v1.4.2",
+      "category": "network/netcode/race control",
+      "en": {
+        "title": "New report of a netcode-caused collision resulting in an online DNF"
+      },
+      "id": "a5bfe0d49b9404fe957a4b8b",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova segnalazione di collisione causata dal netcode con DNF online"
+      },
+      "published_utc": "2026-10-02T08:16:31+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Post-v1.4.1.4 / v1.4.2.x",
+      "category": "graphics/performance/software",
+      "en": {
+        "title": "Performance-regression update: FPS collapses occurring mainly when entering race sessions"
+      },
+      "id": "71522917f608a9047cad5825",
+      "is_integrity": true,
+      "it": {
+        "title": "Aggiornamento del degrado prestazionale: crolli FPS soprattutto all’ingresso nella sessione di gara"
+      },
+      "published_utc": "2026-10-02T08:16:31+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "anti-cheat/network/race control/software",
+      "en": {
+        "title": "Unable to join sessions after the update بسبب a local content mismatch"
+      },
+      "id": "93e97f8d21ed7fd7b5253437",
+      "is_integrity": true,
+      "it": {
+        "title": "Impossibilità di entrare nelle sessioni dopo l’aggiornamento per mismatch del contenuto locale"
+      },
+      "published_utc": "2026-10-02T08:16:30+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "anti-cheat/graphics/VR/plugin/software",
+      "en": {
+        "title": "EAC blocks OpenXRTools after the latest LMU update"
+      },
+      "id": "7491dcb9e89ada37a3b7f1d3",
+      "is_integrity": true,
+      "it": {
+        "title": "EAC blocca OpenXRTools dopo l’ultimo aggiornamento LMU"
+      },
+      "published_utc": "2026-10-02T08:16:30+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    }
+  ],
   "schema_version": 1
 }

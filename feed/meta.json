@@ -1,15 +1,16 @@
 {
   "access_control": "none",
   "counts": {
-    "all": 0,
-    "iracing": 0,
-    "lmu": 0,
-    "withheld_full": 0
+    "all": 10,
+    "iracing": 3,
+    "lmu": 7,
+    "withheld_full": 0,
+    "withheld_protected": 0
   },
   "environment": "internal-test",
-  "feed_version": 1,
-  "generated_utc": null,
-  "notes": "Public transport for INTERNAL app validation. FULL / competitive-integrity items are withheld from this public transport. Do not use this repository for paid production content.",
+  "feed_version": 11,
+  "generated_utc": "2026-10-02T08:16:34+00:00",
+  "notes": "Public transport for INTERNAL app validation. PROTECTED items are withheld from this public transport. Paid/restricted content is served only by the RENOVA entitlement backend.",
   "schema_version": 1,
   "simulators": [
     "IRACING",

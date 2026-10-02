@@ -1,7 +1,121 @@
 {
-  "feed_version": 1,
-  "generated_utc": null,
-  "items": [],
+  "feed_version": 11,
+  "generated_utc": "2026-10-02T08:16:34+00:00",
+  "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "PLUGIN E SERVIZI DI TERZE PART",
+      "build": "Termini/documentazione aggiornati il 2026-09-30; build del simulatore non indicata",
+      "category": "plugin",
+      "change_reason": "NEW",
+      "competitive_impact": "IMPATTO COMPETITIVO",
+      "confidence": 92,
+      "en": {
+        "summary": "iRacing has materially clarified and expanded the compliance requirements for third-party tools using the SDK or /data API. API keys and OAuth credentials provide only technical access to authorized APIs, not blanket permission for other activities. Third-party services should review data handling, consent, display-name/customer-ID exposure, and continued API access risk.",
+        "title": "iRacing updates third-party development terms: new restrictions on APIs, SDKs, and member identifiers",
+        "workaround": "Immediately review plugins and services using the iRacing SDK or APIs; verify explicit and revocable consent for displaying member names and customer IDs; do not treat API keys or OAuth credentials as blanket authorization; prepare safe behavior if data access is revoked or restricted."
+      },
+      "id": "cf1e57838b4888b17dfbf918",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "22952cdccdd58ed125d1",
+      "it": {
+        "summary": "Impatto RENOVA: Impatto potenziale su plugin, overlay, dashboard, siti di statistiche e strumenti che usano SDK o API iRacing. L’accesso tecnico tramite API key o credenziali OAuth non equivale ad autorizzazione generale; i dati possono essere limitati o rimossi e la pubblicazione di display name o customer ID rich\n\nSintomo: Nuovo avviso ufficiale che richiama gli sviluppatori di terze parti al rispetto dei termini iRacing. Possibili incompatibilità di conformità per servizi che espongono nomi utente o customer identifier, oppure che interpretano una API key come autorizzazione a qualsiasi utilizzo dei dati.\n\nNovità: iRacing ha pubblicato il 2026-09-30 una comunicazione ufficiale secondo cui SDK, /data API e relativi dati sono soggetti ai Termini di utilizzo, EULA, termini UE, condizioni del sito e informativa privacy. iRacing si riserva di modificare i documenti e limitare o rimuovere l’accesso ai dati; display name e customer identifier non possono essere esposti senza consenso esplicito, affermativo e revocabile.",
+        "title": "iRacing aggiorna i termini per lo sviluppo di terze parti: nuovi vincoli su API, SDK e identificativi degli utenti",
+        "workaround": "Rivedere immediatamente i plugin e i servizi che usano SDK o API iRacing; verificare il consenso esplicito e revocabile per la visualizzazione di display name e customer ID; non trattare API key o credenziali OAuth come autorizzazione generale; predisporre un comportamento sicuro in caso di revoca o limitazione dell’accesso ai dati."
+      },
+      "published_utc": "2026-10-02T08:16:34+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing Support — Third-Party Development: Please Review the iRacing Terms",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179757-third-party-development-please-review-the-iracing-terms"
+        },
+        {
+          "name": "Reddit r/iRacing — iRacing just updated their TOS for Third-Party Development",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1wu88ej/iracing_just_updated_their_tos_for_thirdparty/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "CAMBIO SCENA, RESET VETTURA E",
+      "build": "Versione non indicata; sistema segnalato con RTX 3070 e Intel i7-11700K",
+      "category": "graphics/VR",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE MANCATA PA",
+      "confidence": 55,
+      "en": {
+        "summary": "A recent community report describes repeatable black-screen crashes followed by a full PC restart when iRacing changes scenes or resets a car. The issue may be hardware- or driver-dependent, but it can cause missed starts and warrants log and hardware-correlation checks.",
+        "title": "Possible black-screen crash and PC restart during scene changes or car resets",
+        "workaround": "Temporarily limit the frame rate and check power delivery, temperatures, graphics drivers, and system logs; do not treat the case as a confirmed general regression without further reports."
+      },
+      "id": "db4b4614c925501d1a495f85",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "b8a67c167d20f9175d3b",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare la perdita della sessione e la mancata partenza quando si verifica durante il caricamento della griglia; il riavvio completo del PC indica un impatto superiore a un semplice crash del simulatore.\n\nSintomo: Durante il reset della vettura o il caricamento di una nuova scena si verifica uno schermo nero seguito dal riavvio del computer. Il problema è riportato come riproducibile e particolarmente penalizzante durante la fase di griglia.\n\nNovità: Nuova segnalazione di un crash associato al cambio scena/reset, distinto dai crash storici legati alla minimizzazione o ai controlli VCR del replay.",
+        "title": "Possibile crash con black screen e riavvio del PC durante il cambio scena o il reset della vettura",
+        "workaround": "Limitare temporaneamente il frame rate e verificare alimentazione, temperature, driver grafici e log di sistema; evitare di considerare il caso confermato come regressione generale senza ulteriori segnalazioni."
+      },
+      "published_utc": "2026-10-02T08:16:33+00:00",
+      "renova_relevance": 76,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing – iRacing crashing during scene change",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1wtkxwk/iracing_crashing_during_scene_change/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE UFFICIALI CON PARTENZA LA",
+      "build": "Versione non indicata",
+      "category": "race control",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE ALTERAZION",
+      "confidence": 58,
+      "en": {
+        "summary": "A community report describes a possible race-control state error at Oulton Park where a driver who returned to the pits immediately after the start allegedly retained first place after the first lap. The report is unverified, but the potential impact on classification makes replay review important.",
+        "title": "Possible race-order corruption after an immediate pit return at Oulton Park",
+        "workaround": "Save the complete replay, verify the start and lap-line-crossing sequence, and submit the case to iRacing support; do not assume the behavior is repeatable or intentional until confirmed."
+      },
+      "id": "47670df7453cd098880515d3",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "32362b89f383c465d053",
+      "it": {
+        "summary": "Impatto RENOVA: Un pilota che rientra ai box subito dopo la partenza sarebbe rimasto classificato al primo posto dopo il completamento del primo giro, alterando ordine, risultati e potenzialmente iRating/SR.\n\nSintomo: In una gara FF1600 a Oulton Park, il leader è rientrato ai box subito dopo la partenza, ha atteso circa 45 secondi e ha poi iniziato la gara. Nonostante ciò, dopo il primo giro è rimasto classificato in prima posizione.\n\nNovità: Nuova segnalazione di una possibile anomalia distinta di stato posizione/classifica, non riconducibile ai problemi storici di slowdown nei tagli bagnati.",
+        "title": "Possibile corruzione dell'ordine di gara dopo rientro immediato ai box a Oulton Park",
+        "workaround": "Salvare il replay completo, verificare la sequenza di partenza e dei passaggi sul traguardo e inviare il caso al supporto iRacing; non considerare il comportamento ripetibile o intenzionale finché non viene confermato."
+      },
+      "published_utc": "2026-10-02T08:16:32+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing – Bug/Glitch at Oulton Park?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1wtk30a/bugglitch_at_oulton_park/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    }
+  ],
   "schema_version": 1,
   "simulator": "IRACING"
 }
