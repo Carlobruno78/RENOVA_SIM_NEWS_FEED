@@ -1,7 +1,159 @@
 {
-  "feed_version": 13,
-  "generated_utc": "2026-10-02T13:35:03+00:00",
+  "feed_version": 21,
+  "generated_utc": "2026-10-06T09:05:45+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Companion App 3.0 / infrastruttura legacy; simulator build 2026.10.01.01",
+      "category": "software",
+      "en": {
+        "title": "Legacy iRacing Companion App: infrastructure retired, previous version no longer functional after October 5"
+      },
+      "id": "282614f37f595882131ebdf9",
+      "is_integrity": false,
+      "it": {
+        "title": "iRacing Companion App legacy: infrastruttura ritirata, versione precedente non più funzionante dal 5 ottobre"
+      },
+      "published_utc": "2026-10-06T09:05:45+00:00",
+      "renova_relevance": 72,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026.10.01.01",
+      "category": "telemetry",
+      "en": {
+        "title": "Telemetry: TrackPaceSpeed now returns the value in kph"
+      },
+      "id": "1e03bfc57ae75351ec3de807",
+      "is_integrity": false,
+      "it": {
+        "title": "Telemetry: TrackPaceSpeed ora restituisce il valore in kph"
+      },
+      "published_utc": "2026-10-06T09:05:44+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026.10.01.01",
+      "category": "race control",
+      "en": {
+        "title": "Phoenix Dirt Road/Rallycross: corner-cut exploit fixed in Season 4 Patch 1"
+      },
+      "id": "0f62d4759e3df447e4069828",
+      "is_integrity": true,
+      "it": {
+        "title": "Phoenix Dirt Road/Rallycross: corner-cut exploit corretto nel Season 4 Patch 1"
+      },
+      "published_utc": "2026-10-06T09:05:44+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "graphics/performance/software/network/netcode/race control",
+      "en": {
+        "title": "In-race black screen followed by delayed return to the track at full speed"
+      },
+      "id": "01795d5c038b9ebe85021ee8",
+      "is_integrity": false,
+      "it": {
+        "title": "Black screen durante una gara online con rientro ritardato in pista a piena velocità"
+      },
+      "published_utc": "2026-10-06T09:05:43+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "hardware/FFB/input/software",
+      "en": {
+        "title": "T300RS: LMU does not detect wheel rotation and pedals"
+      },
+      "id": "ba7a4068080baf7a6e8509f6",
+      "is_integrity": false,
+      "it": {
+        "title": "T300RS: LMU non rileva rotazione del volante e pedali"
+      },
+      "published_utc": "2026-10-06T09:05:42+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026 Season 4 Patch 1; deployment previsto il 2026-10-05 alle 12:00 UTC",
+      "category": "software",
+      "en": {
+        "title": "2026 Season 4 Patch 1: deployment rescheduled for October 5 after the previous cancellation"
+      },
+      "id": "8c7721de8f0a7a8f7ee28bf3",
+      "is_integrity": false,
+      "it": {
+        "title": "2026 Season 4 Patch 1: deployment riprogrammata al 5 ottobre dopo la cancellazione precedente"
+      },
+      "published_utc": "2026-10-06T09:05:42+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026 Season 4 Patch 1; build/versione numerica non pubblicata nella fonte osservata",
+      "category": "software",
+      "en": {
+        "title": "2026 Season 4 Patch 1: deployment started on October 5 with maintenance active and the /data API unavailable"
+      },
+      "id": "3c308c5784e1a3489345282a",
+      "is_integrity": false,
+      "it": {
+        "title": "2026 Season 4 Patch 1: deployment avviata il 5 ottobre con manutenzione attiva e /data API indisponibile"
+      },
+      "published_utc": "2026-10-06T09:05:42+00:00",
+      "renova_relevance": 96,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "FFB/input/hardware/software",
+      "en": {
+        "title": "Moza: new reports of non-functional FFB or ineffective settings"
+      },
+      "id": "73007f4a784132e1bb73ae94",
+      "is_integrity": false,
+      "it": {
+        "title": "Moza: nuove segnalazioni di FFB non funzionante o impostazioni inefficaci"
+      },
+      "published_utc": "2026-10-06T09:05:41+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "",

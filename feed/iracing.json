@@ -1,7 +1,192 @@
 {
-  "feed_version": 13,
-  "generated_utc": "2026-10-02T13:35:03+00:00",
+  "feed_version": 21,
+  "generated_utc": "2026-10-06T09:05:45+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "COMPANION APP LEGACY E FUNZION",
+      "build": "Companion App 3.0 / infrastruttura legacy; simulator build 2026.10.01.01",
+      "category": "software",
+      "change_reason": "NEW",
+      "competitive_impact": "NESSUN IMPATTO COMPE",
+      "confidence": 99,
+      "en": {
+        "summary": "iRacing retired the infrastructure supporting the legacy Companion App. Users still on the old version may lose mobile access or related functionality after October 5, 2026.",
+        "title": "Legacy iRacing Companion App: infrastructure retired, previous version no longer functional after October 5",
+        "workaround": "Update to the current Companion App before using mobile functions that depend on the service."
+      },
+      "id": "282614f37f595882131ebdf9",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "ba3a57893c29555876cd",
+      "it": {
+        "summary": "Impatto RENOVA: Utenti e integrazioni che dipendono dalla vecchia Companion App possono perdere accesso o funzionalità mobili; il cambiamento è separato dai problemi del simulatore desktop.\n\nSintomo: La vecchia Companion App può non funzionare più dopo il ritiro dell'infrastruttura legacy.\n\nNovità: Le note ufficiali indicano che la versione precedente non funziona più dopo il 2026-10-05 e richiedono l'aggiornamento alla versione corrente.",
+        "title": "iRacing Companion App legacy: infrastruttura ritirata, versione precedente non più funzionante dal 5 ottobre",
+        "workaround": "Aggiornare alla Companion App corrente prima di usare le funzioni mobili dipendenti dal servizio."
+      },
+      "published_utc": "2026-10-06T09:05:45+00:00",
+      "renova_relevance": 72,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing Support — 2026 Season 4 Patch 1 Release Notes",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179767-2026-season-4-patch-1-release-notes-2026-10-01-01-"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSIONI CON PACING E QUALUNQU",
+      "build": "2026.10.01.01",
+      "category": "telemetry",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILI INDICAZION",
+      "confidence": 99,
+      "en": {
+        "summary": "Patch 1 introduces a material telemetry contract change: TrackPaceSpeed is now expressed in kph. Third-party telemetry consumers should verify unit handling to avoid incorrect pacing displays, alerts, or race-control tooling.",
+        "title": "Telemetry: TrackPaceSpeed now returns the value in kph",
+        "workaround": "Verify the expected unit in every plugin or overlay that reads TrackPaceSpeed and apply conversion only when required by the integration; compare the value with the simulator's pacing widget."
+      },
+      "id": "1e03bfc57ae75351ec3de807",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "c50e4023ec765bb6fcb0",
+      "it": {
+        "summary": "Impatto RENOVA: Plugin, overlay, dashboard e logger che interpretavano TrackPaceSpeed con l'unità precedente possono mostrare velocità errate o generare avvisi e automazioni non corretti.\n\nSintomo: Le integrazioni che assumevano un'unità diversa per TrackPaceSpeed possono produrre valori, conversioni o messaggi di pacing errati.\n\nNovità: Il Patch 1 corregge TrackPaceSpeed nella session string e specifica che il valore è ora in kph.",
+        "title": "Telemetry: TrackPaceSpeed ora restituisce il valore in kph",
+        "workaround": "Verificare l'unità attesa in ogni plugin o overlay che legge TrackPaceSpeed e applicare la conversione solo se richiesta dall'integrazione; confrontare il valore con il widget di pacing del simulatore."
+      },
+      "published_utc": "2026-10-06T09:05:44+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing Support — 2026 Season 4 Patch 1 Release Notes",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179767-2026-season-4-patch-1-release-notes-2026-10-01-01-"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "DIRT ROAD E RALLYCROSS A PHOEN",
+      "build": "2026.10.01.01",
+      "category": "race control",
+      "change_reason": "NEW",
+      "competitive_impact": "RIDUZIONE DI UN POTE",
+      "confidence": 97,
+      "en": {
+        "summary": "Patch 1 materially changes the competitive behavior of Phoenix Dirt Road and Rallycross by fixing previously exploitable corner cuts. Post-deployment validation is still needed to confirm that the exploit is closed without creating new legal-line or slowdown inconsistencies.",
+        "title": "Phoenix Dirt Road/Rallycross: corner-cut exploit fixed in Season 4 Patch 1",
+        "workaround": "After updating, validate replays, lap times, and trajectories on the affected Phoenix Dirt Road and Rallycross configurations; do not use the previous lines until the fix has been verified."
+      },
+      "id": "0f62d4759e3df447e4069828",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": true,
+      "issue_id": "bd76cebff543ebc7d3ac",
+      "it": {
+        "summary": "Impatto RENOVA: Il Patch 1 dichiara la correzione di exploit di taglio curva a Phoenix nelle configurazioni Dirt Road e Rallycross; serve verificare che non restino linee illegittime o regressioni dopo il rilascio.\n\nSintomo: Alcune configurazioni di Phoenix Dirt Road e Rallycross consentivano corner cut sfruttabili competitivamente prima del Patch 1.\n\nNovità: Le note ufficiali del Patch 1, modificate il 2026-10-05, dichiarano che alcuni corner-cut exploit sono stati corretti.",
+        "title": "Phoenix Dirt Road/Rallycross: corner-cut exploit corretto nel Season 4 Patch 1",
+        "workaround": "Dopo l'aggiornamento, validare replay, tempi e traiettorie nelle configurazioni Phoenix Dirt Road e Rallycross interessate; non usare le linee precedenti finché la correzione non è stata verificata."
+      },
+      "published_utc": "2026-10-06T09:05:44+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing Support — 2026 Season 4 Patch 1 Release Notes",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179767-2026-season-4-patch-1-release-notes-2026-10-01-01-"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "TUTTE LE SESSIONI ONLINE; IMPA",
+      "build": "2026 Season 4 Patch 1; deployment previsto il 2026-10-05 alle 12:00 UTC",
+      "category": "software",
+      "change_reason": "BUILD 2026.09.09.01 → season4-patch1",
+      "competitive_impact": "HIGH",
+      "confidence": 94,
+      "en": {
+        "summary": "After the previous cancellation caused by severe issues, iRacing has rescheduled 2026 Season 4 Patch 1 for October 5, 2026. The patch is described as containing important fixes and updates, but the affected issue set and actual resolutions remain unverified until deployment and publication of the release notes.",
+        "title": "2026 Season 4 Patch 1: deployment rescheduled for October 5 after the previous cancellation",
+        "workaround": "No confirmed technical workaround. Avoid sessions overlapping the October 5, 2026 maintenance window and wait for the official release notes before validating resolution of the Season 4 issues."
+      },
+      "id": "8c7721de8f0a7a8f7ee28bf3",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "0209c8a76bfa834e3bdf",
+      "it": {
+        "summary": "Impatto RENOVA: La patch che era stata cancellata per problemi severi è stata nuovamente programmata. Il rilascio dovrebbe contenere aggiornamenti e correzioni importanti per i problemi Season 4 già nello state, ma fino alla distribuzione e alle note ufficiali non è possibile verificare quali issue siano effettivam\n\nSintomo: La precedente cancellazione di Season 4 Patch 1 aveva lasciato in produzione la build iniziale Season 4 con problemi già noti. Ora iRacing ha riprogrammato il deployment, con indisponibilità dei race server durante la manutenzione.\n\nNovità: Il deployment di Season 4 Patch 1 è stato riprogrammato per lunedì 5 ottobre 2026. La finestra indicata è 06:00 UTC per la prevenzione delle sovrapposizioni degli hosted e 12:00 UTC per l'indisponibilità dei race server. Le note dettagliate della patch non erano ancora disponibili nella finestra osservata.",
+        "title": "2026 Season 4 Patch 1: deployment riprogrammata al 5 ottobre dopo la cancellazione precedente",
+        "workaround": "Nessun workaround tecnico confermato. Evitare sessioni che si sovrappongano alla manutenzione del 2026-10-05 e attendere le note ufficiali prima di validare la risoluzione dei problemi Season 4."
+      },
+      "published_utc": "2026-10-06T09:05:42+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing Forums - 2026 Season 4 Patch 1 Release - October 5th 0800EDT/1200UTC",
+          "tier": "OFFICIAL",
+          "url": "https://forums.iracing.com/discussion/100920/2026-season-4-patch-1-release-october-5th-0800edt-1200utc"
+        },
+        {
+          "name": "Reddit r/iRacing mirror of the staff maintenance announcement",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1ww4z4p/2026_season_4_patch_1_release_october_5th/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ACCESSO ALLE SESSIONI UFFICIAL",
+      "build": "2026 Season 4 Patch 1; build/versione numerica non pubblicata nella fonte osservata",
+      "category": "software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "TEMPORANEA INDISPONI",
+      "confidence": 99,
+      "en": {
+        "summary": "The previously rescheduled 2026 Season 4 Patch 1 deployment is now underway. iRacing reports active maintenance and the /data API unavailable, while the main website, forums, race-server capacity, connectivity, authentication, UI backend, statistics, and race-results processing remain operational.",
+        "title": "2026 Season 4 Patch 1: deployment started on October 5 with maintenance active and the /data API unavailable",
+        "workaround": "Do not start official sessions or activities that depend on the /data API during maintenance. Wait for the deployment to complete, then verify login, client updates, session access, and data-service functionality before competitive racing."
+      },
+      "id": "3c308c5784e1a3489345282a",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "0209c8a76bfa834e3bdf",
+      "it": {
+        "summary": "Impatto RENOVA: La patch precedentemente riprogrammata è ora in fase di deployment. Durante la finestra osservata iRacing risulta in maintenance mode e la /data API è indisponibile, impedendo l'accesso normale ai servizi dati e richiedendo una nuova verifica post-rilascio degli issue noti.\n\nSintomo: iRacing è in maintenance mode; la /data API risulta Down mentre il rilascio di Season 4 Patch 1 è programmato per il 5 ottobre alle 12:00 UTC.\n\nNovità: Cambiamento materiale rispetto allo stato precedente: la patch non è più soltanto riprogrammata dopo la cancellazione, ma è entrata nella finestra effettiva di rilascio/manutenzione.",
+        "title": "2026 Season 4 Patch 1: deployment avviata il 5 ottobre con manutenzione attiva e /data API indisponibile",
+        "workaround": "Non avviare sessioni ufficiali o attività dipendenti dalla /data API durante la manutenzione. Attendere il completamento del deployment, quindi verificare login, aggiornamento client, accesso alle sessioni e funzionamento dei servizi dati prima di gare competitive."
+      },
+      "published_utc": "2026-10-06T09:05:42+00:00",
+      "renova_relevance": 96,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing Uptime Status",
+          "tier": "OFFICIAL",
+          "url": "https://status.iracing.com/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "PLUGIN E SERVIZI DI TERZE PART",

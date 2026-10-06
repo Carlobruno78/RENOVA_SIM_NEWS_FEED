@@ -1,7 +1,115 @@
 {
-  "feed_version": 13,
-  "generated_utc": "2026-10-02T13:35:03+00:00",
+  "feed_version": 21,
+  "generated_utc": "2026-10-06T09:05:45+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE ONLINE; POTENZIALMENTE SE",
+      "build": "",
+      "category": "graphics/performance/software/network/netcode/race control",
+      "change_reason": "NEW",
+      "competitive_impact": "RISCHIO ELEVATO DI C",
+      "confidence": 60,
+      "en": {
+        "summary": "A community report describes an in-race black screen at Spa followed roughly 16 seconds later by a return near a wall at full speed. This appears distinct from the existing startup black-screen issue and may combine a rendering stall with delayed session-state recovery. The report is an early warning and is not yet independently confirmed.",
+        "title": "In-race black screen followed by delayed return to the track at full speed",
+        "workaround": "No confirmed workaround. Avoid competitive events until the behavior is reproduced or clarified; collect logs, replay data, and session data after the incident."
+      },
+      "id": "01795d5c038b9ebe85021ee8",
+      "integrity_type": "non-integrity; possible rendering/session-state recovery fai",
+      "is_integrity": false,
+      "issue_id": "bae13bd1cee56f165bda",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare perdita del controllo, collisioni, danni, penalità e peggioramento del Driver Rating durante eventi online.\n\nSintomo: Durante una gara a Spa lo schermo è diventato nero; dopo circa 16 secondi il giocatore è rientrato vicino a un muro a piena velocità, con possibile perdita del controllo e conseguenze sulla gara.\n\nNovità: Segnalazione materialmente aggiornata il 5 ottobre 2026: il problema non è descritto come semplice crash o black screen all'avvio, ma come perdita temporanea della visualizzazione durante una gara con ripristino ritardato dello stato di guida.",
+        "title": "Black screen durante una gara online con rientro ritardato in pista a piena velocità",
+        "workaround": "Nessun workaround confermato. Evitare eventi competitivi finché il comportamento non è riprodotto o chiarito; raccogliere log, replay e dati di sessione dopo l'incidente."
+      },
+      "published_utc": "2026-10-06T09:05:43+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC — report di black screen durante la gara",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wax4gg/what_the_hell_is_going_on_with_this_game/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "TUTTE LE MODALITÀ CON INPUT VO",
+      "build": "",
+      "category": "hardware/FFB/input/software",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE MANCATA PA",
+      "confidence": 60,
+      "en": {
+        "summary": "A recent Steam report describes LMU failing to detect T300RS steering rotation and pedals while button mapping still works. This is currently a community report without official confirmation.",
+        "title": "T300RS: LMU does not detect wheel rotation and pedals",
+        "workaround": "No verified workaround is available. Avoid competitive sessions until the axes are detected correctly and collect device configuration and logs for support."
+      },
+      "id": "ba7a4068080baf7a6e8509f6",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "d578275e93cd281942c8",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire la guida o rendere inutilizzabili volante e pedali per gli utenti Thrustmaster, con rischio di mancata partecipazione o abbandono nelle sessioni online.\n\nSintomo: Una segnalazione recente indica che LMU rileva i pulsanti del T300RS ma non la rotazione del volante né i pedali, nonostante i tentativi di configurazione.\n\nNovità: Nuova segnalazione nella finestra osservata di perdita o mancato rilevamento degli assi principali del T300RS.",
+        "title": "T300RS: LMU non rileva rotazione del volante e pedali",
+        "workaround": "Nessun workaround verificato disponibile. Evitare sessioni competitive finché gli assi non risultano correttamente rilevati e raccogliere log/configurazione del dispositivo per il supporto."
+      },
+      "published_utc": "2026-10-06T09:05:42+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community — T300RS pedals and base issues",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "TUTTE LE MODALITÀ CON VOLANTE",
+      "build": "",
+      "category": "FFB/input/hardware/software",
+      "change_reason": "NEW",
+      "competitive_impact": "FEEDBACK INSUFFICIEN",
+      "confidence": 60,
+      "en": {
+        "summary": "A recent Steam discussion reports persistent severe FFB problems for Moza users and ineffective settings. It is distinct from the previously tracked Moza R3 clipping/input-freeze issue, but remains an unconfirmed community report.",
+        "title": "Moza: new reports of non-functional FFB or ineffective settings",
+        "workaround": "No verified workaround is available. Avoid repeatedly changing the profile during competitive events; verify firmware, drivers, and the LMU profile, and keep a known-good configuration for recovery."
+      },
+      "id": "73007f4a784132e1bb73ae94",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "2a467d2f5cdcdc172796",
+      "it": {
+        "summary": "Impatto RENOVA: Può lasciare gli utenti Moza senza feedback di forza affidabile, compromettendo controllo, percezione del limite di aderenza e sicurezza nelle gare online.\n\nSintomo: Una discussione recente segnala che il force feedback per gli utenti Moza continua a essere gravemente problematico e che le impostazioni non producono il comportamento atteso.\n\nNovità: Nuova escalation specifica per Moza nella finestra osservata, distinta dal precedente problema Moza R3 associato a clipping e out-of-memory.",
+        "title": "Moza: nuove segnalazioni di FFB non funzionante o impostazioni inefficaci",
+        "workaround": "Nessun workaround verificato. Evitare di modificare continuamente il profilo durante eventi competitivi; verificare firmware, driver e profilo LMU e conservare una configurazione funzionante per il ripristino."
+      },
+      "published_utc": "2026-10-06T09:05:41+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community — FIX THE DAMN FFB FOR MOZA CUSTOMERS",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "POTENZIALMENTE SESSIONI DI GUI",
