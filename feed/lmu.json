@@ -1,7 +1,53 @@
 {
-  "feed_version": 25,
-  "generated_utc": "2026-10-07T14:13:44+00:00",
+  "feed_version": 26,
+  "generated_utc": "2026-10-07T14:14:59+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE/PRACTICE/RACE",
+      "build": "LMU corrente; segnalazioni recenti dopo v1.4.2, stato specifico v1.4.3 non ancora confermato",
+      "category": "FFB/input/DirectInput",
+      "change_reason": "NEW_OFFICIAL_EVIDENCE + RECENT_COMMUNITY_CONFIRMATIONS",
+      "competitive_impact": "HIGH",
+      "confidence": 95,
+      "en": {
+        "summary": "Known LMU FFB-loss behavior remains active. Official guidance confirms temporary loss when players join practice servers and recommends Reset FFB for complete loss; recent community reports show persistent cases across several wheel ecosystems.",
+        "title": "Temporary or complete FFB loss: known issue remains active",
+        "workaround": "Map a Reset FFB control. If feedback does not recover, fully restart LMU, verify the active wheel profile/FFB multiplier, and check wheel software/firmware. For RENOVA, do not pre-emptively change TrueDrive or MAIRA; log Alt+Tab, server join/leave events, gain changes, and LMUFFB state when the event occurs."
+      },
+      "id": "c7f4b0d2e6a1098f3c5d7b21",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "479faf40cbd096025219",
+      "it": {
+        "summary": "Impatto RENOVA: Alta priorità RENOVA per SimuCube/DirectInput/LMUFFB-MAIRA: una perdita FFB in sessione può compromettere controllo vettura e gara anche senza perdita degli input sterzo.\n\nSintomo: Il force feedback può azzerarsi temporaneamente o scomparire del tutto durante una sessione. La guida ufficiale LMU conferma una breve perdita FFB quando un altro pilota entra in un practice server e documenta anche il caso di FFB completamente fermo.\n\nNovità: Nuova evidenza materiale rispetto al monitor precedente: la knowledge base ufficiale LMU tratta il comportamento come problema noto e prescrive Reset FFB; segnalazioni community recenti confermano casi persistenti su più basi, incluso G29/G920 dopo v1.4.2 e Simagic.",
+        "title": "Perdita temporanea o completa del FFB: problema noto ancora attivo",
+        "workaround": "Mappare un pulsante a Reset FFB. Se non recupera: riavviare LMU completamente, verificare profilo/FFB multiplier e software/firmware della base. Per RENOVA non modificare preventivamente TrueDrive o MAIRA: registrare Alt+Tab, join/leave server, cambio gain e stato LMUFFB al momento dell'evento."
+      },
+      "published_utc": "2026-10-07T14:14:59+00:00",
+      "renova_relevance": 96,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate — Troubleshooting Force Feedback (FFB)",
+          "tier": "OFFICIAL",
+          "url": "https://guide.lemansultimate.com/hc/en-gb/articles/15769340918927-Troubleshooting-Force-Feedback-FFB"
+        },
+        {
+          "name": "Reddit r/LeMansUltimateWEC — FFB Randomly losing feedback?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1ww6xc8/ffb_randomly_losing_feedback/"
+        },
+        {
+          "name": "Reddit r/LeMansUltimateWEC — FFB reset with a Logitech G29",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wvso1t/ffb_reset_with_a_logitech_g29/"
+        }
+      ],
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "RACE WEEKEND / PIT LANE / SESS",

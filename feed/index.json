@@ -1,7 +1,26 @@
 {
-  "feed_version": 25,
-  "generated_utc": "2026-10-07T14:13:44+00:00",
+  "feed_version": 26,
+  "generated_utc": "2026-10-07T14:14:59+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; segnalazioni recenti dopo v1.4.2, stato specifico v1.4.3 non ancora confermato",
+      "category": "FFB/input/DirectInput",
+      "en": {
+        "title": "Temporary or complete FFB loss: known issue remains active"
+      },
+      "id": "c7f4b0d2e6a1098f3c5d7b21",
+      "is_integrity": false,
+      "it": {
+        "title": "Perdita temporanea o completa del FFB: problema noto ancora attivo"
+      },
+      "published_utc": "2026-10-07T14:14:59+00:00",
+      "renova_relevance": 96,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "2026.10.01.01",
