@@ -1,7 +1,79 @@
 {
-  "feed_version": 21,
-  "generated_utc": "2026-10-06T09:05:45+00:00",
+  "feed_version": 25,
+  "generated_utc": "2026-10-07T14:13:44+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ALL MODES POTENTIALLY AFFECTED",
+      "build": "2026.10.01.01",
+      "category": "graphics/VR",
+      "change_reason": "BUILD 2026.09.09.01 → 2026.10.01.01",
+      "competitive_impact": "PERDITA DI FPS E STU",
+      "confidence": 60,
+      "en": {
+        "summary": "Post-release community feedback indicates that the Season 4 performance regression remains active for some users, with reported losses of roughly 40–60 FPS. This is a material persistence/update of the existing issue rather than a separate defect.",
+        "title": "Season 4 Patch 1: reports of severe FPS loss still present after release",
+        "workaround": "No reliable workaround was confirmed during the observation window. Temporarily reducing graphics load and collecting FPS/CPU metrics during starts and traffic may help delimit the impact, but this is not a verified fix."
+      },
+      "id": "fbd5481ad576c711005fa36c",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "0494e01c21b7a2f710e6",
+      "it": {
+        "summary": "Impatto RENOVA: La regressione prestazionale rimane materialmente rilevante per gare con griglie complete e può causare stutter, perdita di fluidità e svantaggio competitivo anche dopo il rilascio del Patch 1.\n\nSintomo: Commenti pubblicati il 6 ottobre 2026 riportano che il problema prestazionale non è stato risolto e che alcuni utenti hanno perso circa 40–60 FPS dall'aggiornamento Season 4.\n\nNovità: Dopo il deployment del Season 4 Patch 1, la community continua a riportare cali FPS molto marcati; questo indica assenza di sollievo materiale almeno per una parte degli utenti, nonostante le modifiche agli effetti particellari incluse nella patch.",
+        "title": "Season 4 Patch 1: segnalazioni di calo FPS marcato ancora presenti dopo il rilascio",
+        "workaround": "Nessun workaround affidabile confermato nel periodo osservato. Ridurre temporaneamente il carico grafico e raccogliere metriche FPS/CPU durante partenze e traffico può aiutare a delimitare l'impatto, ma non è una soluzione verificata."
+      },
+      "published_utc": "2026-10-07T14:13:44+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — 2026 Season 4 Patch 1 Release Notes discussion",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1wy6w39/2026_season_4_patch_1_release_notes_2026100101/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "OFFICIAL ROAD RACING, FF1600 A",
+      "build": "2026.10.01.01",
+      "category": "race control",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE ASSEGNAZIO",
+      "confidence": 55,
+      "en": {
+        "summary": "A new community report indicates that the known Oulton Park race-order corruption after an immediate pit return may still occur after Season 4 Patch 1. The report is unverified and should be treated as an early warning pending replay and server-side investigation.",
+        "title": "Oulton Park: new report of race-order corruption after an immediate pit return",
+        "workaround": "No confirmed workaround. Preserve the complete replay and session details for an iRacing report; do not consider the race result reliable until the case is verified."
+      },
+      "id": "a6d66ed1a2e3ae4e881ffbb6",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "32362b89f383c465d053",
+      "it": {
+        "summary": "Impatto RENOVA: Possibile alterazione dell'ordine ufficiale e della classifica dopo un rientro immediato ai box; il caso è stato nuovamente osservato dopo il rilascio del Season 4 Patch 1.\n\nSintomo: In FF1600 a Oulton Park, il pilota in P1 è rientrato ai box subito dopo la partenza, ha atteso circa 45 secondi e ha poi ripreso la gara mantenendo comunque la prima posizione invece di perderla. L'autore riferisce di non aver osservato un taglio del percorso nel replay.\n\nNovità: Segnalazione community aggiornata il 7 ottobre 2026 che ripropone lo stesso meccanismo di corruzione dell'ordine gara già noto; non risulta una conferma ufficiale del difetto o un fix specifico per questo caso.",
+        "title": "Oulton Park: nuova segnalazione del problema di ordine gara dopo rientro immediato ai box",
+        "workaround": "Nessun workaround confermato. Conservare il replay completo e la descrizione della sessione per una segnalazione a iRacing; non considerare il risultato della gara affidabile finché il caso non è verificato."
+      },
+      "published_utc": "2026-10-07T14:13:44+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Bug/Glitch at Oulton Park?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1wtk30a/bugglitch_at_oulton_park/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "COMPANION APP LEGACY E FUNZION",

@@ -1,7 +1,84 @@
 {
-  "feed_version": 21,
-  "generated_utc": "2026-10-06T09:05:45+00:00",
+  "feed_version": 25,
+  "generated_utc": "2026-10-07T14:13:44+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "RACE WEEKEND / PIT LANE / SESS",
+      "build": "1.4.3 / Build 25661166",
+      "category": "race control/UI",
+      "change_reason": "NEW",
+      "competitive_impact": "MEDIUM",
+      "confidence": 96,
+      "en": {
+        "summary": "Official patch 1.4.3 fixes a race-weekend UI and session-flow issue that could disable Start Driving when pitting with no race time remaining.",
+        "title": "V1.4.3 fixes the Start Driving button being disabled in the pits when remaining race time is zero",
+        "workaround": "Update to V1.4.3. Before updating, avoid entering the pits when the timer has already reached zero if the event rules allow the session to be completed without a pit entry."
+      },
+      "id": "0a9c6912cbc90e753f075551",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "4d7500c689ef1fd7a666",
+      "it": {
+        "summary": "Impatto RENOVA: Evita un blocco operativo al termine della sessione, che poteva impedire di rientrare in pista o completare correttamente il flusso della gara.\n\nSintomo: Il pulsante Start Driving poteva risultare disabilitato quando la vettura era ai box con zero tempo gara residuo.\n\nNovità: La patch V1.4.3 dichiara corretto il comportamento del pulsante Start Driving in questa condizione limite.",
+        "title": "V1.4.3 corregge il pulsante Start Driving disabilitato ai box con tempo gara residuo pari a zero",
+        "workaround": "Aggiornare a V1.4.3. Prima dell'aggiornamento, evitare di rientrare ai box quando il timer è già a zero, se il regolamento dell'evento consente di completare la sessione senza pit entry."
+      },
+      "published_utc": "2026-10-07T14:13:44+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate – v1.4.3 Patch Notes",
+          "tier": "OFFICIAL",
+          "url": "https://guide.lemansultimate.com/hc/en-gb/articles/17843530477327-v1-4-3-V1-4-Update-Patch-3"
+        },
+        {
+          "name": "Le Mans Ultimate Steam News – V1.4.3",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/allnews/"
+        }
+      ],
+      "status": "FIXED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "VR / OPENXR / ONLINE E AVVIO G",
+      "build": "1.4.3 / Build 25661166",
+      "category": "anti-cheat/graphics/VR/plugin/software",
+      "change_reason": "NEW",
+      "competitive_impact": "MEDIUM",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report after V1.4.3 reconfirms the existing anti-cheat compatibility problem affecting modified OpenXR Toolkit installations. No official compatibility change or mitigation was identified in the patch notes.",
+        "title": "V1.4.3 maintains the anti-cheat block on modified OpenXR Toolkit according to new community confirmations",
+        "workaround": "Use only unmodified VR and OpenXR components compatible with EAC; for blocked tools, wait for an official statement or compatible release. Do not use bypasses or modifications intended to evade EAC."
+      },
+      "id": "7c627bd021989d604a4b0fa3",
+      "integrity_type": "ANTI-CHEAT compatibility gate / possibile falso positivo di",
+      "is_integrity": true,
+      "issue_id": "284dabe82b9e964c6324",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l'avvio o l'utilizzo della VR per utenti che dipendono da OpenXR Toolkit o mod correlati; il problema è di compatibilità e disponibilità, non una conferma di comportamento fraudolento.\n\nSintomo: Dopo l'aggiornamento, una segnalazione community riferisce che il gioco è diventato inutilizzabile perché il controllo anti-cheat blocca ohnespeed/OpenXR Toolkit.\n\nNovità: La segnalazione del 6 ottobre riconferma che il rollout di V1.4.3 non ha rimosso il blocco degli strumenti OpenXR modificati già tracciato nello stato.",
+        "title": "V1.4.3 mantiene il blocco anti-cheat di OpenXR Toolkit modificato secondo nuove conferme community",
+        "workaround": "Usare soltanto componenti VR e OpenXR non modificati e compatibili con EAC; per gli strumenti bloccati, attendere una dichiarazione ufficiale o una versione compatibile. Non usare bypass o modifiche destinate a eludere EAC."
+      },
+      "published_utc": "2026-10-07T14:13:43+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – V1.4.3 discussion",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wyyaii/v143_v14_update_patch_3/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "GARE ONLINE; POTENZIALMENTE SE",

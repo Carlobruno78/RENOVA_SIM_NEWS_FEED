@@ -1,7 +1,83 @@
 {
-  "feed_version": 21,
-  "generated_utc": "2026-10-06T09:05:45+00:00",
+  "feed_version": 25,
+  "generated_utc": "2026-10-07T14:13:44+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "2026.10.01.01",
+      "category": "graphics/VR",
+      "en": {
+        "title": "Season 4 Patch 1: reports of severe FPS loss still present after release"
+      },
+      "id": "fbd5481ad576c711005fa36c",
+      "is_integrity": false,
+      "it": {
+        "title": "Season 4 Patch 1: segnalazioni di calo FPS marcato ancora presenti dopo il rilascio"
+      },
+      "published_utc": "2026-10-07T14:13:44+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026.10.01.01",
+      "category": "race control",
+      "en": {
+        "title": "Oulton Park: new report of race-order corruption after an immediate pit return"
+      },
+      "id": "a6d66ed1a2e3ae4e881ffbb6",
+      "is_integrity": false,
+      "it": {
+        "title": "Oulton Park: nuova segnalazione del problema di ordine gara dopo rientro immediato ai box"
+      },
+      "published_utc": "2026-10-07T14:13:44+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "1.4.3 / Build 25661166",
+      "category": "race control/UI",
+      "en": {
+        "title": "V1.4.3 fixes the Start Driving button being disabled in the pits when remaining race time is zero"
+      },
+      "id": "0a9c6912cbc90e753f075551",
+      "is_integrity": false,
+      "it": {
+        "title": "V1.4.3 corregge il pulsante Start Driving disabilitato ai box con tempo gara residuo pari a zero"
+      },
+      "published_utc": "2026-10-07T14:13:44+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "FIXED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "1.4.3 / Build 25661166",
+      "category": "anti-cheat/graphics/VR/plugin/software",
+      "en": {
+        "title": "V1.4.3 maintains the anti-cheat block on modified OpenXR Toolkit according to new community confirmations"
+      },
+      "id": "7c627bd021989d604a4b0fa3",
+      "is_integrity": true,
+      "it": {
+        "title": "V1.4.3 mantiene il blocco anti-cheat di OpenXR Toolkit modificato secondo nuove conferme community"
+      },
+      "published_utc": "2026-10-07T14:13:43+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Companion App 3.0 / infrastruttura legacy; simulator build 2026.10.01.01",
