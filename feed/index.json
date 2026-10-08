@@ -1,7 +1,45 @@
 {
-  "feed_version": 26,
-  "generated_utc": "2026-10-07T14:14:59+00:00",
+  "feed_version": 28,
+  "generated_utc": "2026-10-08T14:32:45+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "software/crash/anti-cheat",
+      "en": {
+        "title": "New confirmations of Easy Anti-Cheat-associated desktop crashes at startup"
+      },
+      "id": "da9e1e7121657973e731cb52",
+      "is_integrity": true,
+      "it": {
+        "title": "Nuove conferme di crash al desktop all’avvio associati a Easy Anti-Cheat"
+      },
+      "published_utc": "2026-10-08T14:32:45+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "software/crash/network/race control",
+      "en": {
+        "title": "Recurring desktop crashes during online races after the latest update"
+      },
+      "id": "64f3a85496054cce10ec9971",
+      "is_integrity": true,
+      "it": {
+        "title": "Crash al desktop ricorrente durante le gare online dopo l’ultimo aggiornamento"
+      },
+      "published_utc": "2026-10-08T14:32:44+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; segnalazioni recenti dopo v1.4.2, stato specifico v1.4.3 non ancora confermato",

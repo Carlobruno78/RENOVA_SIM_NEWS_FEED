@@ -1,7 +1,79 @@
 {
-  "feed_version": 26,
-  "generated_utc": "2026-10-07T14:14:59+00:00",
+  "feed_version": 28,
+  "generated_utc": "2026-10-08T14:32:45+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "AVVIO DEL GIOCO; POTENZIALMENT",
+      "build": "",
+      "category": "software/crash/anti-cheat",
+      "change_reason": "NEW",
+      "competitive_impact": "BLOCCO DELL’ACCESSO",
+      "confidence": 60,
+      "en": {
+        "summary": "A new October 7, 2026 report confirms startup desktop crashes associated with Easy Anti-Cheat. The report indicates that running start_protected_game.exe as administrator may restore launch. This is treated as a material update to the existing post-update EAC/startup crash issue, not as a separate defect.",
+        "title": "New confirmations of Easy Anti-Cheat-associated desktop crashes at startup",
+        "workaround": "Set start_protected_game.exe in the LMU installation folder to run as administrator, then launch the game normally through Steam. Do not treat this procedure as confirmation of general compatibility."
+      },
+      "id": "da9e1e7121657973e731cb52",
+      "integrity_type": "ANTI-CHEAT startup compatibility / possible false positive",
+      "is_integrity": true,
+      "issue_id": "520907f03df466c17ffc",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire completamente l’avvio del simulatore e l’accesso a sessioni o gare online; il problema è materialmente aggiornato da una conferma nella finestra osservata con workaround specifico per EAC.\n\nSintomo: Dal 7 ottobre 2026 LMU può chiudersi al desktop durante l’avvio, prima della schermata iniziale; la segnalazione attribuisce il crash a Easy Anti-Cheat.\n\nNovità: Nuova conferma community nella finestra osservata e workaround riportato: eseguire start_protected_game.exe come amministratore, senza avviare LMU direttamente come amministratore.",
+        "title": "Nuove conferme di crash al desktop all’avvio associati a Easy Anti-Cheat",
+        "workaround": "Impostare l’esecuzione come amministratore per start_protected_game.exe nella cartella di installazione di LMU e avviare poi il gioco normalmente da Steam. Evitare di considerare questa procedura una conferma di compatibilità generale."
+      },
+      "published_utc": "2026-10-08T14:32:45+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit - LMU crashing to desktop today. Easy Anti-Cheat = Culprit. Resolved.",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wzv20e/lmu_crashing_to_desktop_today_easy_anti_cheat/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE ONLINE; POSSIBILE IMPATTO",
+      "build": "",
+      "category": "software/crash/network/race control",
+      "change_reason": "NEW",
+      "competitive_impact": "CRASH DURANTE QUALIF",
+      "confidence": 60,
+      "en": {
+        "summary": "A recent community report describes a possible post-update regression causing repeated desktop crashes during online races. The crashes occur after qualifying or several laps and can recur after rejoining, creating a direct race-control and event-completion risk. Evidence is currently community-only.",
+        "title": "Recurring desktop crashes during online races after the latest update",
+        "workaround": "No confirmed workaround is available. To reduce operational risk, avoid Ultra graphics settings if they correlate with the reported problem, collect crash dumps and logs, and submit a report for each crash; do not consider one stable session a resolution."
+      },
+      "id": "64f3a85496054cce10ec9971",
+      "integrity_type": "ANTI-CHEAT",
+      "is_integrity": true,
+      "issue_id": "e6fcac5150664fe1665e",
+      "it": {
+        "summary": "Impatto RENOVA: Può interrompere qualifiche o gare online dopo alcuni giri, causando DNF, perdita della sessione e possibile compromissione di eventi o campionati.\n\nSintomo: Dopo l’ultimo aggiornamento, alcuni utenti riferiscono crash al desktop durante una gara online, anche dopo aver completato la qualifica; in un caso il rientro nella stessa gara ha prodotto un secondo crash dopo circa un giro.\n\nNovità: Segnalazione aggiornata il 6-7 ottobre 2026: un sistema che era diventato stabile con l’aggiornamento precedente ha ricominciato a crashare dopo un nuovo update. Il problema è distinto dai crash di avvio EAC e non è attribuito alla connettività dall’utente segnalante.",
+        "title": "Crash al desktop ricorrente durante le gare online dopo l’ultimo aggiornamento",
+        "workaround": "Non è disponibile un workaround confermato. Per ridurre il rischio operativo, evitare impostazioni grafiche Ultra se correlate al problema segnalato, raccogliere crash dump e log e inviare un report per ogni crash; non considerare la stabilità di una singola sessione come risoluzione."
+      },
+      "published_utc": "2026-10-08T14:32:44+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit - New update - crashing again",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wze735/new_update_crashing_again/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ONLINE/PRACTICE/RACE",
