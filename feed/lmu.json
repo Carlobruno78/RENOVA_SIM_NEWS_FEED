@@ -1,7 +1,79 @@
 {
-  "feed_version": 28,
-  "generated_utc": "2026-10-08T14:32:45+00:00",
+  "feed_version": 30,
+  "generated_utc": "2026-10-09T07:56:11+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "DRIVING SESSIONS USING FFB, ES",
+      "build": "LMU corrente; segnalazione pubblicata il 2026-10-09",
+      "category": "FFB/input/hardware/setup/physics",
+      "change_reason": "NEW",
+      "competitive_impact": "HIGH: POSSIBILE PERD",
+      "confidence": 60,
+      "en": {
+        "summary": "A new Steam Community report claims that LMU's flat-spot tire dynamics can generate severe oscillating force feedback and may trigger resonance in high-end wheels. The report includes an alleged hardware failure after a short driving session, but remains community-level evidence.",
+        "title": "Extremely violent flat-spot FFB with possible wheel hardware damage",
+        "workaround": "Avoid high gain or continuing the session if abnormal oscillations appear; temporarily reduce gain and stop using the device if the wheel enters resonance. No confirmed official fix exists."
+      },
+      "id": "428db0611cb9d1c7e5de6fa4",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "93c26599e6ab2cc1a197",
+      "it": {
+        "summary": "Impatto RENOVA: Rischio materiale per basi o volanti direct-drive e altri dispositivi FFB: una segnalazione community attribuisce a oscillazioni periodiche da pneumatici flat-spotted un guasto hardware dopo pochi minuti di guida.\n\nSintomo: Il force feedback associato ai flat spot genera oscillazioni molto violente e periodiche, percepite come sufficienti a eccitare frequenze di risonanza del volante; un utente riferisce un guasto del proprio volante dopo circa cinque minuti a gain del 40%.\n\nNovità: Nuova segnalazione recente che collega direttamente la dinamica dei flat spot a possibile danno hardware, distinta dalle precedenti perdite o assenze di FFB.",
+        "title": "FFB da flat spot estremamente violento con possibile danno hardware al volante",
+        "workaround": "Evitare di usare gain elevati o di continuare la sessione se compaiono oscillazioni anomale; ridurre temporaneamente il gain e interrompere l’uso del dispositivo se il volante entra in risonanza. Non esiste una correzione ufficiale confermata."
+      },
+      "published_utc": "2026-10-09T07:56:11+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community - Violent Flat Spotting Force Feedback Broke $2000 carbon fiber wheel",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ALL MODES USING A THRUSTMASTER",
+      "build": "LMU corrente; segnalazione pubblicata il 2026-10-09",
+      "category": "hardware/FFB/input/software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "HIGH: IMPOSSIBILITÀ",
+      "confidence": 60,
+      "en": {
+        "summary": "A new Steam Community report confirms that LMU can detect T300RS buttons while failing to detect steering rotation and pedal axes. The issue remains under investigation and can prevent competitive driving for affected users.",
+        "title": "New confirmation: T300RS does not detect wheel rotation and pedals",
+        "workaround": "No confirmed workaround is provided in the report; check axis detection in the controller profile and collect a trace/support ticket if the issue persists."
+      },
+      "id": "2853f25710f53f0505488742",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "d578275e93cd281942c8",
+      "it": {
+        "summary": "Impatto RENOVA: Impedisce l’uso competitivo del volante e dei pedali per gli utenti Thrustmaster T300RS; la segnalazione indica che i pulsanti possono essere mappati mentre gli assi principali non vengono rilevati.\n\nSintomo: LMU non rileva la rotazione del T300RS né i pedali; i pulsanti possono essere assegnati, ma gli assi di sterzo e pedaliera restano assenti.\n\nNovità: Nuova conferma community nella finestra osservata di un problema hardware/input già noto, senza indicazione di una correzione ufficiale.",
+        "title": "Nuova conferma: T300RS non rileva rotazione del volante e pedali",
+        "workaround": "Nessun workaround confermato nella segnalazione; verificare il rilevamento degli assi nel profilo controller e raccogliere un trace/support ticket se il problema persiste."
+      },
+      "published_utc": "2026-10-09T07:56:11+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community - T300RS pedals and base issues",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "AVVIO DEL GIOCO; POTENZIALMENT",

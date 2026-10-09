@@ -1,7 +1,45 @@
 {
-  "feed_version": 28,
-  "generated_utc": "2026-10-08T14:32:45+00:00",
+  "feed_version": 30,
+  "generated_utc": "2026-10-09T07:56:11+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; segnalazione pubblicata il 2026-10-09",
+      "category": "FFB/input/hardware/setup/physics",
+      "en": {
+        "title": "Extremely violent flat-spot FFB with possible wheel hardware damage"
+      },
+      "id": "428db0611cb9d1c7e5de6fa4",
+      "is_integrity": false,
+      "it": {
+        "title": "FFB da flat spot estremamente violento con possibile danno hardware al volante"
+      },
+      "published_utc": "2026-10-09T07:56:11+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; segnalazione pubblicata il 2026-10-09",
+      "category": "hardware/FFB/input/software",
+      "en": {
+        "title": "New confirmation: T300RS does not detect wheel rotation and pedals"
+      },
+      "id": "2853f25710f53f0505488742",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma: T300RS non rileva rotazione del volante e pedali"
+      },
+      "published_utc": "2026-10-09T07:56:11+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "",
