@@ -1,10 +1,29 @@
 {
-  "feed_version": 30,
-  "generated_utc": "2026-10-09T07:56:11+00:00",
+  "feed_version": 31,
+  "generated_utc": "2026-10-10T13:35:48+00:00",
   "items": [
     {
       "access_class": "STANDARD",
-      "build": "LMU corrente; segnalazione pubblicata il 2026-10-09",
+      "build": "LMU corrente; build non indicata nella segnalazione",
+      "category": "FFB/input/setup/physics",
+      "en": {
+        "title": "Mercedes-AMG LMGT3: abnormal FFB and unstable braking behavior with ABS"
+      },
+      "id": "92d22e575d6261e3f033f403",
+      "is_integrity": false,
+      "it": {
+        "title": "Mercedes-AMG LMGT3: FFB anomalo e comportamento instabile in frenata con ABS"
+      },
+      "published_utc": "2026-10-10T13:35:48+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Versione LMU non specificata; post originale 2026-10-04",
       "category": "FFB/input/hardware/setup/physics",
       "en": {
         "title": "Extremely violent flat-spot FFB with possible wheel hardware damage"
@@ -23,15 +42,15 @@
     },
     {
       "access_class": "STANDARD",
-      "build": "LMU corrente; segnalazione pubblicata il 2026-10-09",
+      "build": "Versione LMU non specificata; post originale 2026-10-01",
       "category": "hardware/FFB/input/software",
       "en": {
-        "title": "New confirmation: T300RS does not detect wheel rotation and pedals"
+        "title": "T300RS: original report and author-reported recovery"
       },
       "id": "2853f25710f53f0505488742",
       "is_integrity": false,
       "it": {
-        "title": "Nuova conferma: T300RS non rileva rotazione del volante e pedali"
+        "title": "T300RS: contesto originale e recupero riferito dall'autore"
       },
       "published_utc": "2026-10-09T07:56:11+00:00",
       "renova_relevance": 91,
@@ -311,12 +330,12 @@
       "build": "",
       "category": "FFB/input/hardware/software",
       "en": {
-        "title": "Moza: new reports of non-functional FFB or ineffective settings"
+        "title": "Moza: community complaint about FFB and settings"
       },
       "id": "73007f4a784132e1bb73ae94",
       "is_integrity": false,
       "it": {
-        "title": "Moza: nuove segnalazioni di FFB non funzionante o impostazioni inefficaci"
+        "title": "Moza: segnalazione community di problemi FFB e impostazioni"
       },
       "published_utc": "2026-10-06T09:05:41+00:00",
       "renova_relevance": 86,
@@ -425,12 +444,12 @@
       "build": "v1.4.2",
       "category": "graphics/VR/software/loading",
       "en": {
-        "title": "Community confirmation of loading stuck at 48% in VR"
+        "title": "VR loading stuck at 48%: author reports recovery, cause unconfirmed"
       },
       "id": "d2200c00bca9e573410712a4",
       "is_integrity": false,
       "it": {
-        "title": "Conferma community di caricamento bloccato al 48% in VR"
+        "title": "Blocco VR al 48%: l’autore segnala il ripristino, causa non confermata"
       },
       "published_utc": "2026-10-02T08:16:32+00:00",
       "renova_relevance": 78,

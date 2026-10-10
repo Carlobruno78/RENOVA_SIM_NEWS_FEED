@@ -1,11 +1,47 @@
 {
-  "feed_version": 30,
-  "generated_utc": "2026-10-09T07:56:11+00:00",
+  "feed_version": 31,
+  "generated_utc": "2026-10-10T13:35:48+00:00",
   "items": [
     {
       "access_class": "STANDARD",
+      "affected_mode": "RACE WEEKEND E GARE ONLINE; PO",
+      "build": "LMU corrente; build non indicata nella segnalazione",
+      "category": "FFB/input/setup/physics",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE SVANTAGGIO",
+      "confidence": 60,
+      "en": {
+        "summary": "Community reports describe unusually light and choppy FFB on the Mercedes-AMG LMGT3, with feedback dropping during overdriving and possible sudden rotation under heavy ABS braking. The issue may be car-specific or setup-related, but remains unverified.",
+        "title": "Mercedes-AMG LMGT3: abnormal FFB and unstable braking behavior with ABS",
+        "workaround": "No verified workaround. Compare the behavior with different setups and other cars, without treating the symptom as confirmation of a general FFB problem; collect video, setup, and telemetry data for reporting."
+      },
+      "id": "92d22e575d6261e3f033f403",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e7617e9c06a4d04916e2",
+      "it": {
+        "summary": "Impatto RENOVA: Possibile problema specifico della Mercedes-AMG LMGT3 che può ridurre prevedibilità e controllo in gara, soprattutto in frenata e durante l'attivazione dell'ABS.\n\nSintomo: FFB descritto come molto leggero, discontinuo e con due livelli di resistenza; il feedback può ridursi fortemente quando si supera il limite di aderenza anteriore. Sono inoltre riportate rotazioni improvvise o perdita del controllo in frenata con ABS elevato.\n\nNovità: Nuova segnalazione pubblicata il 2026-10-09 con più conferme community il 2026-10-09 e il 2026-10-10, riferita specificamente alla Mercedes-AMG LMGT3. Alcune risposte la attribuiscono al comportamento della vettura o al setup, ma non è disponibile una conferma ufficiale.",
+        "title": "Mercedes-AMG LMGT3: FFB anomalo e comportamento instabile in frenata con ABS",
+        "workaround": "Nessun workaround verificato. Confrontare il comportamento con setup differenti e con altre vetture, evitando di considerare il sintomo come conferma di un problema generale del FFB; raccogliere video, setup e dati telemetry per la segnalazione."
+      },
+      "published_utc": "2026-10-10T13:35:48+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – Le Mans Ultimate WEC",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1x1a2xn/does_anyone_else_feel_the_amg_is_off/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
       "affected_mode": "DRIVING SESSIONS USING FFB, ES",
-      "build": "LMU corrente; segnalazione pubblicata il 2026-10-09",
+      "build": "Versione LMU non specificata; post originale 2026-10-04",
       "category": "FFB/input/hardware/setup/physics",
       "change_reason": "NEW",
       "competitive_impact": "HIGH: POSSIBILE PERD",
@@ -32,7 +68,7 @@
         {
           "name": "Steam Community - Violent Flat Spotting Force Feedback Broke $2000 carbon fiber wheel",
           "tier": "COMMUNITY",
-          "url": "https://steamcommunity.com/app/2399420"
+          "url": "https://steamcommunity.com/app/2399420/discussions/0/587313700791223996/"
         }
       ],
       "status": "INVESTIGATING",
@@ -41,24 +77,24 @@
     {
       "access_class": "STANDARD",
       "affected_mode": "ALL MODES USING A THRUSTMASTER",
-      "build": "LMU corrente; segnalazione pubblicata il 2026-10-09",
+      "build": "Versione LMU non specificata; post originale 2026-10-01",
       "category": "hardware/FFB/input/software",
       "change_reason": "NEW_WORKAROUND",
       "competitive_impact": "HIGH: IMPOSSIBILITÀ",
       "confidence": 60,
       "en": {
-        "summary": "A new Steam Community report confirms that LMU can detect T300RS buttons while failing to detect steering rotation and pedal axes. The issue remains under investigation and can prevent competitive driving for affected users.",
-        "title": "New confirmation: T300RS does not detect wheel rotation and pedals",
-        "workaround": "No confirmed workaround is provided in the report; check axis detection in the controller profile and collect a trace/support ticket if the issue persists."
+        "summary": "The original Steam post of 1 October 2026 reports working button mapping but missing T300RS steering and pedal axes. Later on the same day, the original author reports that a change mentioned in the replies now works. The cause and a general fix are unconfirmed; this source does not establish an independent new confirmation on 9 October.",
+        "title": "T300RS: original report and author-reported recovery",
+        "workaround": "The author reports recovery after a change discussed in the thread. Its steps and general effectiveness have not been independently verified: check axis detection before competitive sessions and collect configuration/logs if the problem persists."
       },
       "id": "2853f25710f53f0505488742",
       "integrity_type": "COMPETITIVE ISSUE",
       "is_integrity": false,
       "issue_id": "d578275e93cd281942c8",
       "it": {
-        "summary": "Impatto RENOVA: Impedisce l’uso competitivo del volante e dei pedali per gli utenti Thrustmaster T300RS; la segnalazione indica che i pulsanti possono essere mappati mentre gli assi principali non vengono rilevati.\n\nSintomo: LMU non rileva la rotazione del T300RS né i pedali; i pulsanti possono essere assegnati, ma gli assi di sterzo e pedaliera restano assenti.\n\nNovità: Nuova conferma community nella finestra osservata di un problema hardware/input già noto, senza indicazione di una correzione ufficiale.",
-        "title": "Nuova conferma: T300RS non rileva rotazione del volante e pedali",
-        "workaround": "Nessun workaround confermato nella segnalazione; verificare il rilevamento degli assi nel profilo controller e raccogliere un trace/support ticket se il problema persiste."
+        "summary": "Impatto RENOVA: Il mancato rilevamento degli assi T300RS può impedire la guida.\n\nSintomo: Nel post Steam del 1° ottobre 2026 l'autore riferisce pulsanti mappabili ma rotazione e pedali non rilevati.\n\nAggiornamento: Nello stesso thread, il 1° ottobre, l'autore riferisce il ritorno al funzionamento dopo una modifica citata nelle risposte. Causa e soluzione generale non sono accertate; questa fonte non costituisce una nuova conferma indipendente del 9 ottobre.",
+        "title": "T300RS: contesto originale e recupero riferito dall'autore",
+        "workaround": "L'autore riferisce il ritorno al funzionamento dopo una modifica citata nel thread. I passi e l'efficacia generale non sono stati verificati: controllare gli assi prima di partecipare a sessioni competitive e raccogliere configurazione/log se il problema persiste."
       },
       "published_utc": "2026-10-09T07:56:11+00:00",
       "renova_relevance": 91,
@@ -68,7 +104,7 @@
         {
           "name": "Steam Community - T300RS pedals and base issues",
           "tier": "COMMUNITY",
-          "url": "https://steamcommunity.com/app/2399420"
+          "url": "https://steamcommunity.com/app/2399420/discussions/0/587313335212645715/"
         }
       ],
       "status": "INVESTIGATING",
@@ -314,18 +350,18 @@
       "competitive_impact": "POSSIBILE MANCATA PA",
       "confidence": 60,
       "en": {
-        "summary": "A recent Steam report describes LMU failing to detect T300RS steering rotation and pedals while button mapping still works. This is currently a community report without official confirmation.",
+        "summary": "The original Steam post of 1 October 2026 reports working button mapping but missing T300RS steering and pedal axes. Later on the same day, the original author reports that a change mentioned in the replies now works. The cause and a general fix are unconfirmed; this source does not establish an independent new confirmation on 9 October.",
         "title": "T300RS: LMU does not detect wheel rotation and pedals",
-        "workaround": "No verified workaround is available. Avoid competitive sessions until the axes are detected correctly and collect device configuration and logs for support."
+        "workaround": "The author reports recovery after a change discussed in the thread. Its steps and general effectiveness have not been independently verified: check axis detection before competitive sessions and collect configuration/logs if the problem persists."
       },
       "id": "ba7a4068080baf7a6e8509f6",
       "integrity_type": "COMPETITIVE ISSUE",
       "is_integrity": false,
       "issue_id": "d578275e93cd281942c8",
       "it": {
-        "summary": "Impatto RENOVA: Può impedire la guida o rendere inutilizzabili volante e pedali per gli utenti Thrustmaster, con rischio di mancata partecipazione o abbandono nelle sessioni online.\n\nSintomo: Una segnalazione recente indica che LMU rileva i pulsanti del T300RS ma non la rotazione del volante né i pedali, nonostante i tentativi di configurazione.\n\nNovità: Nuova segnalazione nella finestra osservata di perdita o mancato rilevamento degli assi principali del T300RS.",
+        "summary": "Impatto RENOVA: Il mancato rilevamento degli assi T300RS può impedire la guida.\n\nSintomo: Nel post Steam del 1° ottobre 2026 l'autore riferisce pulsanti mappabili ma rotazione e pedali non rilevati.\n\nAggiornamento: Nello stesso thread, il 1° ottobre, l'autore riferisce il ritorno al funzionamento dopo una modifica citata nelle risposte. Causa e soluzione generale non sono accertate; questa fonte non costituisce una nuova conferma indipendente del 9 ottobre.",
         "title": "T300RS: LMU non rileva rotazione del volante e pedali",
-        "workaround": "Nessun workaround verificato disponibile. Evitare sessioni competitive finché gli assi non risultano correttamente rilevati e raccogliere log/configurazione del dispositivo per il supporto."
+        "workaround": "L'autore riferisce il ritorno al funzionamento dopo una modifica citata nel thread. I passi e l'efficacia generale non sono stati verificati: controllare gli assi prima di partecipare a sessioni competitive e raccogliere configurazione/log se il problema persiste."
       },
       "published_utc": "2026-10-06T09:05:42+00:00",
       "renova_relevance": 88,
@@ -335,7 +371,7 @@
         {
           "name": "Steam Community — T300RS pedals and base issues",
           "tier": "COMMUNITY",
-          "url": "https://steamcommunity.com/app/2399420/"
+          "url": "https://steamcommunity.com/app/2399420/discussions/0/587313335212645715/"
         }
       ],
       "status": "INVESTIGATING",
@@ -350,8 +386,8 @@
       "competitive_impact": "FEEDBACK INSUFFICIEN",
       "confidence": 60,
       "en": {
-        "summary": "A recent Steam discussion reports persistent severe FFB problems for Moza users and ineffective settings. It is distinct from the previously tracked Moza R3 clipping/input-freeze issue, but remains an unconfirmed community report.",
-        "title": "Moza: new reports of non-functional FFB or ineffective settings",
+        "summary": "The original Steam post, dated 30 September 2026, complains about Moza FFB in its title and settings issues in its short body. It provides no technical reproduction details. This community report does not establish a new regression on the RENOVA publication date or a cause distinct from the tracked Moza R3 issue.",
+        "title": "Moza: community complaint about FFB and settings",
         "workaround": "No verified workaround is available. Avoid repeatedly changing the profile during competitive events; verify firmware, drivers, and the LMU profile, and keep a known-good configuration for recovery."
       },
       "id": "73007f4a784132e1bb73ae94",
@@ -359,8 +395,8 @@
       "is_integrity": false,
       "issue_id": "2a467d2f5cdcdc172796",
       "it": {
-        "summary": "Impatto RENOVA: Può lasciare gli utenti Moza senza feedback di forza affidabile, compromettendo controllo, percezione del limite di aderenza e sicurezza nelle gare online.\n\nSintomo: Una discussione recente segnala che il force feedback per gli utenti Moza continua a essere gravemente problematico e che le impostazioni non producono il comportamento atteso.\n\nNovità: Nuova escalation specifica per Moza nella finestra osservata, distinta dal precedente problema Moza R3 associato a clipping e out-of-memory.",
-        "title": "Moza: nuove segnalazioni di FFB non funzionante o impostazioni inefficaci",
+        "summary": "Impatto RENOVA: Una segnalazione Steam riferisce problemi di force feedback e impostazioni per utenti Moza, che possono compromettere la guida.\n\nSintomo: Il titolo cita il FFB Moza; il breve post originale lamenta problemi con le impostazioni senza fornire dettagli tecnici o passi di riproduzione.\n\nNovità: Fonte originale pubblicata il 30 settembre 2026, recuperata e verificata. Non dimostra una nuova regressione nella data di pubblicazione RENOVA né una causa distinta dal problema Moza R3 già seguito.",
+        "title": "Moza: segnalazione community di problemi FFB e impostazioni",
         "workaround": "Nessun workaround verificato. Evitare di modificare continuamente il profilo durante eventi competitivi; verificare firmware, driver e profilo LMU e conservare una configurazione funzionante per il ripristino."
       },
       "published_utc": "2026-10-06T09:05:41+00:00",
@@ -371,7 +407,7 @@
         {
           "name": "Steam Community — FIX THE DAMN FFB FOR MOZA CUSTOMERS",
           "tier": "COMMUNITY",
-          "url": "https://steamcommunity.com/app/2399420/"
+          "url": "https://steamcommunity.com/app/2399420/discussions/0/587313335212481886/"
         }
       ],
       "status": "INVESTIGATING",
@@ -407,7 +443,7 @@
         {
           "name": "Le Mans Ultimate Community – Hard oscillation with Hypercars on straights",
           "tier": "OFFICIAL",
-          "url": "https://community.lemansultimate.com/index.php?goto%2Fpost=&id=2899"
+          "url": "https://community.lemansultimate.com/index.php?threads/hard-oscillation-with-hypercars-on-straights.19182/"
         }
       ],
       "status": "INVESTIGATING",
@@ -443,7 +479,7 @@
         {
           "name": "Le Mans Ultimate Community – Disk high utilization causing game freeze",
           "tier": "OFFICIAL",
-          "url": "https://community.lemansultimate.com/index.php?goto%2Fpost=&id=34654"
+          "url": "https://community.lemansultimate.com/index.php?threads/disk-high-utilization-causing-game-freeze.18686/"
         }
       ],
       "status": "INVESTIGATING",
@@ -477,9 +513,9 @@
       "sim": "LMU",
       "sources": [
         {
-          "name": "Le Mans Ultimate — V1.4.2.3 official announcement",
-          "tier": "COMMUNITY",
-          "url": "https://steamcommunity.com/app/2399420/announcements/"
+          "name": "Le Mans Ultimate — V1.4.2.3 official release notes",
+          "tier": "OFFICIAL",
+          "url": "https://guide.lemansultimate.com/hc/en-gb/articles/17815822028943-V1-4-2-3-Update-4-Patch-2-Hotfix-3"
         }
       ],
       "status": "WORKAROUND",
@@ -494,18 +530,18 @@
       "competitive_impact": "POSSIBILE MANCATO IN",
       "confidence": 61,
       "en": {
-        "summary": "A new community report links the existing 48% session-loading hang specifically to VR. The report is not yet officially confirmed and does not establish a new root cause.",
-        "title": "Community confirmation of loading stuck at 48% in VR",
-        "workaround": "No workaround is confirmed in the report."
+        "summary": "The community thread started on 24 September reports session loading freezing at 48% in VR while flat-screen mode works. On 26 September the author reported that VR worked again after removing Logitech G Hub and receiving a small LMU update. The contribution of either change is unverified, and this does not establish a generally resolved issue.",
+        "title": "VR loading stuck at 48%: author reports recovery, cause unconfirmed",
+        "workaround": "The author reported recovery after removing Logitech G Hub and receiving a small LMU update; neither change is established as the cause. No generally validated workaround is confirmed."
       },
       "id": "d2200c00bca9e573410712a4",
       "integrity_type": "non-integrity; session availability",
       "is_integrity": false,
       "issue_id": "cfceba7cebd468732109",
       "it": {
-        "summary": "Impatto RENOVA: Può impedire l’ingresso a una sessione VR e causare abbandoni o mancata partecipazione a eventi online.\n\nSintomo: Il caricamento della sessione resta bloccato al 48%, con una segnalazione specifica per l’uso in VR.\n\nNovità: Il 30 settembre 2026 è comparso un nuovo thread community che ripropone il blocco al 48% in VR, aggiornando il problema storico con una superficie VR esplicita.",
-        "title": "Conferma community di caricamento bloccato al 48% in VR",
-        "workaround": "Nessun workaround confermato nella segnalazione."
+        "summary": "Impatto RENOVA: Il blocco può impedire l’ingresso a una sessione VR e la partecipazione a eventi online.\n\nSintomo: Il thread del 24 settembre 2026 descrive caricamento fermo al 48% in VR, mentre la modalità monitor funziona.\n\nAggiornamento: Nel reply del 26 settembre l’autore segnala che VR torna a funzionare dopo la rimozione di Logitech G Hub e un piccolo aggiornamento LMU. Non è confermato quale cambiamento abbia risolto quel caso; non è una risoluzione generale del problema.",
+        "title": "Blocco VR al 48%: l’autore segnala il ripristino, causa non confermata",
+        "workaround": "L’autore segnala il ripristino dopo la rimozione di Logitech G Hub e un piccolo aggiornamento LMU; il contributo delle due modifiche non è accertato. Nessun workaround generale convalidato."
       },
       "published_utc": "2026-10-02T08:16:32+00:00",
       "renova_relevance": 78,
@@ -515,7 +551,7 @@
         {
           "name": "Le Mans Ultimate Community - Stuck at 48% when in VR",
           "tier": "OFFICIAL",
-          "url": "https://community.lemansultimate.com/index.php?threads/stuck-at-48-when-in-vr.19068/post-100236="
+          "url": "https://community.lemansultimate.com/index.php?threads/stuck-at-48-when-in-vr.19068/#post-100236"
         }
       ],
       "status": "INVESTIGATING",
@@ -566,7 +602,7 @@
       "competitive_impact": "POSSIBILI COLLISIONI",
       "confidence": 58,
       "en": {
-        "summary": "A fresh community case reports a netcode-attributed collision with an online DNF. It is deduplicated into the existing RUDP phantom-collision/disconnection issue and remains unconfirmed.",
+        "summary": "A community thread started on 29 September reports a netcode-attributed collision and an online DNF. A reply on 30 September discusses support reporting. The incident remains unconfirmed and is deduplicated into the existing RUDP phantom-collision/disconnection issue.",
         "title": "New report of a netcode-caused collision resulting in an online DNF",
         "workaround": "No workaround is confirmed; retain replay, telemetry, and network logs for incident review."
       },
@@ -575,7 +611,7 @@
       "is_integrity": false,
       "issue_id": "997c24f0556d64382214",
       "it": {
-        "summary": "Impatto RENOVA: Una collisione attribuita al netcode può causare danni, DNF e impatto diretto sui risultati e sulla reputazione dei piloti online.\n\nSintomo: Collisione online attribuita alla sincronizzazione di rete, con DNF dell’altro pilota e richiesta di chiarimento su come segnalarla.\n\nNovità: Il 30 settembre 2026 è stata pubblicata una nuova segnalazione community che riporta un caso concreto di collisione da netcode; non dimostra però un nuovo meccanismo oltre al problema RUDP già noto.",
+        "summary": "Impatto RENOVA: Una collisione attribuita al netcode può causare danni, DNF e impatto sui risultati e sulla reputazione dei piloti online.\n\nSintomo: Il post iniziale descrive un impatto senza contatto visibile nel replay e il DNF dell’altro pilota; l’attribuzione al netcode resta una segnalazione community non confermata.\n\nNovità: Il thread nasce il 29 settembre 2026; il reply del 30 settembre riguarda la segnalazione al supporto. Non dimostra un nuovo meccanismo oltre al problema RUDP già noto.",
         "title": "Nuova segnalazione di collisione causata dal netcode con DNF online",
         "workaround": "Nessun workaround confermato; conservare replay, telemetria e log di rete per la revisione dell’incidente."
       },
@@ -587,7 +623,7 @@
         {
           "name": "Le Mans Ultimate Community - Netcode caused collision. DNF'ed other driver. How to report myself?",
           "tier": "OFFICIAL",
-          "url": "https://community.lemansultimate.com/index.php?threads/netcode-caused-collision-dnfed-other-driver-how-to-report-myself.19151/post-100489="
+          "url": "https://community.lemansultimate.com/index.php?threads/netcode-caused-collision-dnfed-other-driver-how-to-report-myself.19151/#post-100489"
         }
       ],
       "status": "INVESTIGATING",
