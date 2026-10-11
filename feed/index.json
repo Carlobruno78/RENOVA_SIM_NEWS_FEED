@@ -1,7 +1,26 @@
 {
-  "feed_version": 31,
-  "generated_utc": "2026-10-10T13:35:48+00:00",
+  "feed_version": 32,
+  "generated_utc": "2026-10-11T13:46:28+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "software/crash/network",
+      "en": {
+        "title": "Desktop crash while loading race weekends and online lobbies"
+      },
+      "id": "2e566fc65a6d9318b9ccbd3e",
+      "is_integrity": true,
+      "it": {
+        "title": "Crash al desktop durante il caricamento di race weekend e lobby online"
+      },
+      "published_utc": "2026-10-11T13:46:28+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata nella segnalazione",
@@ -539,7 +558,7 @@
       "build": "",
       "category": "anti-cheat/network/race control/software",
       "en": {
-        "title": "Unable to join sessions after the update بسبب a local content mismatch"
+        "title": "Unable to join sessions after the update due to a local content mismatch"
       },
       "id": "93e97f8d21ed7fd7b5253437",
       "is_integrity": true,

@@ -1,7 +1,43 @@
 {
-  "feed_version": 31,
-  "generated_utc": "2026-10-10T13:35:48+00:00",
+  "feed_version": 32,
+  "generated_utc": "2026-10-11T13:46:28+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "RACE WEEKEND OFFLINE E LOBBY O",
+      "build": "",
+      "category": "software/crash/network",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE MANCATO IN",
+      "confidence": 57,
+      "en": {
+        "summary": "Community early warning of repeated desktop crashes during mid-load when entering race weekends or online lobbies. The report is currently unconfirmed and does not identify a build, hardware configuration, or common trigger.",
+        "title": "Desktop crash while loading race weekends and online lobbies",
+        "workaround": "No confirmed workaround is provided in the report. Verify the game files and collect crash logs before retrying session entry."
+      },
+      "id": "2e566fc65a6d9318b9ccbd3e",
+      "integrity_type": "ANTI-CHEAT",
+      "is_integrity": true,
+      "issue_id": "21dc320e02012cc7ea8e",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire completamente l'accesso a sessioni offline e online e causare perdita di partecipazione o rating se il crash avviene durante l'ingresso a un evento.\n\nSintomo: Segnalato un crash ripetuto a metà del caricamento quando si tenta di entrare in un race weekend o in una lobby online. Il problema sarebbe comparso dopo alcuni giorni iniziali senza anomalie.\n\nNovità: Nuova segnalazione nella finestra di osservazione di una regressione o instabilità del caricamento di sessioni e lobby, distinta dai crash durante una gara già avviata o dai blocchi EAC all'avvio.",
+        "title": "Crash al desktop durante il caricamento di race weekend e lobby online",
+        "workaround": "Nessun workaround confermato nella segnalazione. Verificare i file di gioco e raccogliere i log del crash prima di riprovare l'accesso alla sessione."
+      },
+      "published_utc": "2026-10-11T13:46:28+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMans_Ultimate",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMans_Ultimate/comments/1x26qst/the_game_is_repeatedly_crashing/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "RACE WEEKEND E GARE ONLINE; PO",
@@ -259,11 +295,6 @@
           "name": "Le Mans Ultimate – v1.4.3 Patch Notes",
           "tier": "OFFICIAL",
           "url": "https://guide.lemansultimate.com/hc/en-gb/articles/17843530477327-v1-4-3-V1-4-Update-Patch-3"
-        },
-        {
-          "name": "Le Mans Ultimate Steam News – V1.4.3",
-          "tier": "COMMUNITY",
-          "url": "https://steamcommunity.com/app/2399420/allnews/"
         }
       ],
       "status": "FIXED",
@@ -675,7 +706,7 @@
       "confidence": 70,
       "en": {
         "summary": "Recent reports indicate that post-update session joins can fail because the local Installed content does not match the server, even when EAC itself connects successfully. This materially clarifies the existing post-update anti-cheat/session-expulsion issue and provides a more targeted recovery path.",
-        "title": "Unable to join sessions after the update بسبب a local content mismatch",
+        "title": "Unable to join sessions after the update due to a local content mismatch",
         "workaround": "Close LMU, remove only the Installed folder from the game directory, leave UserData untouched, and use Steam’s file-integrity verification to restore the content. If the issue persists, collect the logs and submit an official support ticket."
       },
       "id": "93e97f8d21ed7fd7b5253437",
