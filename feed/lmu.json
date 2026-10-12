@@ -1,7 +1,43 @@
 {
-  "feed_version": 32,
-  "generated_utc": "2026-10-11T13:46:28+00:00",
+  "feed_version": 34,
+  "generated_utc": "2026-10-12T10:13:46+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE PRACTICE AND RACES WITH",
+      "build": "",
+      "category": "graphics/performance/network/netcode/telemetry",
+      "change_reason": "NEW",
+      "competitive_impact": "RISCHIO DI PERDITA T",
+      "confidence": 60,
+      "en": {
+        "summary": "A community report dated October 12, 2026 describes severe 3–5 second stutters when cars join or leave a session, especially with large grids, plus recurring micro-stutters during a 10-hour Road Atlanta race. The report is an early warning only and has no official confirmation yet.",
+        "title": "3–5 second stutters during sessions with large grids or when cars join/leave",
+        "workaround": "Using full-screen mode and disabling shadows was suggested as a possible workaround; effectiveness is unverified and not officially confirmed."
+      },
+      "id": "76d23b565fa984d58a997017",
+      "integrity_type": "non-integrity; possible session/rendering performance regres",
+      "is_integrity": false,
+      "issue_id": "627e8fcc48e059cde8f7",
+      "it": {
+        "summary": "Impatto RENOVA: Possibili congelamenti temporanei in gara, perdita di controllo e collisioni soprattutto negli eventi endurance con molte vetture. Il pattern sembra distinto dallo stuttering specifico del driver AMD già nello state.\n\nSintomo: Stutter improvvisi durante la gara, più frequenti con un numero elevato di piloti o quando una vettura entra o lascia il server; segnalati picchi di 3–5 secondi e micro-stutter persistenti durante una gara da 10 ore a Road Atlanta.\n\nNovità: Nuova segnalazione nella finestra obbligatoria che collega gli spike di stuttering a eventi dinamici della sessione — ingresso/uscita di vetture e griglie numerose — con impatto diretto sulle gare endurance.",
+        "title": "Stutter di 3–5 secondi durante la sessione con griglie numerose o ingresso/uscita di vetture",
+        "workaround": "Segnalato come possibile workaround l’uso della modalità full screen e la disattivazione delle ombre; efficacia non verificata e non confermata ufficialmente."
+      },
+      "published_utc": "2026-10-12T10:13:45+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit - LMU Overlays (question)",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1x3urkr/lmu_overlays_question/"
+        }
+      ],
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "RACE WEEKEND OFFLINE E LOBBY O",

@@ -1,7 +1,48 @@
 {
-  "feed_version": 32,
-  "generated_utc": "2026-10-11T13:46:28+00:00",
+  "feed_version": 34,
+  "generated_utc": "2026-10-12T10:13:46+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SIMULAZIONE ONLINE; SEGNALAZIO",
+      "build": "",
+      "category": "software",
+      "change_reason": "NEW",
+      "competitive_impact": "TERMINAZIONE INATTES",
+      "confidence": 70,
+      "en": {
+        "summary": "Community reports indicate a potentially recurring race-terminating crash-to-desktop issue during 2026 Season 4. Reports describe sudden simulator termination without visible errors, with no confirmed common cause yet. This is treated as an early warning rather than an officially confirmed regression.",
+        "title": "Multiple reports of sudden crash to desktop during a race with no visible error",
+        "workaround": "No reliable workaround has been confirmed. As temporary mitigation, collect the .dmp files and logs after the crash, test a session without overlays or third-party applications, and compare behavior with previous GPU drivers; these tests should not be considered confirmed fixes."
+      },
+      "id": "c5a837da6a12ef2d98eb3020",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "262007c075682d123f38",
+      "it": {
+        "summary": "Impatto RENOVA: Interruzione completa della sessione e impossibilità di terminare la gara; possibile perdita di risultato, incidenti e danni competitivi per il pilota coinvolto.\n\nSintomo: Il simulatore si chiude improvvisamente durante una gara, senza freeze, schermata d’errore o indicazioni evidenti nei log di Windows. Nella discussione sono comparsi ulteriori report simili il 11 e 12 ottobre, inclusi casi su configurazioni hardware diverse e un caso associato a VR/overlay.\n\nNovità: Il problema è passato da una segnalazione isolata a più conferme della community durante la finestra osservata; non è stato individuato un trigger comune né una conferma ufficiale di iRacing.",
+        "title": "Segnalazioni multiple di crash improvviso a desktop durante la gara senza errore visibile",
+        "workaround": "Nessun workaround affidabile confermato. Come mitigazione temporanea, raccogliere i file .dmp e i log dopo il crash, provare una sessione senza overlay o applicazioni di terze parti e verificare eventuali differenze con driver GPU precedenti; non considerare queste prove una soluzione confermata."
+      },
+      "published_utc": "2026-10-12T10:13:46+00:00",
+      "renova_relevance": 90,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit - iRacing is crashing to desktop out of nowhere",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x2q8r7/iracing_is_crashing_to_desktop_out_of_nowhere_no/"
+        },
+        {
+          "name": "Reddit - Headset crash and freeze during iRacing",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/BigscreenBeyond/comments/1x3ampe/headset_crash_and_freeze/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ALL MODES POTENTIALLY AFFECTED",

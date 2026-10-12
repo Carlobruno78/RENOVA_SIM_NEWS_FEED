@@ -1,7 +1,45 @@
 {
-  "feed_version": 32,
-  "generated_utc": "2026-10-11T13:46:28+00:00",
+  "feed_version": 34,
+  "generated_utc": "2026-10-12T10:13:46+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "software",
+      "en": {
+        "title": "Multiple reports of sudden crash to desktop during a race with no visible error"
+      },
+      "id": "c5a837da6a12ef2d98eb3020",
+      "is_integrity": false,
+      "it": {
+        "title": "Segnalazioni multiple di crash improvviso a desktop durante la gara senza errore visibile"
+      },
+      "published_utc": "2026-10-12T10:13:46+00:00",
+      "renova_relevance": 90,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "graphics/performance/network/netcode/telemetry",
+      "en": {
+        "title": "3–5 second stutters during sessions with large grids or when cars join/leave"
+      },
+      "id": "76d23b565fa984d58a997017",
+      "is_integrity": false,
+      "it": {
+        "title": "Stutter di 3–5 secondi durante la sessione con griglie numerose o ingresso/uscita di vetture"
+      },
+      "published_utc": "2026-10-12T10:13:45+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "",
