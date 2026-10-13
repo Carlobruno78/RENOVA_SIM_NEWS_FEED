@@ -1,7 +1,43 @@
 {
-  "feed_version": 34,
-  "generated_utc": "2026-10-12T10:13:46+00:00",
+  "feed_version": 35,
+  "generated_utc": "2026-10-13T08:36:43+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE UFFICIALI, TEST DRIVE; PO",
+      "build": "",
+      "category": "software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE ABBANDONO",
+      "confidence": 60,
+      "en": {
+        "summary": "Community reports during October 11–12, 2026 provide additional corroboration of unexplained mid-race and test-drive crashes to desktop, including one recurring-time pattern. The issue remains unconfirmed and no general workaround has been established.",
+        "title": "New corroboration of sudden desktop crashes without visible errors, including recurring-time incidents",
+        "workaround": "No confirmed workaround. Collect iRacing logs, Event Viewer data, and the driver version; an NVIDIA driver rollback is only an anecdotal community-reported workaround."
+      },
+      "id": "55bd00bf92c914d8d889ae17",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "262007c075682d123f38",
+      "it": {
+        "summary": "Impatto RENOVA: Rafforza la priorità del problema perché il crash può interrompere gare ufficiali senza lasciare un errore evidente e sembra colpire anche sistemi e sessioni differenti.\n\nSintomo: Più utenti riferiscono crash improvvisi verso il desktop durante la gara o nel test drive, senza freeze o messaggi visibili. Un caso riferisce crash a un orario ricorrente; altri indicano episodi ripetuti il 12 ottobre 2026.\n\nNovità: Nuovi report community nella finestra obbligatoria ampliano la casistica oltre la segnalazione già presente e aggiungono il pattern dell'orario ricorrente. Un rollback di driver NVIDIA è riportato come workaround individuale, ma non è confermato come causa o soluzione generale.",
+        "title": "Nuova corroborazione di crash improvvisi a desktop senza errore visibile, inclusi episodi a orario ricorrente",
+        "workaround": "Nessun workaround confermato. Raccogliere iRacing logs, Event Viewer e versione del driver; il rollback del driver NVIDIA è solo un workaround aneddotico riportato dalla community."
+      },
+      "published_utc": "2026-10-13T08:36:43+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — iRacing is crashing to desktop out of nowhere",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x2q8r7/iracing_is_crashing_to_desktop_out_of_nowhere/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "SIMULAZIONE ONLINE; SEGNALAZIO",
