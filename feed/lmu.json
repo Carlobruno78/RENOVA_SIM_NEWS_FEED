@@ -1,6 +1,6 @@
 {
-  "feed_version": 35,
-  "generated_utc": "2026-10-13T08:36:43+00:00",
+  "feed_version": 36,
+  "generated_utc": "2026-10-14T10:19:59+00:00",
   "items": [
     {
       "access_class": "STANDARD",
@@ -571,7 +571,7 @@
       "issue_id": "e5c9935f8ded8968dc5e",
       "it": {
         "summary": "Impatto RENOVA: Rischio di penalità collettive o applicate erroneamente alla partenza, con possibile alterazione dei risultati nelle gare online su layout corti e griglie numerose. Il problema risulta corretto nell’hotfix V1.4.2.3.\n\nSintomo: Penalità di massa applicate durante le partenze di gara su layout corti con griglie numerose.\n\nNovità: L’hotfix ufficiale V1.4.2.3 del 30 settembre 2026 dichiara la correzione del problema delle penalità di massa alla partenza su layout corti con griglie numerose.",
-        "title": "V1.4.2.3 corregge le problema delle penalità di massa alla partenza su layout corti con griglie numerose",
+        "title": "V1.4.2.3 corregge il problema delle penalità di massa alla partenza su layout corti con griglie numerose",
         "workaround": "Aggiornare LMU a V1.4.2.3 o successiva. Fino all’aggiornamento, evitare se possibile partenze su layout corti con griglie numerose e verificare le penalità assegnate dopo il via."
       },
       "published_utc": "2026-10-02T08:16:33+00:00",

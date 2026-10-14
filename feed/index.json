@@ -1,7 +1,26 @@
 {
-  "feed_version": 35,
-  "generated_utc": "2026-10-13T08:36:43+00:00",
+  "feed_version": 36,
+  "generated_utc": "2026-10-14T10:19:59+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "2.61.5.25",
+      "category": "software",
+      "en": {
+        "title": "Sudden desktop crashes: new corroboration with APPCRASH c0000005 in iRacingSim64DX11.exe"
+      },
+      "id": "8e0e811d453b82fd6f690db9",
+      "is_integrity": false,
+      "it": {
+        "title": "Cali improvvisi a desktop: nuova corroborazione con APPCRASH c0000005 in iRacingSim64DX11.exe"
+      },
+      "published_utc": "2026-10-14T10:19:59+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "",
@@ -506,7 +525,7 @@
       "id": "83dfb023c15fdb3332e99851",
       "is_integrity": true,
       "it": {
-        "title": "V1.4.2.3 corregge le problema delle penalità di massa alla partenza su layout corti con griglie numerose"
+        "title": "V1.4.2.3 corregge il problema delle penalità di massa alla partenza su layout corti con griglie numerose"
       },
       "published_utc": "2026-10-02T08:16:33+00:00",
       "renova_relevance": 94,

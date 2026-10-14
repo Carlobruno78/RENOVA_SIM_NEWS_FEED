@@ -1,7 +1,48 @@
 {
-  "feed_version": 35,
-  "generated_utc": "2026-10-13T08:36:43+00:00",
+  "feed_version": 36,
+  "generated_utc": "2026-10-14T10:19:59+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "PRATICA, QUALIFICHE E GARE; SE",
+      "build": "2.61.5.25",
+      "category": "software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "HIGH: UN CRASH DURAN",
+      "confidence": 70,
+      "en": {
+        "summary": "This is a material corroboration of the existing Season 4 sudden-CTD issue. Multiple users report the simulator closing without warning in different session phases, while one report identifies iRacingSim64DX11.exe version 2.61.5.25 with an access-violation APPCRASH. Community reports do not yet establish a single root cause, and some users report improvement after BIOS, driver, cable, or configuration changes.",
+        "title": "Sudden desktop crashes: new corroboration with APPCRASH c0000005 in iRacingSim64DX11.exe",
+        "workaround": "There is no confirmed workaround yet. To reduce risk, collect simulator logs and Windows Event Viewer data, save the replay when possible, temporarily test without overclocking and third-party overlays, and verify GPU drivers, BIOS, and Windows updates. These measures are diagnostic and have not been consistently proven to resolve the issue."
+      },
+      "id": "8e0e811d453b82fd6f690db9",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "262007c075682d123f38",
+      "it": {
+        "summary": "Impatto RENOVA: Il problema sembra più diffuso e continua a causare abbandoni improvvisi durante pratica, qualifiche e gare, con possibile scomparsa della vettura dalla sessione e danno diretto a risultati, iRating e sicurezza degli altri partecipanti.\n\nSintomo: Il simulatore termina senza messaggio visibile o blocco preliminare, anche durante la gara. Un report include APPCRASH con iRacingSim64DX11.exe, eccezione c0000005 e fault offset 0x00000000016a0442.\n\nNovità: Tra il 13 e il 14 ottobre sono comparsi numerosi nuovi riscontri indipendenti, inclusi crash durante gara, qualifica, pratica e avvicinamento al verde. Il problema viene descritto come ricorrente dopo l'ultimo aggiornamento e, in alcuni casi, più frequente rispetto ai giorni precedenti; la nuova segnalazione fornisce anche una firma APPCRASH riproducibile.",
+        "title": "Cali improvvisi a desktop: nuova corroborazione con APPCRASH c0000005 in iRacingSim64DX11.exe",
+        "workaround": "Non esiste ancora un workaround confermato. Per ridurre il rischio, raccogliere i log e i dati di Windows Event Viewer, salvare il replay quando possibile, provare temporaneamente senza overclock e overlay di terze parti e verificare driver GPU, BIOS e aggiornamenti di Windows. Queste misure sono diagnostiche e non risultano risolutive in modo consistente."
+      },
+      "published_utc": "2026-10-14T10:19:59+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — iRacing crash",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x4y9ak/iracing_crash/"
+        },
+        {
+          "name": "Reddit r/iRacing — Keep crashing mid race",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x4ldzw/keep_crashing_mid_race/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "GARE UFFICIALI, TEST DRIVE; PO",
