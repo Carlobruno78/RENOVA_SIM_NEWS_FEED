@@ -1,7 +1,45 @@
 {
-  "feed_version": 36,
-  "generated_utc": "2026-10-14T10:19:59+00:00",
+  "feed_version": 38,
+  "generated_utc": "2026-10-15T12:39:15+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicato",
+      "category": "FFB/input",
+      "en": {
+        "title": "Possible complete simulator freeze associated with 360 Hz interpolated FFB on Simagic wheelbases"
+      },
+      "id": "a035c9c24160e11bf4c47daf",
+      "is_integrity": false,
+      "it": {
+        "title": "Possibile freeze completo del simulatore associato alla modalità FFB interpolata a 360 Hz su wheelbase Simagic"
+      },
+      "published_utc": "2026-10-15T12:39:15+00:00",
+      "renova_relevance": 85,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2.61.5.25",
+      "category": "software",
+      "en": {
+        "title": "Further corroboration of sudden desktop crashes with APPCRASH c0000005 in iRacingSim64DX11.exe"
+      },
+      "id": "3b7bcdb7f3273da220095f90",
+      "is_integrity": false,
+      "it": {
+        "title": "Ulteriore corroborazione dei crash improvvisi a desktop con APPCRASH c0000005 in iRacingSim64DX11.exe"
+      },
+      "published_utc": "2026-10-15T12:39:15+00:00",
+      "renova_relevance": 96,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "2.61.5.25",

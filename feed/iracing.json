@@ -1,7 +1,89 @@
 {
-  "feed_version": 36,
-  "generated_utc": "2026-10-14T10:19:59+00:00",
+  "feed_version": 38,
+  "generated_utc": "2026-10-15T12:39:15+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "RACE SESSIONS USING 360 HZ INT",
+      "build": "Non indicato",
+      "category": "FFB/input",
+      "change_reason": "NEW",
+      "competitive_impact": "IL BLOCCO DURANTE UN",
+      "confidence": 68,
+      "en": {
+        "summary": "A recent community update links a persistent in-race simulator freeze to the 360 Hz interpolated FFB path on at least one Simagic wheelbase. Disabling the 360 Hz mode was reported to stop the freeze, but the evidence is community-only and the mechanism is not confirmed. This appears distinct from a total FFB dropout because the reported symptom is a full simulator lockup.",
+        "title": "Possible complete simulator freeze associated with 360 Hz interpolated FFB on Simagic wheelbases",
+        "workaround": "Temporarily disable interpolated 360 Hz FFB and check whether the freeze disappears; use a standard FFB configuration during official races until further confirmation. Preserve logs and the app.ini configuration for diagnosis."
+      },
+      "id": "a035c9c24160e11bf4c47daf",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "83bccdc6247d83d43541",
+      "it": {
+        "summary": "Impatto RENOVA: Un freeze persistente durante la gara può lasciare il simulatore inutilizzabile, impedire il controllo dell'auto e causare incidenti, disconnessioni e perdita di risultati competitivi. Il report suggerisce una possibile interazione specifica tra il percorso FFB a 360 Hz e alcune wheelbase.\n\nSintomo: Il simulatore si blocca completamente durante una gara senza terminare il processo; il problema può durare diversi minuti e richiedere la chiusura forzata. Un utente riferisce che il problema è cessato dopo la disattivazione della modalità 360 Hz nel file di configurazione di iRacing.\n\nNovità: Nella finestra è stato pubblicato un aggiornamento materiale del workaround: la disattivazione del 360 Hz viene riportata come risolutiva su una Simagic Alpha Mini, con una successiva conferma da parte di un utente con una wheelbase 360 Hz.",
+        "title": "Possibile freeze completo del simulatore associato alla modalità FFB interpolata a 360 Hz su wheelbase Simagic",
+        "workaround": "Disattivare temporaneamente la modalità FFB interpolata a 360 Hz e verificare se il freeze scompare; mantenere una configurazione FFB standard durante le gare ufficiali fino a ulteriore conferma. Conservare log e configurazione app.ini per la diagnosi."
+      },
+      "published_utc": "2026-10-15T12:39:15+00:00",
+      "renova_relevance": 85,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Game Frozen in place, doesn't crash; 360 Hz workaround update",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1voleax/game_frozen_in_place_doesnt_crash_looking_for_a/"
+        },
+        {
+          "name": "Reddit r/iRacing — Wheelbase disconnect during 6H Watkins Glen; related 360 Hz reports",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1ub52jk/wheelbase_disconnect_during_6h_watkins_glen/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "PRACTICE, QUALIFYING, OFFICIAL",
+      "build": "2.61.5.25",
+      "category": "software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "PUÒ TERMINARE UNA GA",
+      "confidence": 70,
+      "en": {
+        "summary": "Community reports continue to corroborate a post-Season 4 simulator crash affecting iRacingSim64DX11.exe build 2.61.5.25. Reported failures occur during practice, qualifying, and races and include APPCRASH exception 0xc0000005. This is a continuation of the existing crash issue, not a separate defect.",
+        "title": "Further corroboration of sudden desktop crashes with APPCRASH c0000005 in iRacingSim64DX11.exe",
+        "workaround": "Collect the iRacingSim64DX11.exe crash dump/Event Viewer data and replay, temporarily disable overlays and overclocking/undervolting, check GPU drivers/BIOS, and submit the logs to iRacing Support. No simulator-side workaround is confirmed."
+      },
+      "id": "3b7bcdb7f3273da220095f90",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "262007c075682d123f38",
+      "it": {
+        "summary": "Impatto RENOVA: Conferma che il crash interno del simulatore continua a verificarsi dopo il Season 4 Patch 1, anche durante sessioni e gare, con rischio diretto di abbandono, perdita di iRating/SR e incidenti causati dalla scomparsa improvvisa del pilota.\n\nSintomo: Crash improvviso al desktop durante pratica, qualifiche o gara, senza messaggio evidente. I log riportano iRacingSim64DX11.exe come applicazione e modulo faulting, con eccezione 0xc0000005.\n\nNovità: Nella finestra sono comparsi ulteriori report indipendenti, inclusi crash a metà gara e durante sessioni successive all'aggiornamento Season 4; il pattern resta materialmente attivo e non limitato a una singola configurazione hardware.",
+        "title": "Ulteriore corroborazione dei crash improvvisi a desktop con APPCRASH c0000005 in iRacingSim64DX11.exe",
+        "workaround": "Raccogliere iRacingSim64DX11.exe crash dump/Event Viewer e replay, disabilitare temporaneamente overlay e overclock/undervolt, verificare driver GPU/BIOS e segnalare i log a iRacing Support. Non esiste un workaround confermato lato simulatore."
+      },
+      "published_utc": "2026-10-15T12:39:15+00:00",
+      "renova_relevance": 96,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — iRacing crash reports with APPCRASH c0000005 on build 2.61.5.25",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x4y9ak/iracing_crash/"
+        },
+        {
+          "name": "Reddit r/iRacing — Keep crashing mid race",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x4ldzw/keep_crashing_mid_race/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "PRATICA, QUALIFICHE E GARE; SE",
