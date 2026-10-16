@@ -1,7 +1,53 @@
 {
-  "feed_version": 38,
-  "generated_utc": "2026-10-15T12:39:15+00:00",
+  "feed_version": 39,
+  "generated_utc": "2026-10-16T12:14:53+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSIONI DI GARA, QUALIFICHE,",
+      "build": "2.61.5.25",
+      "category": "software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "ELEVATO: USCITA DALL",
+      "confidence": 70,
+      "en": {
+        "summary": "Recent community reports continue to describe sudden iRacingSim64DX11.exe desktop crashes, including mid-race exits and cases involving temporary loss of controls. One detailed report identifies build 2.61.5.25 and exception code 0xc0000005, matching the existing tracked issue. No reliable common workaround or official fix was identified in the mandatory window.",
+        "title": "Further recent activity involving sudden desktop crashes with iRacingSim64DX11.exe",
+        "workaround": "No reliable workaround has been confirmed. Collect crash reports and logs for iRacing Support; separately check drivers, BIOS, power delivery, USB/cables, and overlays without treating them as confirmed causes."
+      },
+      "id": "b5bacfaf5ac61db400dbb4fd",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "262007c075682d123f38",
+      "it": {
+        "summary": "Impatto RENOVA: Le nuove segnalazioni indicano che i crash improvvisi continuano a colpire sessioni di gara e possono causare perdita della sessione, incidenti non controllati e danni a iRating/Safety Rating. Non emerge una mitigazione affidabile comune.\n\nSintomo: Chiusura improvvisa del simulatore verso il desktop senza freeze o avviso evidente, inclusi casi durante gare o sessioni di pratica. Alcuni utenti riportano il problema dopo Season 4 e altri errori interni di iRacingSim64DX11.exe con codice 0xc0000005.\n\nNovità: Nuove conferme e follow-up nella finestra 2026-10-15 → 2026-10-16 indicano che il problema resta attivo; vengono riportati anche casi in cui il crash provoca perdita degli input e pieno gas prima dell'uscita.",
+        "title": "Ulteriore attività recente sui crash improvvisi a desktop con iRacingSim64DX11.exe",
+        "workaround": "Nessun workaround affidabile confermato. Raccogliere crash report e log per iRacing Support; verificare separatamente driver, BIOS, alimentazione, cavi/USB e overlay senza considerarli cause confermate."
+      },
+      "published_utc": "2026-10-16T12:14:53+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit - iRacing is crashing to desktop out of nowhere",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x2q8r7/iracing_is_crashing_to_desktop_out_of_nowhere_no/"
+        },
+        {
+          "name": "Reddit - Keep crashing mid race",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x4ldzw/keep_crashing_mid_race/"
+        },
+        {
+          "name": "Reddit - iRacing crash",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x4y9ak/iracing_crash/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "RACE SESSIONS USING 360 HZ INT",
