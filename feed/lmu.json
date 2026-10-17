@@ -1,7 +1,53 @@
 {
-  "feed_version": 39,
-  "generated_utc": "2026-10-16T12:14:53+00:00",
+  "feed_version": 40,
+  "generated_utc": "2026-10-17T11:36:29+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "MENU, AVVIO E POTENZIALMENTE T",
+      "build": "",
+      "category": "software/crash/plugin/telemetry",
+      "change_reason": "NEW",
+      "competitive_impact": "PUÒ IMPEDIRE L'ACCES",
+      "confidence": 84,
+      "en": {
+        "summary": "A new October 16 report describes recurring BugSplat crashes while LMU is idle in the menus. Another user reports that disabling all entries in CustomPluginVariables.JSON reduced the crashes substantially. This points to a possible plugin or telemetry interaction, but the exact plugin and causality remain unconfirmed.",
+        "title": "Menu crash to desktop associated with enabled plugins, mitigated by disabling CustomPluginVariables",
+        "workaround": "Temporarily disable all enabled entries in `UserData/player/CustomPluginVariables.JSON`, restart LMU, and re-enable plugins one at a time to isolate the responsible component; collect BugSplat logs before re-enabling external tools."
+      },
+      "id": "4d5427848e4032c0facff2ee",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "3d0ed9aa8170542f26cf",
+      "it": {
+        "summary": "Impatto RENOVA: Può interrompere LMU anche senza sessione attiva e compromettere la disponibilità del client, in particolare per utenti che usano plugin di telemetria o strumenti esterni.\n\nSintomo: Crash casuale al desktop con BugSplat mentre il gioco è fermo nei menu; un secondo utente riferisce una drastica riduzione dei crash dopo aver disabilitato tutte le voci abilitate in CustomPluginVariables.JSON.\n\nNovità: Nuova segnalazione nella finestra obbligatoria con workaround riproducibile a livello community; la documentazione ufficiale conferma che alcuni plugin possono causare crash, ma non identifica ancora il plugin responsabile né conferma una regressione specifica di build.",
+        "title": "Crash al desktop nei menu associato a plugin attivi, con mitigazione disabilitando CustomPluginVariables",
+        "workaround": "Disabilitare temporaneamente tutte le voci abilitate in `UserData/player/CustomPluginVariables.JSON`, riavviare LMU e riabilitare i plugin uno alla volta per isolare il responsabile; raccogliere i log BugSplat prima di riattivare strumenti esterni."
+      },
+      "published_utc": "2026-10-17T11:36:29+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit - Crashing?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1x7o652/crashing/"
+        },
+        {
+          "name": "Le Mans Ultimate Guide - Known Issues and Advice",
+          "tier": "OFFICIAL",
+          "url": "https://guide.lemansultimate.com/hc/en-gb/articles/13240843908623-Known-Issues-and-Advice"
+        },
+        {
+          "name": "Le Mans Ultimate Guide - Common Fixes",
+          "tier": "OFFICIAL",
+          "url": "https://guide.lemansultimate.com/hc/en-gb/articles/13260585473551-Common-Fixes"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ONLINE PRACTICE AND RACES WITH",
