@@ -1,15 +1,15 @@
 {
   "access_control": "none",
   "counts": {
-    "all": 39,
+    "all": 41,
     "iracing": 16,
-    "lmu": 23,
+    "lmu": 25,
     "withheld_full": 1,
     "withheld_protected": 1
   },
   "environment": "internal-test",
-  "feed_version": 40,
-  "generated_utc": "2026-10-17T11:36:29+00:00",
+  "feed_version": 42,
+  "generated_utc": "2026-10-18T12:03:09+00:00",
   "notes": "Public transport for INTERNAL app validation. PROTECTED items are withheld from this public transport. Paid/restricted content is served only by the RENOVA entitlement backend.",
   "schema_version": 1,
   "simulators": [

@@ -1,7 +1,84 @@
 {
-  "feed_version": 40,
-  "generated_utc": "2026-10-17T11:36:29+00:00",
+  "feed_version": 42,
+  "generated_utc": "2026-10-18T12:03:09+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE ONLINE CON STEWARDING, BA",
+      "build": "",
+      "category": "race control/replay/integrity",
+      "change_reason": "NEW",
+      "competitive_impact": "RISCHIO DI BAN, PERD",
+      "confidence": 60,
+      "en": {
+        "summary": "Community reports indicate a possible race-control evidence and case-linkage problem: bans may be delivered long after the incident, cite a race the player says they did not enter, or lack an accessible replay. This is an unverified integrity and replay issue, not evidence of a ban wave or cheating detection failure.",
+        "title": "Reports of delayed bans or bans not matching the cited race, with missing replays",
+        "workaround": "Keep local replays and session data when possible, check the event history, and open a ticket with the user identifier, UTC date, race, and available logs. No reliable client-side mitigation is currently available."
+      },
+      "id": "ae01348e8ed174b0cf261c67",
+      "integrity_type": "Possibile errore di adjudication, case-to-race linkage o dis",
+      "is_integrity": true,
+      "issue_id": "af54e728afb1b6d4df1b",
+      "it": {
+        "summary": "Impatto RENOVA: Possibile errore di collegamento tra incidente, gara, replay e provvedimento disciplinare; può produrre ban o penalizzazioni non verificabili dall'utente.\n\nSintomo: Utenti riferiscono di aver ricevuto un ban settimane dopo l'evento, di non aver partecipato alla gara indicata o di non trovare il replay necessario per verificare l'incidente e contestare il provvedimento.\n\nNovità: Nella finestra sono comparsi ulteriori commenti che descrivono ritardi di circa sei settimane, date di gara apparentemente errate e replay non disponibili; il thread richiama anche casi di decisioni disciplinari contestate dopo disconnessioni o problemi di input.",
+        "title": "Segnalazioni di ban tardivi o non riconducibili alla gara indicata, con replay assente",
+        "workaround": "Conservare localmente replay e dati della sessione quando possibile, controllare la cronologia degli eventi e aprire un ticket con identificativo utente, data UTC, gara e log disponibili. Non è disponibile una mitigazione affidabile lato client."
+      },
+      "published_utc": "2026-10-18T12:03:09+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC — Ban for what?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1x7qsq1/ban_for_what/"
+        }
+      ],
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "MENU PRINCIPALI; POTENZIALMENT",
+      "build": "",
+      "category": "software/crash/plugin/telemetry",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILI CRASH DURA",
+      "confidence": 86,
+      "en": {
+        "summary": "A recent community follow-up materially strengthens the existing report of menu crashes associated with active plugins. Disabling the enabled entries in CustomPluginVariables.JSON is reported to substantially reduce crash frequency, but the workaround may disable plugin-based telemetry features and remains unconfirmed by the developer.",
+        "title": "Material confirmation: disabling CustomPluginVariables reduces desktop crashes in menus",
+        "workaround": "Temporarily disable the enabled entries in CustomPluginVariables.JSON and restart LMU; collect BugSplat data, logs, and a support ticket. Check the impact on SimHub and other plugins before online use."
+      },
+      "id": "16d37bab5f949b90402de45b",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "3d0ed9aa8170542f26cf",
+      "it": {
+        "summary": "Impatto RENOVA: Conferma recente di una mitigazione riproducibile per crash al desktop nei menu, con possibile impatto su plugin, SimHub e strumenti di telemetria.\n\nSintomo: Crash casuali al desktop con BugSplat mentre il gioco resta nei menu; un utente riferisce una forte riduzione dei crash dopo aver disabilitato le voci enabled in CustomPluginVariables.JSON.\n\nNovità: Nuova conferma community nella finestra: dopo la disabilitazione dei plugin, i crash sarebbero passati da frequenti a uno in circa una dozzina di ore. È stata inoltre sollevata una possibile interferenza con SimHub e altri strumenti di telemetria.",
+        "title": "Conferma materiale: disabilitare CustomPluginVariables riduce i crash al desktop nei menu",
+        "workaround": "Disabilitare temporaneamente le voci enabled in CustomPluginVariables.JSON e riavviare LMU; raccogliere BugSplat, log e ticket di supporto. Verificare l'impatto su SimHub e sugli altri plugin prima dell'uso online."
+      },
+      "published_utc": "2026-10-18T12:03:09+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC — Crashing?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1x7o652/crashing/"
+        },
+        {
+          "name": "Le Mans Ultimate Support Guide — Common Fixes",
+          "tier": "OFFICIAL",
+          "url": "https://guide.lemansultimate.com/hc/en-gb/articles/13260585473551-Common-Fixes"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "MENU, AVVIO E POTENZIALMENTE T",

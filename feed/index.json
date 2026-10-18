@@ -1,7 +1,45 @@
 {
-  "feed_version": 40,
-  "generated_utc": "2026-10-17T11:36:29+00:00",
+  "feed_version": 42,
+  "generated_utc": "2026-10-18T12:03:09+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "race control/replay/integrity",
+      "en": {
+        "title": "Reports of delayed bans or bans not matching the cited race, with missing replays"
+      },
+      "id": "ae01348e8ed174b0cf261c67",
+      "is_integrity": true,
+      "it": {
+        "title": "Segnalazioni di ban tardivi o non riconducibili alla gara indicata, con replay assente"
+      },
+      "published_utc": "2026-10-18T12:03:09+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "software/crash/plugin/telemetry",
+      "en": {
+        "title": "Material confirmation: disabling CustomPluginVariables reduces desktop crashes in menus"
+      },
+      "id": "16d37bab5f949b90402de45b",
+      "is_integrity": false,
+      "it": {
+        "title": "Conferma materiale: disabilitare CustomPluginVariables riduce i crash al desktop nei menu"
+      },
+      "published_utc": "2026-10-18T12:03:09+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "",
