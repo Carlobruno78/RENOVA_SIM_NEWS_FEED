@@ -1,7 +1,48 @@
 {
-  "feed_version": 42,
-  "generated_utc": "2026-10-18T12:03:09+00:00",
+  "feed_version": 47,
+  "generated_utc": "2026-10-19T14:39:59+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "MENU PRINCIPALE, AVVIO E PREPA",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/plugin/telemetry",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "RISCHIO DI CRASH PRI",
+      "confidence": 88,
+      "en": {
+        "summary": "A new community report confirms the existing pattern of LMU desktop crashes occurring in menus. Disabling the enabled entries in CustomPluginVariables.JSON reportedly reduced the crash rate substantially, but the workaround may disable plugin-dependent telemetry or peripheral features. The issue remains under investigation.",
+        "title": "New confirmation: menu desktop crashes are greatly reduced by disabling CustomPluginVariables",
+        "workaround": "As a diagnostic workaround, temporarily disable the enabled entries in CustomPluginVariables.JSON and check whether stability improves; then re-enable plugins one at a time to isolate the responsible component."
+      },
+      "id": "5de962e6d6e6e39dfbf1595e",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "3d0ed9aa8170542f26cf",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare crash al desktop durante la permanenza nei menu, impedendo l'avvio o la preparazione di sessioni e gare.\n\nSintomo: Crash casuali al desktop con BugSplat anche restando nei menu. Un utente riferisce che, dopo aver disabilitato le voci enabled in CustomPluginVariables.JSON, il gioco è crashato una sola volta in circa dodici ore.\n\nNovità: Nuova conferma community nella finestra: la disabilitazione delle variabili/plugin personalizzati riduce materialmente la frequenza dei crash. La correlazione resta non ufficialmente confermata e può avere impatto sulle funzioni di SimHub o di altri plugin.",
+        "title": "Nuova conferma: crash al desktop nei menu fortemente ridotti disabilitando CustomPluginVariables",
+        "workaround": "Come workaround diagnostico, disabilitare temporaneamente le voci enabled in CustomPluginVariables.JSON e verificare se la stabilità migliora; riattivare successivamente i plugin uno alla volta per isolare il componente responsabile."
+      },
+      "published_utc": "2026-10-19T14:39:58+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC – Crashing?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1x7o652/crashing/"
+        },
+        {
+          "name": "Le Mans Ultimate Support Guide – Common Fixes",
+          "tier": "OFFICIAL",
+          "url": "https://guide.lemansultimate.com/hc/en-gb/articles/13260585473551-Common-Fixes"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "GARE ONLINE CON STEWARDING, BA",

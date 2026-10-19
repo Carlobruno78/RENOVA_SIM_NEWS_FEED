@@ -1,7 +1,102 @@
 {
-  "feed_version": 42,
-  "generated_utc": "2026-10-18T12:03:09+00:00",
+  "feed_version": 47,
+  "generated_utc": "2026-10-19T14:39:59+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Season 4 2026; build esatta non indicata",
+      "category": "graphics/VR",
+      "en": {
+        "title": "New VR confirmation of race-start FPS drops, worsened by rain, smoke, and dust"
+      },
+      "id": "822d5e15cac1b356c8a4c6cd",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma in VR dei cali FPS all'inizio gara, aggravati da pioggia, fumo e polvere"
+      },
+      "published_utc": "2026-10-19T14:39:59+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/plugin/telemetry",
+      "en": {
+        "title": "New confirmation: menu desktop crashes are greatly reduced by disabling CustomPluginVariables"
+      },
+      "id": "5de962e6d6e6e39dfbf1595e",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma: crash al desktop nei menu fortemente ridotti disabilitando CustomPluginVariables"
+      },
+      "published_utc": "2026-10-19T14:39:58+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; nuova Sim UI osservata il 2026-10-18",
+      "category": "replay/UI",
+      "en": {
+        "title": "New Sim UI regression: filters and favorites are reset after navigating between sessions and tabs"
+      },
+      "id": "468066a3441fc86439380cfd",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova regressione della Sim UI: filtri e preferiti vengono azzerati dopo la navigazione tra sessioni e tab"
+      },
+      "published_utc": "2026-10-19T14:39:57+00:00",
+      "renova_relevance": 84,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2.61.5.25",
+      "category": "software",
+      "en": {
+        "title": "New confirmation of sudden desktop crashes with iRacingSim64DX11.exe, build 2.61.5.25"
+      },
+      "id": "3d1e2081f32b43a72ee5fff6",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma del crash improvviso a desktop con iRacingSim64DX11.exe, build 2.61.5.25"
+      },
+      "published_utc": "2026-10-19T14:39:57+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; nuova Sim UI osservata il 2026-10-18",
+      "category": "software",
+      "en": {
+        "title": "New Sim UI performance regression: sharply increased RAM usage and scrolling lag"
+      },
+      "id": "21c89e99c5cfbd426fe0c021",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova regressione prestazionale della Sim UI: aumento marcato dell'uso RAM e lag durante lo scrolling"
+      },
+      "published_utc": "2026-10-19T14:39:57+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "",
