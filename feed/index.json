@@ -1,7 +1,83 @@
 {
-  "feed_version": 47,
-  "generated_utc": "2026-10-19T14:39:59+00:00",
+  "feed_version": 51,
+  "generated_utc": "2026-10-20T11:25:15+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Season 4 2026; build non indicata",
+      "category": "network/netcode",
+      "en": {
+        "title": "Possible disconnects and packet loss during weather transitions"
+      },
+      "id": "7088c2ea947f53b3ea8b03fd",
+      "is_integrity": false,
+      "it": {
+        "title": "Possibili espulsioni e packet loss durante le transizioni meteo"
+      },
+      "published_utc": "2026-10-20T11:25:15+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/plugin/telemetry",
+      "en": {
+        "title": "New AMD-hardware confirmation of menu desktop crashes mitigated by disabling CustomPluginVariables"
+      },
+      "id": "e3e1211cf843ad35e3eac415",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma su hardware AMD del crash al desktop nei menu mitigabile disabilitando CustomPluginVariables"
+      },
+      "published_utc": "2026-10-20T11:25:14+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "software/telemetry/UI",
+      "en": {
+        "title": "Possible LMU Portal shutdown affecting the external race-schedule and race-data portal"
+      },
+      "id": "252a5a6ad897db4acccadbac",
+      "is_integrity": false,
+      "it": {
+        "title": "Possibile chiusura di LMU Portal con perdita del portale esterno per calendario e dati gara"
+      },
+      "published_utc": "2026-10-20T11:25:14+00:00",
+      "renova_relevance": 58,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; nuova Sim UI",
+      "category": "replay/UI",
+      "en": {
+        "title": "Sim UI: broader regression affecting filters, view mode, registration, and sorting after navigation"
+      },
+      "id": "0b6a99b1a7d6e067ab3c1599",
+      "is_integrity": false,
+      "it": {
+        "title": "Sim UI: regressione estesa di filtri, vista, registrazione e ordinamento dopo la navigazione"
+      },
+      "published_utc": "2026-10-20T11:25:14+00:00",
+      "renova_relevance": 89,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Season 4 2026; build esatta non indicata",

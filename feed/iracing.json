@@ -1,7 +1,79 @@
 {
-  "feed_version": 47,
-  "generated_utc": "2026-10-19T14:39:59+00:00",
+  "feed_version": 51,
+  "generated_utc": "2026-10-20T11:25:15+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSIONI ONLINE CON PIOGGIA O",
+      "build": "Season 4 2026; build non indicata",
+      "category": "network/netcode",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE ABBANDONO",
+      "confidence": 46,
+      "en": {
+        "summary": "A new community report attributes packet-loss disconnects to weather transitions. This is an early warning only and remains unconfirmed, but it materially narrows the suspected trigger for the existing Season 4 network instability.",
+        "title": "Possible disconnects and packet loss during weather transitions",
+        "workaround": "No reliable workaround has been confirmed. Do not treat the issue as confirmed without additional reports or session data; retain logs and replays if a disconnect occurs during a weather transition."
+      },
+      "id": "7088c2ea947f53b3ea8b03fd",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "00d157e721620c238365",
+      "it": {
+        "summary": "Impatto RENOVA: Una nuova segnalazione collega le transizioni del sistema pioggia a packet loss e all'espulsione dalla sessione. Se confermato, il problema potrebbe interrompere gare in corso proprio durante il cambiamento delle condizioni.\n\nSintomo: Durante una transizione delle condizioni meteo, il sistema pioggia viene associato a packet loss e kick dalla sessione.\n\nNovità: Nuovo possibile trigger specifico: una segnalazione nella finestra obbligatoria indica che le transizioni meteo possono provocare packet loss con espulsioni, oltre ai generici errori di connessione già osservati dopo Season 4.",
+        "title": "Possibili espulsioni e packet loss durante le transizioni meteo",
+        "workaround": "Nessun workaround affidabile confermato. Evitare di considerare il fenomeno confermato senza ulteriori report o dati di sessione; conservare log e replay in caso di kick durante una transizione meteo."
+      },
+      "published_utc": "2026-10-20T11:25:15+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit - New Bug?!",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x4s2rd/new_bug/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SIM UI; OFFICIAL TAB; SESSION",
+      "build": "Build non indicata; nuova Sim UI",
+      "category": "replay/UI",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "MEDIUM",
+      "confidence": 60,
+      "en": {
+        "summary": "A new report and multiple confirmations indicate that the new Sim UI loses or changes filter state after navigating between sessions and tabs. The regression also affects grid/list mode, registration selection, secondary sorting, and responsiveness.",
+        "title": "Sim UI: broader regression affecting filters, view mode, registration, and sorting after navigation",
+        "workaround": "Before registering, recheck filters, starred series, display mode, sorting, and the registration option after every return to the Official tab. No reliable workaround has been confirmed."
+      },
+      "id": "0b6a99b1a7d6e067ab3c1599",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "3b4b5cc75ea18ee0c48e",
+      "it": {
+        "summary": "Impatto RENOVA: La nuova conferma indica che il problema non riguarda solo il reset dei filtri: dopo il ritorno alla scheda Official possono cambiare anche modalità griglia/lista, stato della registrazione e ordinamento, rendendo più difficile individuare e iscriversi alla sessione corretta.\n\nSintomo: Dopo aver aperto una sessione e fatto ritorno alla scheda Official, i filtri e le serie preferite vengono azzerati o alterati. La UI può passare da griglia a lista, selezionare automaticamente l'opzione di registrazione, perdere l'ordinamento secondario e applicare i filtri con forte ritardo.\n\nNovità: Nuova segnalazione nella finestra obbligatoria: il difetto già noto dei filtri viene confermato come regressione più ampia del flusso di navigazione della nuova Sim UI, con perdita di stato e comportamento incoerente della lista sessioni.",
+        "title": "Sim UI: regressione estesa di filtri, vista, registrazione e ordinamento dopo la navigazione",
+        "workaround": "Prima di registrarsi, verificare nuovamente filtri, serie preferite, modalità di visualizzazione, ordinamento e opzione di registrazione dopo ogni ritorno alla scheda Official. Nessun workaround affidabile confermato."
+      },
+      "published_utc": "2026-10-20T11:25:14+00:00",
+      "renova_relevance": 89,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit - Does anyone else have issues with this new UI not saving filters?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x8wj91/does_anyone_else_have_issues_with_this_new_ui_not/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "VR / RACE START / RAIN / HIGH-",
