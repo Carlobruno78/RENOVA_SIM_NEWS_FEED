@@ -1,7 +1,45 @@
 {
-  "feed_version": 51,
-  "generated_utc": "2026-10-20T11:25:15+00:00",
+  "feed_version": 53,
+  "generated_utc": "2026-10-21T12:55:42+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "1.4.2.0",
+      "category": "anti-cheat/plugin/software/network",
+      "en": {
+        "title": "Sepang mod: modified MAS files trigger the anti-cheat block on online access"
+      },
+      "id": "9348223f36fe1b44578c6d74",
+      "is_integrity": true,
+      "it": {
+        "title": "Mod Sepang: file MAS modificati attivano il blocco anti-cheat dell’accesso online"
+      },
+      "published_utc": "2026-10-21T12:55:42+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "",
+      "category": "software/telemetry/UI",
+      "en": {
+        "title": "Community confirmation of LMU Portal shutdown and loss of external schedule data"
+      },
+      "id": "67362c73e1c55c53cf47e531",
+      "is_integrity": false,
+      "it": {
+        "title": "Conferma community della chiusura di LMU Portal e della perdita dei dati esterni di calendario"
+      },
+      "published_utc": "2026-10-21T12:55:41+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Season 4 2026; build non indicata",

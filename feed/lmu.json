@@ -1,7 +1,79 @@
 {
-  "feed_version": 51,
-  "generated_utc": "2026-10-20T11:25:15+00:00",
+  "feed_version": 53,
+  "generated_utc": "2026-10-21T12:55:42+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "OFFLINE MODDED CONTENT AND ONL",
+      "build": "1.4.2.0",
+      "category": "anti-cheat/plugin/software/network",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA DELL’ACCESSO",
+      "confidence": 60,
+      "en": {
+        "summary": "A community track mod requiring changes to protected Core/Shared MAS files causes the anti-cheat system to deny online access. This is a material confirmation of the existing local-content mismatch issue and indicates that modded content currently requires strict separation from online installations.",
+        "title": "Sepang mod: modified MAS files trigger the anti-cheat block on online access",
+        "workaround": "For online racing, keep the official files unchanged and use the modified content only offline; do not attempt to bypass the integrity check."
+      },
+      "id": "9348223f36fe1b44578c6d74",
+      "integrity_type": "ANTI-CHEAT content-integrity gate triggered by modified prot",
+      "is_integrity": true,
+      "issue_id": "8d4e35e122db20afe20e",
+      "it": {
+        "summary": "Impatto RENOVA: Conferma materiale che modifiche ai file protetti Core/Shared usate da un track mod possono impedire l’accesso online, creando una separazione pratica tra uso offline del contenuto moddato e gare online.\n\nSintomo: Dopo l’installazione del mod Sepang con sostituzione di file MAS ufficiali, l’utente riceve un blocco anti-cheat e non può guidare online.\n\nNovità: Nuova segnalazione del 20 ottobre 2026 che collega esplicitamente il blocco online alla modifica di BoP.mas e Championship.mas nella directory Core/Shared; il comportamento è coerente con il gate di integrità dei contenuti già noto.",
+        "title": "Mod Sepang: file MAS modificati attivano il blocco anti-cheat dell’accesso online",
+        "workaround": "Per le gare online mantenere intatti i file ufficiali e usare il contenuto modificato solo offline; non tentare di eludere il controllo di integrità."
+      },
+      "published_utc": "2026-10-21T12:55:42+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – Sepang International Circuit 2026",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xaunx4/sepang_international_circuit_2026/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "EXTERNAL TELEMETRY, SCHEDULE,",
+      "build": "",
+      "category": "software/telemetry/UI",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "IMPATTO INDIRETTO SU",
+      "confidence": 60,
+      "en": {
+        "summary": "The community confirms that LMU Portal is shutting down, removing a commonly used external source for future schedules, results, lap times, and race data. Several alternatives are mentioned, but users report that they do not fully replace the portal’s functionality.",
+        "title": "Community confirmation of LMU Portal shutdown and loss of external schedule data",
+        "workaround": "Temporarily use community alternatives for schedules and results, checking the accuracy of their data; no complete official replacement has been identified."
+      },
+      "id": "67362c73e1c55c53cf47e531",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e7cbc6f346db6069be92",
+      "it": {
+        "summary": "Impatto RENOVA: Gli utenti perdono un servizio esterno usato per consultare calendario futuro, risultati, tempi sul giro e dati gara senza avviare LMU; aumentano dipendenza dal client e necessità di alternative community.\n\nSintomo: LMU Portal risulta in chiusura e gli utenti chiedono alternative per consultare calendario, risultati e dati delle gare fuori dal gioco.\n\nNovità: Discussione del 20 ottobre 2026 con ulteriori commenti il 21 ottobre che confermano l’impatto pratico della chiusura e la mancanza di un sostituto ufficiale completo, soprattutto per il calendario futuro e i dati gara dettagliati.",
+        "title": "Conferma community della chiusura di LMU Portal e della perdita dei dati esterni di calendario",
+        "workaround": "Usare temporaneamente i siti community alternativi per calendario e risultati, verificando la correttezza dei dati; non è stata indicata una sostituzione ufficiale completa."
+      },
+      "published_utc": "2026-10-21T12:55:41+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – LMU Portal",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xao8li/lmu_portal/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "MENU, AVVIO SESSIONE, PLUGIN/T",
