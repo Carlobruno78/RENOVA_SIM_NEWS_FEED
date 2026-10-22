@@ -1,7 +1,43 @@
 {
-  "feed_version": 53,
-  "generated_utc": "2026-10-21T12:55:42+00:00",
+  "feed_version": 60,
+  "generated_utc": "2026-10-22T12:57:58+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "NUOVA SIM UI; AVVIO E GESTIONE",
+      "build": "Build non indicata; nuova Sim UI",
+      "category": "software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "PUÒ CAUSARE STUTTERI",
+      "confidence": 60,
+      "en": {
+        "summary": "The existing new Sim UI memory and scrolling regression now has a material confirmation of higher-than-previously-reported RAM usage, including cases near 1.8 GB. On 16 GB systems this may contribute to memory exhaustion, stuttering, and severe performance degradation. This is an update to the existing issue, not a separate defect.",
+        "title": "Material confirmation of increased RAM usage by the new Sim UI, up to approximately 1.8 GB, with risk of memory exhaustion",
+        "workaround": "Close the new Sim UI after launching the session when possible, and monitor RAM usage. Reapply filters manually if they are lost. No confirmed official fix is available."
+      },
+      "id": "df06eb85704c30778939cfd5",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "d796124bf1a82d451421",
+      "it": {
+        "summary": "Impatto RENOVA: La nuova Sim UI può consumare molta più RAM rispetto alla UI precedente e, su sistemi con 16 GB, contribuire a esaurimento della memoria, stuttering e peggioramento delle prestazioni durante l'avvio o l'esecuzione del simulatore.\n\nSintomo: Segnalazioni aggiornate indicano utilizzo RAM iniziale di circa 900 MB–1,2 GB, con casi riportati fino a 1,8 GB. Alcuni utenti riferiscono esaurimento della memoria e prestazioni gravemente degradate sui sistemi con 16 GB di RAM.\n\nNovità: Aggiornamento materiale nella finestra osservata: nuovi commenti del 22 ottobre riportano un picco fino a circa 1,8 GB e l'impatto pratico su sistemi con 16 GB, oltre alla necessità di chiudere la UI dopo l'avvio della gara.",
+        "title": "Conferma materiale dell'aumento RAM della nuova Sim UI, fino a circa 1,8 GB, con rischio di esaurimento memoria",
+        "workaround": "Chiudere la nuova Sim UI dopo aver avviato la sessione, quando possibile, e monitorare l'utilizzo RAM. Riapplicare manualmente i filtri se vengono persi. Non è disponibile una correzione ufficiale confermata."
+      },
+      "published_utc": "2026-10-22T12:57:58+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — UI using between 3 to 4 times more RAM",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x9ekrv/ui_using_between_3_to_4_times_more_RAM_900_MB_to/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "SESSIONI ONLINE CON PIOGGIA O",

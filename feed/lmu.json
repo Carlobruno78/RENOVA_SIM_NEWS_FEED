@@ -1,7 +1,233 @@
 {
-  "feed_version": 53,
-  "generated_utc": "2026-10-21T12:55:42+00:00",
+  "feed_version": 60,
+  "generated_utc": "2026-10-22T12:57:58+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "AVVIO DEL GIOCO, CON POSSIBILE",
+      "build": "1.4.2",
+      "category": "software/crash/anti-cheat",
+      "change_reason": "NEW",
+      "competitive_impact": "ESCLUSIONE DALL’ACCE",
+      "confidence": 82,
+      "en": {
+        "summary": "A recent community report reconfirms black-screen or no-boot failures after V1.4.2. The issue remains unresolved and may overlap with EAC or startup compatibility problems.",
+        "title": "New confirmation of black screen and failure to boot after V1.4.2",
+        "workaround": "Verify files, temporarily disable non-essential plugins, and collect logs; use only official EAC repair and support procedures."
+      },
+      "id": "d5ca110484955c90859c5483",
+      "integrity_type": "Possible anti-cheat/startup compatibility issue",
+      "is_integrity": true,
+      "issue_id": "92ff2f616b538a9a78a5",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire completamente l’accesso al gioco dopo l’aggiornamento e sovrapporsi a falsi blocchi o incompatibilità dell’avvio protetto.\n\nSintomo: Dopo V1.4.2 il gioco resta su schermata nera o non completa l’avvio.\n\nNovità: Nuova conferma community pubblicata nella finestra obbligatoria, senza indicazione di correzione ufficiale o causa definitivamente isolata.",
+        "title": "Nuova conferma di black screen e mancato avvio dopo V1.4.2",
+        "workaround": "Verificare i file, disabilitare temporaneamente plugin non essenziali e raccogliere log; usare solo procedure ufficiali di riparazione EAC e supporto."
+      },
+      "published_utc": "2026-10-22T12:57:57+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Black Screen No Boot after V1.4.2",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=99150"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "VR, SOPRATTUTTO CON HUD ATTIVO",
+      "build": "LMU corrente; build non indicata",
+      "category": "graphics/VR/UI",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 67,
+      "en": {
+        "summary": "A new community report flags a VR HUD projection-plane problem. The exact visual failure and affected headsets remain unspecified.",
+        "title": "New VR HUD projection-plane issue",
+        "workaround": "No verified workaround; collect headset, VR runtime, HUD settings, and screenshots before reporting."
+      },
+      "id": "6e2857cc6c12026dfbdaab39",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "c0b7186828bcc763b13b",
+      "it": {
+        "summary": "Impatto RENOVA: Può rendere l’HUD disallineato, deformato o difficile da leggere in VR, compromettendo informazioni essenziali durante la guida.\n\nSintomo: Segnalato un problema relativo al piano di proiezione dell’HUD in VR.\n\nNovità: Nuova segnalazione community pubblicata il 22 ottobre 2026; i dettagli tecnici e l’estensione tra visori non sono ancora disponibili.",
+        "title": "Nuovo problema di proiezione del piano HUD in VR",
+        "workaround": "Nessun workaround verificato; raccogliere visore, runtime VR, screenshot e impostazioni HUD prima della segnalazione."
+      },
+      "published_utc": "2026-10-22T12:57:57+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – VR HUD Projection Plane Issue",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=34036"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "AVVIO DEL GIOCO E ACCESSO SUCC",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/anti-cheat",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "IMPOSSIBILITÀ DI PAR",
+      "confidence": 86,
+      "en": {
+        "summary": "A fresh community report reconfirms a startup crash occurring after the Easy Anti-Cheat and 397 logo stages. The symptom overlaps the known EAC-related launch crash family.",
+        "title": "New confirmation of crashes after Easy Anti-Cheat and the 397 logo at startup",
+        "workaround": "Verify game files, collect trace and crash logs, and try EAC repair or reinstallation according to the official guide; avoid anti-cheat bypasses for online play."
+      },
+      "id": "317cb0065a72e76ef33203e0",
+      "integrity_type": "ANTI-CHEAT startup compatibility / possible false positive",
+      "is_integrity": true,
+      "issue_id": "520907f03df466c17ffc",
+      "it": {
+        "summary": "Impatto RENOVA: Impedisce l’avvio del gioco e può escludere l’utente da sessioni o eventi online senza evidenza di comportamento scorretto.\n\nSintomo: Il gioco supera la fase Easy Anti-Cheat e il logo 397, quindi termina con crash al desktop prima di diventare utilizzabile.\n\nNovità: Nuova segnalazione nella finestra obbligatoria, distinta per sequenza di avvio da semplici errori di installazione EAC; non è indicato un fix ufficiale.",
+        "title": "Nuova conferma di crash dopo Easy Anti-Cheat e logo 397 all’avvio",
+        "workaround": "Verificare i file di gioco, raccogliere trace e crash logs e provare la reinstallazione o riparazione EAC secondo la guida ufficiale; evitare bypass dell’anti-cheat per l’online."
+      },
+      "published_utc": "2026-10-22T12:57:56+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Game crashing after getting past EAC and 397 logo",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=99868"
+        },
+        {
+          "name": "Le Mans Ultimate support guide – Before You Contact Support",
+          "tier": "OFFICIAL",
+          "url": "https://guide.lemansultimate.com/hc/en-gb/articles/15768405968783-Before-You-Contact-Support"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "CONTENUTI GRAFICI E SELEZIONE",
+      "build": "1.4.2",
+      "category": "graphics/UI/content",
+      "change_reason": "SEVERITY LOW → MEDIUM",
+      "competitive_impact": "POSSIBILE DISCREPANZ",
+      "confidence": 86,
+      "en": {
+        "summary": "A new community report reconfirms that the 2026 Spa WEC liveries are missing after patch 1.4.2. No official correction is documented.",
+        "title": "New confirmation of missing 2026 Spa liveries after patch 1.4.2",
+        "workaround": "Verify game files and wait for an official correction; do not manually modify protected content for online use."
+      },
+      "id": "296ce9b303a55f07571780e8",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "b73df363447026151fdf",
+      "it": {
+        "summary": "Impatto RENOVA: Riduce la fedeltà visiva del contenuto 2026 e può creare discrepanze tra selezione, eventi e rappresentazione delle vetture.\n\nSintomo: Le livree relative alla gara WEC di Spa 2026 non risultano disponibili dopo la patch 1.4.2.\n\nNovità: Nuova segnalazione community nella finestra obbligatoria, che riconferma il problema già presente nello state; non è indicato un hotfix.",
+        "title": "Nuova conferma delle livree Spa 2026 mancanti dopo la patch 1.4.2",
+        "workaround": "Verificare i file di gioco e attendere una correzione ufficiale; non modificare manualmente i contenuti protetti per l’uso online."
+      },
+      "published_utc": "2026-10-22T12:57:56+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Missing 2026 WEC Spa liveries",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=25719"
+        }
+      ],
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "TUTTE LE MODALITÀ CON FANATEC",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/hardware/software",
+      "change_reason": "SEVERITY MEDIUM → HIGH",
+      "competitive_impact": "PERDITA DEL FEEDBACK",
+      "confidence": 88,
+      "en": {
+        "summary": "A fresh community report reconfirms Fanatec CSL DD FFB freezes. The thread indicates a possible workaround, but there is no verified official LMU fix.",
+        "title": "New confirmation of Fanatec CSL DD FFB freezing, with a community workaround reported as effective",
+        "workaround": "Use only the workaround already reported in the community discussion and verify firmware, drivers, and logs before competitive racing; do not treat it as an official fix."
+      },
+      "id": "e7bb02214d36ce7f9b50e39c",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "4e78477b835cc28bf569",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare perdita improvvisa del force feedback durante la guida e compromettere controllo, sicurezza e risultati online.\n\nSintomo: Il force feedback del Fanatec CSL DD si blocca durante l’uso; la discussione più recente è stata marcata come risolta dalla community, ma il problema resta attivo nello storico con workaround non ufficiale.\n\nNovità: Nuova conferma community nella finestra, inclusa una discussione marcata come risolta; non emerge una correzione ufficiale del gioco.",
+        "title": "Nuova conferma del freeze del FFB su Fanatec CSL DD, con workaround community indicato come risolutivo",
+        "workaround": "Applicare solo il workaround già riportato nella discussione community e verificare firmware, driver e log prima di gare competitive; non considerarlo una correzione ufficiale."
+      },
+      "published_utc": "2026-10-22T12:57:55+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Fanatec CSL DD FFB freezes",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=34036"
+        },
+        {
+          "name": "Le Mans Ultimate Community – [Solved] Fanatec CSL DD FFB freezes",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=2914"
+        }
+      ],
+      "status": "WORKAROUND",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "HYPERCAR, SOPRATTUTTO SESSIONI",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/setup/physics",
+      "change_reason": "SEVERITY MEDIUM → HIGH",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 84,
+      "en": {
+        "summary": "A new community report reconfirms severe straight-line oscillation affecting Hypercars. No official physics or setup fix is documented.",
+        "title": "New confirmation of severe Hypercar oscillation on straights",
+        "workaround": "Temporarily reduce risk with more conservative setups and less aggressive FFB values; collect replay, car, track, and conditions for reporting."
+      },
+      "id": "d55a862a2b233c320256ca93",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "b4ccb97802eab29aa152",
+      "it": {
+        "summary": "Impatto RENOVA: Può rendere instabile la vettura ad alta velocità, provocare correzioni improvvise e aumentare il rischio di incidenti o danni in gara.\n\nSintomo: Le Hypercar mostrano un’oscillazione marcata sui rettilinei, con possibile trasmissione anomala al volante e perdita di stabilità ad alta velocità.\n\nNovità: Nuova conferma community nella finestra obbligatoria del problema già noto; non è indicata una modifica ufficiale a setup, fisica o FFB.",
+        "title": "Nuova conferma dell’oscillazione violenta delle Hypercar sui rettilinei",
+        "workaround": "Ridurre temporaneamente il rischio con setup più conservativi e valori FFB meno aggressivi; raccogliere replay, vettura, circuito e condizioni per la segnalazione."
+      },
+      "published_utc": "2026-10-22T12:57:54+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Hypercar oscillation report",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=2899"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "OFFLINE MODDED CONTENT AND ONL",

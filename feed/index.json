@@ -1,7 +1,140 @@
 {
-  "feed_version": 53,
-  "generated_utc": "2026-10-21T12:55:42+00:00",
+  "feed_version": 60,
+  "generated_utc": "2026-10-22T12:57:58+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; nuova Sim UI",
+      "category": "software",
+      "en": {
+        "title": "Material confirmation of increased RAM usage by the new Sim UI, up to approximately 1.8 GB, with risk of memory exhaustion"
+      },
+      "id": "df06eb85704c30778939cfd5",
+      "is_integrity": false,
+      "it": {
+        "title": "Conferma materiale dell'aumento RAM della nuova Sim UI, fino a circa 1,8 GB, con rischio di esaurimento memoria"
+      },
+      "published_utc": "2026-10-22T12:57:58+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "1.4.2",
+      "category": "software/crash/anti-cheat",
+      "en": {
+        "title": "New confirmation of black screen and failure to boot after V1.4.2"
+      },
+      "id": "d5ca110484955c90859c5483",
+      "is_integrity": true,
+      "it": {
+        "title": "Nuova conferma di black screen e mancato avvio dopo V1.4.2"
+      },
+      "published_utc": "2026-10-22T12:57:57+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "graphics/VR/UI",
+      "en": {
+        "title": "New VR HUD projection-plane issue"
+      },
+      "id": "6e2857cc6c12026dfbdaab39",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuovo problema di proiezione del piano HUD in VR"
+      },
+      "published_utc": "2026-10-22T12:57:57+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/anti-cheat",
+      "en": {
+        "title": "New confirmation of crashes after Easy Anti-Cheat and the 397 logo at startup"
+      },
+      "id": "317cb0065a72e76ef33203e0",
+      "is_integrity": true,
+      "it": {
+        "title": "Nuova conferma di crash dopo Easy Anti-Cheat e logo 397 all’avvio"
+      },
+      "published_utc": "2026-10-22T12:57:56+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "1.4.2",
+      "category": "graphics/UI/content",
+      "en": {
+        "title": "New confirmation of missing 2026 Spa liveries after patch 1.4.2"
+      },
+      "id": "296ce9b303a55f07571780e8",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma delle livree Spa 2026 mancanti dopo la patch 1.4.2"
+      },
+      "published_utc": "2026-10-22T12:57:56+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/hardware/software",
+      "en": {
+        "title": "New confirmation of Fanatec CSL DD FFB freezing, with a community workaround reported as effective"
+      },
+      "id": "e7bb02214d36ce7f9b50e39c",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma del freeze del FFB su Fanatec CSL DD, con workaround community indicato come risolutivo"
+      },
+      "published_utc": "2026-10-22T12:57:55+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "WORKAROUND",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/setup/physics",
+      "en": {
+        "title": "New confirmation of severe Hypercar oscillation on straights"
+      },
+      "id": "d55a862a2b233c320256ca93",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma dell’oscillazione violenta delle Hypercar sui rettilinei"
+      },
+      "published_utc": "2026-10-22T12:57:54+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "1.4.2.0",
