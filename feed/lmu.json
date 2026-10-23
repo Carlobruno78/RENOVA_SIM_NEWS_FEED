@@ -1,7 +1,151 @@
 {
-  "feed_version": 60,
-  "generated_utc": "2026-10-22T12:57:58+00:00",
+  "feed_version": 64,
+  "generated_utc": "2026-10-23T12:33:11+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "PRACTICE, ONLINE RACES, ENDURA",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/graphics/performance",
+      "change_reason": "NEW",
+      "competitive_impact": "RISCHIO ELEVATO DI P",
+      "confidence": 60,
+      "en": {
+        "summary": "Community reports describe intermittent stuttering together with randomly inverted or abnormal FFB during Hypercar driving on the Mulsanne. The issue can occur in one race and disappear in another, while an FFB reset provides only temporary relief. This is an early-warning community report, not an official confirmation.",
+        "title": "New reports of intermittent or inverted FFB associated with stuttering while driving",
+        "workaround": "No confirmed workaround. As a temporary mitigation, perform an FFB reset and collect traces/logs; also check Steam Input and plugins only in non-competitive sessions."
+      },
+      "id": "b2ab73e38da515dc80c41116",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "5f2a0514cfdd5f0f6628",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare perdita temporanea del controllo, errori di guida e danni competitivi durante gare endurance o team event.\n\nSintomo: Durante la guida di una Hypercar, soprattutto sul Mulsanne, compaiono stuttering ricorrenti e un FFB che può diventare casualmente invertito o anomalo. Un reset del FFB può ripristinarlo solo temporaneamente.\n\nNovità: Nuova segnalazione pubblicata il 22 ottobre 2026 UTC con una conferma aggiuntiva entro la finestra; il comportamento è descritto come intermittente e non risolto riducendo il numero di vetture visibili.",
+        "title": "Nuove segnalazioni di FFB intermittente o invertito associate a stuttering durante la guida",
+        "workaround": "Nessun workaround confermato. Come mitigazione temporanea, eseguire un reset del FFB e raccogliere trace/log; verificare anche Steam Input e plugin solo in sessioni non competitive."
+      },
+      "published_utc": "2026-10-23T12:33:11+00:00",
+      "renova_relevance": 90,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC - lmu weird ffb issues and cars stuttering",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xcrmke/lmu_weird_ffb_issues_and_cars_stuttering/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "EXTERNAL TELEMETRY, RESULTS, S",
+      "build": "Build non indicata; possibile transizione verso il prossimo aggiornamento RaceControl",
+      "category": "software/telemetry/UI/plugin",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community discussion materially clarifies the ongoing companion-app disruption: users report that several tools have stopped working, while comments attribute this to revoked third-party API authorizations during a RaceControl rebuild. The attribution is unconfirmed and should not be treated as an official explanation.",
+        "title": "Material confirmation: third-party API authorization revocation disrupts or disables companion apps and external data",
+        "workaround": "Use local data or shared-memory-based tools where available; do not assume that web APIs, schedules, or external statistics will remain available."
+      },
+      "id": "8b398526dd91db2eb49edf1c",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e7cbc6f346db6069be92",
+      "it": {
+        "summary": "Impatto RENOVA: Riduce la disponibilità di risultati, calendario e statistiche esterne; può interrompere strumenti di telemetria o pianificazione usati dai team.\n\nSintomo: Più companion app LMU risultano chiuse o non funzionanti e gli utenti segnalano perdita di accesso a risultati, calendario e dati pubblici.\n\nNovità: Discussione del 22 ottobre 2026 con indicazione community secondo cui le autorizzazioni di terze parti starebbero venendo revocate mentre RaceControl viene ricostruito. L'informazione resta non ufficiale.",
+        "title": "Conferma materiale: revoca delle autorizzazioni API di terze parti interrompe o rende inutilizzabili companion app e dati esterni",
+        "workaround": "Usare, quando disponibile, dati locali o strumenti basati su shared memory; non presumere che web API, calendario o statistiche esterne restino disponibili."
+      },
+      "published_utc": "2026-10-23T12:33:11+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC - Every LMU companion app is shutting down",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xcb2rj/every_lmu_companion_app_is_shutting_down/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE SESSION CONNECTION AND",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/network/loading/storage",
+      "change_reason": "SEVERITY MEDIUM → HIGH",
+      "competitive_impact": "CRASH PRIMA DELL'ING",
+      "confidence": 60,
+      "en": {
+        "summary": "A new report confirms a reproducible-looking crash during track connection at 23% loading. The game first appears to close while the process remains active, then exits completely. This matches the existing online session loading freeze/CTD family rather than a distinct exploit.",
+        "title": "New confirmation of a track-loading crash at 23% with the game process still active",
+        "workaround": "Verify game files, clear the shader cache, and temporarily disable non-essential plugins; collect traces and dumps before repeating competitive tests."
+      },
+      "id": "3db7e170dcda1da706c5a392",
+      "integrity_type": "ANTI-CHEAT/session availability overlap",
+      "is_integrity": false,
+      "issue_id": "21dc320e02012cc7ea8e",
+      "it": {
+        "summary": "Impatto RENOVA: Può espellere il pilota prima dell'ingresso in sessione e causare perdita di SR o partecipazione a gare online.\n\nSintomo: Durante la connessione alla pista il caricamento raggiunge il 23%, il gioco si chiude apparentemente ma il processo resta attivo; successivamente termina completamente.\n\nNovità: Nuova conferma community nella finestra obbligatoria, con percentuale di caricamento specifica e impatto diretto su una gara online con SR.",
+        "title": "Nuova conferma di crash durante il caricamento della pista al 23% con processo ancora attivo",
+        "workaround": "Verificare l'integrità dei file, pulire la shader cache e disabilitare temporaneamente plugin non essenziali; raccogliere trace e dump prima di ripetere test competitivi."
+      },
+      "published_utc": "2026-10-23T12:33:10+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC - Game insta crashes",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xc4si8/game_insta_crashes/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE RACECONTROL, PROTESTS,",
+      "build": "Build non indicata",
+      "category": "race control/replay/integrity",
+      "change_reason": "NEW",
+      "competitive_impact": "RISCHIO DI BAN O VAR",
+      "confidence": 60,
+      "en": {
+        "summary": "Recent community activity adds further anecdotal reports of delayed or disputed bans, including missing replays and associated DR/SR penalties. These reports materially reinforce the existing race-control/replay concern but do not establish a ban wave or prove adjudication errors in individual cases.",
+        "title": "New confirmation of disputed bans with missing replays, long delays, or uncertain linkage to the race",
+        "workaround": "Keep local replays, videos, and race timestamps; submit an appeal through official channels when available. Do not attempt to bypass or alter the disciplinary system."
+      },
+      "id": "0c70d8edc02c394149f3e549",
+      "integrity_type": "Possibile errore di adjudication, case-tracking o disponibil",
+      "is_integrity": true,
+      "issue_id": "a615679512f85eca7ffb",
+      "it": {
+        "summary": "Impatto RENOVA: Può produrre sospensioni, modifiche a DR/SR e contestazioni senza una prova facilmente verificabile dall'utente.\n\nSintomo: Utenti segnalano ban ricevuti con ritardo, replay non disponibile o assente e, in alcuni casi, azioni disciplinari percepite come non coerenti con la gara indicata.\n\nNovità: Nuovi commenti entro il 23 ottobre 2026 aggiungono ulteriori casi di ban di un giorno o due settimane, penalità DR/SR e assenza del replay necessario per verificare l'incidente.",
+        "title": "Nuova conferma di ban contestati con replay assente, ritardo elevato o collegamento incerto alla gara",
+        "workaround": "Conservare localmente replay, video e timestamp delle gare; presentare una contestazione tramite i canali ufficiali quando disponibili. Non tentare di aggirare o alterare il sistema disciplinare."
+      },
+      "published_utc": "2026-10-23T12:33:10+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC - Ban for what?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1x7qsq1/ban_for_what/"
+        }
+      ],
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "AVVIO DEL GIOCO, CON POSSIBILE",

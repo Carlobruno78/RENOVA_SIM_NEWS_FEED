@@ -1,7 +1,83 @@
 {
-  "feed_version": 60,
-  "generated_utc": "2026-10-22T12:57:58+00:00",
+  "feed_version": 64,
+  "generated_utc": "2026-10-23T12:33:11+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/graphics/performance",
+      "en": {
+        "title": "New reports of intermittent or inverted FFB associated with stuttering while driving"
+      },
+      "id": "b2ab73e38da515dc80c41116",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuove segnalazioni di FFB intermittente o invertito associate a stuttering durante la guida"
+      },
+      "published_utc": "2026-10-23T12:33:11+00:00",
+      "renova_relevance": 90,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; possibile transizione verso il prossimo aggiornamento RaceControl",
+      "category": "software/telemetry/UI/plugin",
+      "en": {
+        "title": "Material confirmation: third-party API authorization revocation disrupts or disables companion apps and external data"
+      },
+      "id": "8b398526dd91db2eb49edf1c",
+      "is_integrity": false,
+      "it": {
+        "title": "Conferma materiale: revoca delle autorizzazioni API di terze parti interrompe o rende inutilizzabili companion app e dati esterni"
+      },
+      "published_utc": "2026-10-23T12:33:11+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/network/loading/storage",
+      "en": {
+        "title": "New confirmation of a track-loading crash at 23% with the game process still active"
+      },
+      "id": "3db7e170dcda1da706c5a392",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma di crash durante il caricamento della pista al 23% con processo ancora attivo"
+      },
+      "published_utc": "2026-10-23T12:33:10+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata",
+      "category": "race control/replay/integrity",
+      "en": {
+        "title": "New confirmation of disputed bans with missing replays, long delays, or uncertain linkage to the race"
+      },
+      "id": "0c70d8edc02c394149f3e549",
+      "is_integrity": true,
+      "it": {
+        "title": "Nuova conferma di ban contestati con replay assente, ritardo elevato o collegamento incerto alla gara"
+      },
+      "published_utc": "2026-10-23T12:33:10+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Build non indicata; nuova Sim UI",
