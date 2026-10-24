@@ -1,7 +1,43 @@
 {
-  "feed_version": 64,
-  "generated_utc": "2026-10-23T12:33:11+00:00",
+  "feed_version": 66,
+  "generated_utc": "2026-10-24T11:59:17+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "NUOVA SIM UI, PAGINA OFFICIAL/",
+      "build": "Build non indicata; nuova Sim UI",
+      "category": "replay/UI",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "RISCHIO OPERATIVO IN",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report materially strengthens the existing Sim UI regression. Registration timers can remain stale until the user leaves and re-enters the Official tab, but doing so clears filters and favorites, creating a repeated navigation-and-reconfiguration problem.",
+        "title": "New confirmation of Sim UI regressions: registration timer not updating and filters/favorites being reset after navigation",
+        "workaround": "Return to the Official tab to refresh the timer, then manually restore filters and favorites. No reliable workaround has been confirmed."
+      },
+      "id": "b4386067d906dd3a6e188abb",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "3b4b5cc75ea18ee0c48e",
+      "it": {
+        "summary": "Impatto RENOVA: La navigazione nella pagina delle serie può mostrare informazioni di registrazione obsolete e richiedere la riconfigurazione manuale di filtri e preferiti, aumentando il rischio di selezionare o perdere una gara per errore.\n\nSintomo: Dopo l'aggiornamento, la pagina delle serie non aggiorna il timer di registrazione quando scade. Per forzare l'aggiornamento bisogna uscire dalla scheda Official e rientrare; questa operazione elimina i filtri impostati e deseleziona i preferiti.\n\nNovità: Segnalazione materialmente aggiornata il 23–24 ottobre 2026: oltre al reset già osservato di filtri e ordinamento dopo la navigazione, viene confermata la mancata ricomputazione del timer di registrazione e la perdita dei preferiti.",
+        "title": "Nuova conferma di regressioni nella Sim UI: timer di registrazione non aggiornato e filtri/preferiti azzerati dopo la navigazione",
+        "workaround": "Rientrare nella scheda Official per aggiornare il timer, quindi ripristinare manualmente filtri e preferiti. Nessun workaround affidabile confermato."
+      },
+      "published_utc": "2026-10-24T11:59:17+00:00",
+      "renova_relevance": 86,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit - r/iRacing: Has this changed??",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x822ka/has_this_changed//"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "NUOVA SIM UI; AVVIO E GESTIONE",

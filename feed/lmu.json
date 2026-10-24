@@ -1,7 +1,43 @@
 {
-  "feed_version": 64,
-  "generated_utc": "2026-10-23T12:33:11+00:00",
+  "feed_version": 66,
+  "generated_utc": "2026-10-24T11:59:17+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "AVVIO E ACCESSO ONLINE CON ANT",
+      "build": "Build non indicata",
+      "category": "anti-cheat/plugin/software/network",
+      "change_reason": "NEW",
+      "competitive_impact": "RISCHIO DI MANCATO A",
+      "confidence": 60,
+      "en": {
+        "summary": "A community update provides an additional confirmation that modified track files can prevent LMU from launching when anti-cheat is enabled. This is consistent with the existing modified-content integrity-gate issue, but involves a different track mod.",
+        "title": "New confirmation: modified track content prevents online launch with anti-cheat enabled",
+        "workaround": "Before accessing online play, restore the original files and completely remove the mod; use modified content only in modes compatible with offline use."
+      },
+      "id": "edcdaadf5edb762dc15230ee",
+      "integrity_type": "ANTI-CHEAT content-integrity gate / possibile falso positivo",
+      "is_integrity": true,
+      "issue_id": "ba56f9d2d5fa4893c0f0",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l’accesso online a utenti che hanno installato mod o file di contenuto modificati, con rischio di falsi positivi percepiti e perdita di disponibilità durante eventi competitivi.\n\nSintomo: Una discussione community su una mod della Nordschleife riporta che, con i file modificati presenti, il gioco non si avvia quando l’anti-cheat è abilitato.\n\nNovità: Conferma aggiuntiva, osservata il 24 ottobre 2026, che il controllo di integrità dell’anti-cheat blocca l’avvio con contenuti modificati; il caso amplia la conferma precedente relativa ai file MAS modificati.",
+        "title": "Nuova conferma: contenuti di pista modificati impediscono l’avvio online con l’anti-cheat attivo",
+        "workaround": "Prima di accedere online, ripristinare i file originali e rimuovere completamente la mod; usare contenuti modificati solo in modalità compatibili con il loro impiego offline."
+      },
+      "published_utc": "2026-10-24T11:59:17+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – The Nordschleife is in LMU now!",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xda7cj/the_nordschleife_is_in_lmu_now/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "PRACTICE, ONLINE RACES, ENDURA",

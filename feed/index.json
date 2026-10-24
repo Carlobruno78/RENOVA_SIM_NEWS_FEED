@@ -1,7 +1,45 @@
 {
-  "feed_version": 64,
-  "generated_utc": "2026-10-23T12:33:11+00:00",
+  "feed_version": 66,
+  "generated_utc": "2026-10-24T11:59:17+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata",
+      "category": "anti-cheat/plugin/software/network",
+      "en": {
+        "title": "New confirmation: modified track content prevents online launch with anti-cheat enabled"
+      },
+      "id": "edcdaadf5edb762dc15230ee",
+      "is_integrity": true,
+      "it": {
+        "title": "Nuova conferma: contenuti di pista modificati impediscono l’avvio online con l’anti-cheat attivo"
+      },
+      "published_utc": "2026-10-24T11:59:17+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; nuova Sim UI",
+      "category": "replay/UI",
+      "en": {
+        "title": "New confirmation of Sim UI regressions: registration timer not updating and filters/favorites being reset after navigation"
+      },
+      "id": "b4386067d906dd3a6e188abb",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma di regressioni nella Sim UI: timer di registrazione non aggiornato e filtri/preferiti azzerati dopo la navigazione"
+      },
+      "published_utc": "2026-10-24T11:59:17+00:00",
+      "renova_relevance": 86,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata",
