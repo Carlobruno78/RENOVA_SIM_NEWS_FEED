@@ -1,7 +1,120 @@
 {
-  "feed_version": 66,
-  "generated_utc": "2026-10-24T11:59:17+00:00",
+  "feed_version": 69,
+  "generated_utc": "2026-10-25T12:34:11+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "EVENTO TEAM ENDURANCE 24 ORE D",
+      "build": "Build non indicata; evento speciale 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "race control/network/netcode/team event",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE PERDITA IR",
+      "confidence": 60,
+      "en": {
+        "summary": "A community report from the 24-hour team event describes a pit-service state failure in which the car was moved from the pit box to the garage without a refuelling option, forcing a DNF. The report is currently unverified and based on a single documented account.",
+        "title": "Teleport from the pit box to the garage without refuelling during the 24 Hours of Le Mans",
+        "workaround": "No reliable workaround is known. Preserve the session replay and RUDP logs and report the case with the slot, split, and UTC time; before an event, verify that refuelling and pit-stop operations are available."
+      },
+      "id": "e0c792fcb351ce04a5fea498",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "37023ede94b5f8b298af",
+      "it": {
+        "summary": "Impatto RENOVA: Può rendere impossibile completare il pit stop, causare perdita di giri o DNF e compromettere un intero evento a squadre.\n\nSintomo: Un partecipante ha riferito di essere stato teletrasportato dal pit box al garage senza l’opzione di rifornimento, dovendo poi ritirarsi dalla gara.\n\nNovità: Segnalazione nuova e distinta dai problemi generici di sincronizzazione o driver swap: il passaggio pit box/garage avrebbe saltato le operazioni di servizio e impedito il rifornimento.",
+        "title": "Teletrasporto dal pit box al garage senza rifornimento durante la 24 Ore di Le Mans",
+        "workaround": "Nessun workaround affidabile noto. Conservare replay e log RUDP della sessione e segnalare il caso con slot, split e orario UTC; verificare prima dell’evento che il rifornimento e le operazioni di pit stop siano disponibili."
+      },
+      "published_utc": "2026-10-25T12:34:11+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – WE DID IT - 11.8k players simultaneously!!!",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xebzg0/we_did_it_118k_players_simultaneously/"
+        }
+      ],
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "EVENTI TEAM ENDURANCE A GRIGLI",
+      "build": "Build non indicata; evento speciale 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "network/netcode/team event",
+      "change_reason": "OFFICIAL SEVERITY HIGH → MEDIUM",
+      "competitive_impact": "MIGLIORAMENTO POSITI",
+      "confidence": 82,
+      "en": {
+        "summary": "Reports from the 24-hour event suggest that RUDP stability has materially improved for many teams, with several long stints completed without disconnects. However, isolated desyncs, cars disappearing and returning, leader disconnects, and a server crash were still reported, so the existing RUDP team-event issue remains open.",
+        "title": "RUDP update in the 24 Hours of Le Mans: generally improved stability, but desyncs, invisible cars, and isolated disconnects persist",
+        "workaround": "For events that require it, use the officially recommended +tracerudp=2 launch option and preserve RUDP logs if problems occur. Increasing upload capacity may have helped in some community cases, but it is not a universally verified workaround."
+      },
+      "id": "cb7ab757ed1c2ddb4edec79d",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "c4a8055c6b1d7e66f025",
+      "it": {
+        "summary": "Impatto RENOVA: Indica un miglioramento materiale della stabilità negli eventi a griglia elevata, ma conferma che desync, vetture che scompaiono e disconnessioni isolate possono ancora compromettere stint e risultati.\n\nSintomo: Molti team hanno riferito assenza di disconnessioni e buon comportamento del netcode usando il percorso RUDP, mentre altri hanno osservato vetture desincronizzate o temporaneamente scomparse, lag, disconnessioni dal leader e almeno un crash del server.\n\nNovità: Rispetto alle precedenti segnalazioni generiche di instabilità RUDP, l’evento del 24 ottobre mostra un miglioramento materiale per numerosi team, ma non una risoluzione completa: i problemi residui sono concentrati in casi isolati di desync, perdita di connessione e stabilità server.",
+        "title": "Aggiornamento RUDP nella 24 Ore di Le Mans: stabilità generalmente migliore ma persistono desync, vetture invisibili e disconnessioni isolate",
+        "workaround": "Per gli eventi che lo richiedono, usare l’opzione di avvio ufficialmente indicata +tracerudp=2 e conservare i log RUDP in caso di problemi. Aumentare l’upload può aver aiutato in alcuni casi community, ma non è un workaround verificato universalmente."
+      },
+      "published_utc": "2026-10-25T12:34:11+00:00",
+      "renova_relevance": 88,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – WE DID IT - 11.8k players simultaneously!!!",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xebzg0/we_did_it_118k_players_simultaneously/"
+        },
+        {
+          "name": "Le Mans Ultimate – Special Events Calendar Q3/Q4 2026",
+          "tier": "OFFICIAL",
+          "url": "https://lemansultimate.com/special-events-calendar-q3-4-2026/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "EVENTO TEAM ENDURANCE 24 ORE D",
+      "build": "Build non indicata; evento speciale 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "setup/physics/race control",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE PERDITA IM",
+      "confidence": 60,
+      "en": {
+        "summary": "Community reports from the 24 Hours of Le Mans event indicate that brake failures may have been active despite reportedly being disabled for the slot. Failures were mainly reported on GT3 cars and caused major race losses. The issue is not officially confirmed.",
+        "title": "Possible unexpected activation of brake failures in the 24 Hours of Le Mans event",
+        "workaround": "No confirmed official workaround. As a precaution, monitor brake telemetry and plan a possible brake change during pit stops; keeping the ducts open did not prevent all reported failures."
+      },
+      "id": "4ac8a18edb0fc0a4f38dc284",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "37023ede94b5f8b298af",
+      "it": {
+        "summary": "Impatto RENOVA: Rischio elevato di perdita improvvisa della frenata, DNF e danno competitivo durante una gara endurance; le segnalazioni indicano un comportamento non coerente con l’impostazione dichiarata dell’evento.\n\nSintomo: Più team hanno riportato guasti improvvisi ai freni, soprattutto su vetture GT3, anche con temperature apparentemente normali e condotti aperti. Un messaggio community/developer avrebbe indicato che i guasti erano disabilitati per lo slot, ma il comportamento è stato comunque osservato.\n\nNovità: Nuovo comportamento specifico dell’evento: guasti ai freni apparentemente attivi o applicati in modo non previsto, con segnalazioni su Porsche, Lexus, BMW, McLaren, Ferrari e Corvette. Alcuni partecipanti hanno inoltre riportato cambi freni inattesi o non desiderati.",
+        "title": "Possibile attivazione imprevista dei guasti ai freni nell’evento 24 Ore di Le Mans",
+        "workaround": "Nessun workaround ufficiale confermato. Come misura prudenziale, monitorare la telemetria dei freni e pianificare un eventuale cambio freni ai pit stop; mantenere i condotti aperti non ha escluso tutte le segnalazioni."
+      },
+      "published_utc": "2026-10-25T12:34:11+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – Brake Failure for Le Mans 24 PSA",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xdycxc/brake_failure_for_le_mans_24_psa/"
+        }
+      ],
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "AVVIO E ACCESSO ONLINE CON ANT",

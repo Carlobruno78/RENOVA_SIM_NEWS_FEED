@@ -1,7 +1,64 @@
 {
-  "feed_version": 66,
-  "generated_utc": "2026-10-24T11:59:17+00:00",
+  "feed_version": 69,
+  "generated_utc": "2026-10-25T12:34:11+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; evento speciale 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "race control/network/netcode/team event",
+      "en": {
+        "title": "Teleport from the pit box to the garage without refuelling during the 24 Hours of Le Mans"
+      },
+      "id": "e0c792fcb351ce04a5fea498",
+      "is_integrity": false,
+      "it": {
+        "title": "Teletrasporto dal pit box al garage senza rifornimento durante la 24 Ore di Le Mans"
+      },
+      "published_utc": "2026-10-25T12:34:11+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; evento speciale 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "network/netcode/team event",
+      "en": {
+        "title": "RUDP update in the 24 Hours of Le Mans: generally improved stability, but desyncs, invisible cars, and isolated disconnects persist"
+      },
+      "id": "cb7ab757ed1c2ddb4edec79d",
+      "is_integrity": false,
+      "it": {
+        "title": "Aggiornamento RUDP nella 24 Ore di Le Mans: stabilità generalmente migliore ma persistono desync, vetture invisibili e disconnessioni isolate"
+      },
+      "published_utc": "2026-10-25T12:34:11+00:00",
+      "renova_relevance": 88,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; evento speciale 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "setup/physics/race control",
+      "en": {
+        "title": "Possible unexpected activation of brake failures in the 24 Hours of Le Mans event"
+      },
+      "id": "4ac8a18edb0fc0a4f38dc284",
+      "is_integrity": false,
+      "it": {
+        "title": "Possibile attivazione imprevista dei guasti ai freni nell’evento 24 Ore di Le Mans"
+      },
+      "published_utc": "2026-10-25T12:34:11+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Build non indicata",
