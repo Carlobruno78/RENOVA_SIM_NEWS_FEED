@@ -1,7 +1,156 @@
 {
-  "feed_version": 69,
-  "generated_utc": "2026-10-25T12:34:11+00:00",
+  "feed_version": 73,
+  "generated_utc": "2026-10-26T14:15:02+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "EVENTI TEAM/ENDURANCE ONLINE C",
+      "build": "Build non indicata; 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "race control/team event sync/software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE PERDITA CO",
+      "confidence": 60,
+      "en": {
+        "summary": "A community report from the 24-hour team event describes a driver-swap state corruption after a crash, causing the replacement driver to receive a negative lap count and the team to drop to last place. The report is single-source and requires replay, event, and server-side validation.",
+        "title": "Driver swap after a crash can corrupt the lap count to a negative value",
+        "workaround": "No confirmed workaround. Do not assume the result is reliable without checking the replay and server-side classification; report the case with driver-swap data."
+      },
+      "id": "7b609f933be0dcd86995b75c",
+      "integrity_type": "race-control lap-count/state corruption",
+      "is_integrity": false,
+      "issue_id": "37023ede94b5f8b298af",
+      "it": {
+        "summary": "Impatto RENOVA: Può rendere inutilizzabile il risultato di una squadra dopo ore di gara, spostando il veicolo in fondo alla classifica o falsificando il conteggio dei giri.\n\nSintomo: Dopo un crash durante il relais e il passaggio a un altro pilota, il nuovo pilota avrebbe ricevuto un conteggio di -33 giri ed essere finito ultimo.\n\nNovità: Segnalazione nuova nella finestra di un errore di stato specifico del driver swap che corrompe il conteggio dei giri; non coincide con il semplice crash o desync di sessione già nello state.",
+        "title": "Cambio pilota dopo crash può corrompere il conteggio dei giri fino a un valore negativo",
+        "workaround": "Nessun workaround confermato. Evitare di considerare il risultato affidabile senza verificare replay e classifica server-side; segnalare il caso con i dati del cambio pilota."
+      },
+      "published_utc": "2026-10-26T14:15:02+00:00",
+      "renova_relevance": 89,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – WE DID IT - 11.8k players simultaneously!!!",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xebzg0/we_did_it_118k_players_simultaneously/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "24 ORE DI LE MANS, EVENTI TEAM",
+      "build": "Build non indicata; 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "race control/network/netcode/team event",
+      "change_reason": "STATUS UNVERIFIED → INVESTIGATING",
+      "competitive_impact": "PERDITA DI RIFORNIME",
+      "confidence": 60,
+      "en": {
+        "summary": "A fresh community report confirms a race-control or team-event transition failure in which a car is moved from the pit box to the garage and loses the ability to refuel. The failure can end an endurance team race and remains unverified by an official source.",
+        "title": "New confirmation of teleportation from the pit box to the garage without refuelling in the 24 Hours of Le Mans",
+        "workaround": "No reliable workaround confirmed. Preserve the replay, RUDP logs, and full event details for a support report."
+      },
+      "id": "4f6a8b114576d1d15051d83e",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "37023ede94b5f8b298af",
+      "it": {
+        "summary": "Impatto RENOVA: Può annullare un intero stint o causare un DNF durante un evento endurance a squadre, impedendo il rifornimento e compromettendo il risultato competitivo.\n\nSintomo: Una squadra riferisce di essere stata teletrasportata dal pit box al garage senza possibilità di rifornire, con conseguente DNF.\n\nNovità: Nuova conferma community nella finestra osservata dello stesso comportamento già noto nell'evento endurance del 24 ottobre 2026.",
+        "title": "Nuova conferma del teletrasporto dal pit box al garage senza rifornimento nella 24 Ore di Le Mans",
+        "workaround": "Nessun workaround affidabile confermato. Conservare replay, log RUDP e dettagli completi dell'evento per una segnalazione al supporto."
+      },
+      "published_utc": "2026-10-26T14:15:01+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – WE DID IT - 11.8k players simultaneously!!!",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xebzg0/we_did_it_118k_players_simultaneously/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "EVENTI TEAM/ENDURANCE ONLINE,",
+      "build": "Build non indicata; 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "network/netcode/team event",
+      "change_reason": "SEVERITY MEDIUM → HIGH",
+      "competitive_impact": "DISCONNESSIONI, PERD",
+      "confidence": 79,
+      "en": {
+        "summary": "Community feedback indicates that the RUDP rollout substantially improved overall stability during the 24 Hours of Le Mans, but did not remove isolated disconnects, server failures, or visual/replay desynchronization. This is a material update to the existing team-event networking issue rather than a new mechanism.",
+        "title": "Isolated disconnections, server crashes, and replay desyncs persist in the 24 Hours despite the RUDP improvement",
+        "workaround": "Use the event-prescribed RUDP tag and collect RUDP logs with split, time, timezone, and event name; no universal mitigation is confirmed."
+      },
+      "id": "4570326e6d4e47902d2d08d2",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "c4a8055c6b1d7e66f025",
+      "it": {
+        "summary": "Impatto RENOVA: Conferma che la stabilità generalmente migliore non elimina i failure mode residui negli eventi team ad alta partecipazione, con rischio di perdita del relais o risultato compromesso.\n\nSintomo: Segnalati casi di disconnessione anche nelle split alte, crash del server, vetture che scompaiono e ricompaiono e desync visibile nel replay.\n\nNovità: Nuova evidenza nella finestra: il RUDP è descritto come generalmente stabile, ma restano failure isolati durante l'evento endurance, inclusi disconnessioni e crash server.",
+        "title": "Nella 24 Ore persistono casi isolati di disconnessione, crash server e desync in replay nonostante il miglioramento RUDP",
+        "workaround": "Usare il tag RUDP previsto dall'evento e raccogliere i log RUDP con split, orario, fuso e nome dell'evento; nessuna mitigazione universale è confermata."
+      },
+      "published_utc": "2026-10-26T14:15:01+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – WE DID IT - 11.8k players simultaneously!!!",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xebzg0/we_did_it_118k_players_simultaneously/"
+        },
+        {
+          "name": "Le Mans Ultimate – Q3/Q4 Special Events Calendar",
+          "tier": "OFFICIAL",
+          "url": "https://lemansultimate.com/special-events-calendar-q3-4-2026/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "24 ORE DI LE MANS, EVENTI TEAM",
+      "build": "Build non indicata; 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "integrity/anti-cheat/race control",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILI INCIDENTI",
+      "confidence": 54,
+      "en": {
+        "summary": "Community reports describe a participant allegedly switching between normal and severely abnormal pace while causing repeated crashes in the 24-hour event. The behaviour may represent intentional wrecking, account sharing, or a technical failure; the available evidence is insufficient to classify it as a cheat or hack.",
+        "title": "Report of possible intentional wrecking associated with repeated driver or sim-rig switching in the 24 Hours",
+        "workaround": "Do not make accusations or apply sanctions based only on this report. Preserve the replay, account identifier, timestamp, and full video and submit the case through the official protest system."
+      },
+      "id": "38dbea94dbb51201357d9b37",
+      "integrity_type": "POSSIBLE INTENTIONAL WRECKING / ACCOUNT OR RIG SHARING",
+      "is_integrity": true,
+      "issue_id": "9d275310c5b088fa6cc7",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare incidenti di massa, danneggiare più squadre e mettere sotto pressione i sistemi di protesta, stewarding e ban durante gli eventi endurance.\n\nSintomo: Un account viene descritto come alternante tra ritmo normale e tempi estremamente lenti, con ripetuti incidenti che avrebbero coinvolto diversi concorrenti; altri utenti ipotizzano il cambio tra più persone sullo stesso sim rig.\n\nNovità: Nuova segnalazione nella finestra di possibile abuso coordinato o intentional wrecking in un evento team ad alta partecipazione. Non è disponibile una prova video o una conferma ufficiale di cheat.",
+        "title": "Segnalazione di possibile wrecking intenzionale associato a cambio ripetuto di pilota o sim rig nella 24 Ore",
+        "workaround": "Non applicare accuse o sanzioni basandosi soltanto su questo report. Conservare replay, identificativo account, timestamp e video completo e inoltrare il caso al sistema ufficiale di protesta."
+      },
+      "published_utc": "2026-10-26T14:15:01+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – Intent wreckers in other splits in the 24hrs?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xf56gk/intent_wreckers_in_other_splits_in_the_24hrs/"
+        }
+      ],
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "EVENTO TEAM ENDURANCE 24 ORE D",

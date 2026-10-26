@@ -1,7 +1,83 @@
 {
-  "feed_version": 69,
-  "generated_utc": "2026-10-25T12:34:11+00:00",
+  "feed_version": 73,
+  "generated_utc": "2026-10-26T14:15:02+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "race control/team event sync/software",
+      "en": {
+        "title": "Driver swap after a crash can corrupt the lap count to a negative value"
+      },
+      "id": "7b609f933be0dcd86995b75c",
+      "is_integrity": false,
+      "it": {
+        "title": "Cambio pilota dopo crash può corrompere il conteggio dei giri fino a un valore negativo"
+      },
+      "published_utc": "2026-10-26T14:15:02+00:00",
+      "renova_relevance": 89,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "race control/network/netcode/team event",
+      "en": {
+        "title": "New confirmation of teleportation from the pit box to the garage without refuelling in the 24 Hours of Le Mans"
+      },
+      "id": "4f6a8b114576d1d15051d83e",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma del teletrasporto dal pit box al garage senza rifornimento nella 24 Ore di Le Mans"
+      },
+      "published_utc": "2026-10-26T14:15:01+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "network/netcode/team event",
+      "en": {
+        "title": "Isolated disconnections, server crashes, and replay desyncs persist in the 24 Hours despite the RUDP improvement"
+      },
+      "id": "4570326e6d4e47902d2d08d2",
+      "is_integrity": false,
+      "it": {
+        "title": "Nella 24 Ore persistono casi isolati di disconnessione, crash server e desync in replay nonostante il miglioramento RUDP"
+      },
+      "published_utc": "2026-10-26T14:15:01+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Build non indicata; 24 Ore di Le Mans del 24 ottobre 2026",
+      "category": "integrity/anti-cheat/race control",
+      "en": {
+        "title": "Report of possible intentional wrecking associated with repeated driver or sim-rig switching in the 24 Hours"
+      },
+      "id": "38dbea94dbb51201357d9b37",
+      "is_integrity": true,
+      "it": {
+        "title": "Segnalazione di possibile wrecking intenzionale associato a cambio ripetuto di pilota o sim rig nella 24 Ore"
+      },
+      "published_utc": "2026-10-26T14:15:01+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Build non indicata; evento speciale 24 Ore di Le Mans del 24 ottobre 2026",
