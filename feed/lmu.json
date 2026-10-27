@@ -1,7 +1,84 @@
 {
-  "feed_version": 73,
-  "generated_utc": "2026-10-26T14:15:02+00:00",
+  "feed_version": 77,
+  "generated_utc": "2026-10-27T13:07:47+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GUIDA IN PISTA, ONLINE E OFFLI",
+      "build": "Ultimo aggiornamento LMU; build non indicata",
+      "category": "FFB/input/hardware/software",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA DI FEEDBACK",
+      "confidence": 60,
+      "en": {
+        "summary": "A Steam Community report posted within the observation window describes force-feedback loss on a Thrustmaster T300RS following the latest LMU update. The report does not provide enough detail to establish whether the cause is game-side, driver-side, or device-side, and no verified workaround was found.",
+        "title": "New report of FFB loss on the Thrustmaster T300RS after the latest update",
+        "workaround": "No verified workaround was found within the window; collect driver/firmware versions, logs, and the conditions under which FFB is lost before attributing the cause to the game."
+      },
+      "id": "f97af267da2d8ea1b19cd573",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "27d27e69f0d9f8c92015",
+      "it": {
+        "summary": "Impatto RENOVA: La perdita del force feedback può compromettere il controllo della vettura e creare un rischio competitivo e hardware durante la guida.\n\nSintomo: Un utente segnala perdita del force feedback su Thrustmaster T300RS dopo l’ultimo aggiornamento del gioco.\n\nNovità: È comparsa una nuova segnalazione specifica per T300RS nella finestra osservata. È distinta dalle segnalazioni storiche di mancato rilevamento di rotazione/pedali del T300RS e dai freeze FFB documentati su altri dispositivi.",
+        "title": "Nuova segnalazione di perdita del FFB su Thrustmaster T300RS dopo l’ultimo aggiornamento",
+        "workaround": "Nessun workaround verificato nella finestra; raccogliere versione driver/firmware, log e condizioni di perdita del FFB prima di attribuire la causa al gioco."
+      },
+      "published_utc": "2026-10-27T13:07:47+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community – Le Mans Ultimate discussions",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/discussions/0/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "RACE WEEKEND, PRATICA ONLINE E",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/loading/race weekend",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "PUÒ CAUSARE MANCATA",
+      "confidence": 70,
+      "en": {
+        "summary": "Community reports within the window indicate that the known loading/session crash problem is still occurring, including a freeze at 51% and crashes when starting Le Mans weekend practice. No official fix or build attribution was found in the observed window.",
+        "title": "New reports of a freeze or crash while loading the Le Mans weekend, including at 51%",
+        "workaround": "No verified workaround was found within the window. Do not classify the issue as resolved without logs or a BugSplat report."
+      },
+      "id": "0c88084d670bea1794602e55",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "21dc320e02012cc7ea8e",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l’accesso a prove, qualifiche e gare online, causando perdita della sessione o mancata partecipazione.\n\nSintomo: Il gioco si blocca al 51% durante il caricamento oppure va in crash entrando nella sessione di pratica del weekend di Le Mans o subito dopo l’ingresso in vettura.\n\nNovità: Nuova conferma nella finestra osservata di un problema già noto di blocco/crash in caricamento, con il weekend di Le Mans e la soglia del 51% indicati come nuovi dettagli operativi.",
+        "title": "Nuove segnalazioni di blocco o crash durante il caricamento del weekend di Le Mans, anche al 51%",
+        "workaround": "Nessun workaround verificato nella finestra. Evitare di classificare il caso come risolto senza log o BugSplat report."
+      },
+      "published_utc": "2026-10-27T13:07:42+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community – Le Mans Ultimate discussions",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/discussions/0/"
+        },
+        {
+          "name": "Steam Community – Le Mans Ultimate store/community page",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "EVENTI TEAM/ENDURANCE ONLINE C",

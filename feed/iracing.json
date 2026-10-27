@@ -1,7 +1,84 @@
 {
-  "feed_version": 73,
-  "generated_utc": "2026-10-26T14:15:02+00:00",
+  "feed_version": 77,
+  "generated_utc": "2026-10-27T13:07:47+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "VR/OPENXR CON OPENXR TOOLKIT O",
+      "build": "Virtual Real Cockpit 0.3.9.7; build iRacing non indicata",
+      "category": "graphics/VR",
+      "change_reason": "NEW",
+      "competitive_impact": "IMPOSSIBILITÀ DI AVV",
+      "confidence": 88,
+      "en": {
+        "summary": "A third-party VR layer release on 2026-10-26 documents a startup-crash compatibility problem between iRacing and OpenXR Toolkit or similar OpenXR add-ons. Version 0.3.9.7 of Virtual Real Cockpit claims to fix the interaction, making this a newly documented plugin/VR compatibility issue with an available mitigation.",
+        "title": "iRacing startup crash with OpenXR Toolkit or similar OpenXR layers; fix shipped in Virtual Real Cockpit 0.3.9.7",
+        "workaround": "Update Virtual Real Cockpit to version 0.3.9.7 if it is being used, or disable/remove OpenXR Toolkit and similar OpenXR layers before starting iRacing. Recheck compatibility after each toolkit update."
+      },
+      "id": "da2679bd69df61d4fed5616a",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "6b10e017adc398cf659e",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l'avvio di iRacing in VR quando è presente un layer OpenXR incompatibile; il problema è rilevante per configurazioni VR con overlay o toolkit di terze parti.\n\nSintomo: Crash di iRacing o di altri simulatori all'avvio quando OpenXR Toolkit o un add-on OpenXR simile è installato.\n\nNovità: Il changelog di Virtual Real Cockpit v0.3.9.7, pubblicato il 2026-10-26, dichiara la correzione del crash all'avvio con OpenXR Toolkit o add-on simili. La correzione è nel layer/app di terze parti, non in una build iRacing identificata.",
+        "title": "Crash di iRacing all'avvio con OpenXR Toolkit o layer OpenXR simili; fix distribuito in Virtual Real Cockpit 0.3.9.7",
+        "workaround": "Aggiornare Virtual Real Cockpit alla versione 0.3.9.7 se utilizzato, oppure disabilitare/rimuovere OpenXR Toolkit e layer OpenXR simili prima di avviare iRacing. Verificare la compatibilità dopo ogni aggiornamento del toolkit."
+      },
+      "published_utc": "2026-10-27T13:07:46+00:00",
+      "renova_relevance": 78,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Virtual Real Cockpit — Change log v0.3.9.7",
+          "tier": "TECHNICAL",
+          "url": "https://www.virtualrealcockpit.com/changelog"
+        },
+        {
+          "name": "iRacing Support — Notice Regarding OpenXR Toolkit",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000177470-notice-regarding-openxr-toolkit"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE UFFICIALI E SESSIONI DI G",
+      "build": "2.61.5.25",
+      "category": "software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "INTERRUZIONE DELLA G",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report confirms recurring mid-session desktop crashes in iRacingSim64DX11.exe build 2.61.5.25, including an access-violation APPCRASH (C0000005). The reporter experienced the issue repeatedly during October, and follow-up comments indicate that other users are still affected. This is a material update to the existing simulator-crash issue, not a distinct failure mode.",
+        "title": "New confirmation of desktop crashes while driving with iRacingSim64DX11.exe build 2.61.5.25",
+        "workaround": "No reliable workaround has been confirmed. Collect crash dumps/Event Viewer data and send them to iRacing Support; do not assume generic driver or hardware updates are a fix without specific verification."
+      },
+      "id": "aa6d9404756910eed6bd6948",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "262007c075682d123f38",
+      "it": {
+        "summary": "Impatto RENOVA: Può terminare la simulazione durante una gara, causare perdita di posizione, incidenti e danni a iRating/SR; la frequenza riportata suggerisce una regressione ancora attiva.\n\nSintomo: Crash improvviso a desktop durante la guida, talvolta preceduto da un breve freeze; il log Windows riporta APPCRASH di iRacingSim64DX11.exe con eccezione C0000005. Un ulteriore caso segnala 5–6 crash nello stesso mese e descrive il problema come diffuso.\n\nNovità: Nuova segnalazione pubblicata il 2026-10-26 con stack APPCRASH completo e ulteriore conferma il 2026-10-27; il problema resta presente dopo le precedenti segnalazioni fino al 2026-10-19.",
+        "title": "Nuova conferma di crash a desktop durante la guida con iRacingSim64DX11.exe build 2.61.5.25",
+        "workaround": "Nessun workaround affidabile confermato. Raccogliere crash dump/Event Viewer e inviarli al supporto iRacing; evitare di considerare risolutivi aggiornamenti generici di driver o hardware senza una verifica specifica."
+      },
+      "published_utc": "2026-10-27T13:07:43+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Sim crash while driving",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xg3w7d/sim_crash_while_driving/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "NUOVA SIM UI, PAGINA OFFICIAL/",

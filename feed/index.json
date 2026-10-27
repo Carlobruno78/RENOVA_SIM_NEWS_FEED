@@ -1,7 +1,83 @@
 {
-  "feed_version": 73,
-  "generated_utc": "2026-10-26T14:15:02+00:00",
+  "feed_version": 77,
+  "generated_utc": "2026-10-27T13:07:47+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Ultimo aggiornamento LMU; build non indicata",
+      "category": "FFB/input/hardware/software",
+      "en": {
+        "title": "New report of FFB loss on the Thrustmaster T300RS after the latest update"
+      },
+      "id": "f97af267da2d8ea1b19cd573",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova segnalazione di perdita del FFB su Thrustmaster T300RS dopo l’ultimo aggiornamento"
+      },
+      "published_utc": "2026-10-27T13:07:47+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Virtual Real Cockpit 0.3.9.7; build iRacing non indicata",
+      "category": "graphics/VR",
+      "en": {
+        "title": "iRacing startup crash with OpenXR Toolkit or similar OpenXR layers; fix shipped in Virtual Real Cockpit 0.3.9.7"
+      },
+      "id": "da2679bd69df61d4fed5616a",
+      "is_integrity": false,
+      "it": {
+        "title": "Crash di iRacing all'avvio con OpenXR Toolkit o layer OpenXR simili; fix distribuito in Virtual Real Cockpit 0.3.9.7"
+      },
+      "published_utc": "2026-10-27T13:07:46+00:00",
+      "renova_relevance": 78,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2.61.5.25",
+      "category": "software",
+      "en": {
+        "title": "New confirmation of desktop crashes while driving with iRacingSim64DX11.exe build 2.61.5.25"
+      },
+      "id": "aa6d9404756910eed6bd6948",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma di crash a desktop durante la guida con iRacingSim64DX11.exe build 2.61.5.25"
+      },
+      "published_utc": "2026-10-27T13:07:43+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/loading/race weekend",
+      "en": {
+        "title": "New reports of a freeze or crash while loading the Le Mans weekend, including at 51%"
+      },
+      "id": "0c88084d670bea1794602e55",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuove segnalazioni di blocco o crash durante il caricamento del weekend di Le Mans, anche al 51%"
+      },
+      "published_utc": "2026-10-27T13:07:42+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Build non indicata; 24 Ore di Le Mans del 24 ottobre 2026",
