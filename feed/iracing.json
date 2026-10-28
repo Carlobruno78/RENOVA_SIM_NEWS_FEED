@@ -1,7 +1,48 @@
 {
-  "feed_version": 77,
-  "generated_utc": "2026-10-27T13:07:47+00:00",
+  "feed_version": 80,
+  "generated_utc": "2026-10-28T14:00:01+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE E SESSIONI DI GUIDA, INCL",
+      "build": "2.61.5.25",
+      "category": "software",
+      "change_reason": "INTEGRITY_CLASS_CHANGED",
+      "competitive_impact": "CRASH DURANTE QUALIF",
+      "confidence": 70,
+      "en": {
+        "summary": "Additional October 27 reports materially reinforce the existing investigation into sudden iRacingSim64DX11.exe desktop crashes on build 2.61.5.25. Reports describe freezes followed by simulator termination during race start or mid-race, including on modern hardware. References to Start_Protected_Game.exe and overlays remain unconfirmed as root causes.",
+        "title": "Further confirmations of desktop crashes while driving, including freezes at race start, on build 2.61.5.25",
+        "workaround": "No reliable workaround has been confirmed. Some users report improvement after disabling the NVIDIA overlay or temporarily avoiding VR, but these are anecdotal mitigations; collect crash dumps and logs and submit them to iRacing Support."
+      },
+      "id": "ab2eac87e2af62cfb5a79444",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": true,
+      "issue_id": "262007c075682d123f38",
+      "it": {
+        "summary": "Impatto RENOVA: Rischio elevato di abbandono forzato della sessione, perdita di giri e danni a iRating/SR durante gare ufficiali. Le nuove segnalazioni indicano che il problema continua a manifestarsi anche in sistemi recenti e durante l'inizio gara.\n\nSintomo: Il simulatore presenta uno stutter o freeze improvviso durante la gara, quindi si chiude al desktop senza messaggio visibile. Le segnalazioni più recenti includono eventi all'inizio della gara e riferimenti a errori di access violation; in un caso viene menzionato anche Start_Protected_Game.exe, senza conferma che l'anti-cheat sia la causa.\n\nNovità: Nuova corroborazione community nella finestra osservata: più utenti riportano crash durante la guida o subito all'inizio gara il 27 ottobre 2026, con conseguenze competitive. È inoltre emersa una possibile associazione con VR/NVIDIA e overlay, ma non è stata verificata come causa generale.",
+        "title": "Ulteriori conferme di crash a desktop durante la guida, inclusi blocchi all'inizio gara, con build 2.61.5.25",
+        "workaround": "Nessun workaround affidabile confermato. Alcuni utenti riportano miglioramenti disattivando l'overlay NVIDIA o evitando temporaneamente la VR, ma si tratta di mitigazioni aneddotiche; raccogliere crash dump e log e inviarli al supporto iRacing."
+      },
+      "published_utc": "2026-10-28T14:00:01+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit - Beginning of Race - Sim Crash",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xgulrl/beginning_of_race_sim_crash/"
+        },
+        {
+          "name": "Reddit - Sim crash while driving",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xg3w7d/sim_crash_while_driving/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "VR/OPENXR CON OPENXR TOOLKIT O",

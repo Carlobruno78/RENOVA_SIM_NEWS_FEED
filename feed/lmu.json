@@ -1,7 +1,79 @@
 {
-  "feed_version": 77,
-  "generated_utc": "2026-10-27T13:07:47+00:00",
+  "feed_version": 80,
+  "generated_utc": "2026-10-28T14:00:01+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "RACECONTROL ONLINE CHAMPIONSHI",
+      "build": "LMU 1.4 reporting system; build non indicata",
+      "category": "race control/replay/integrity",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILI PENALITÀ E",
+      "confidence": 60,
+      "en": {
+        "summary": "Recent community evidence indicates that the 1.4 RaceControl reporting workflow can fail under heavy event load: reports may be closed or returned with a technical-error response before review, while disputed penalties and missing protest-token refunds remain unresolved. This materially reinforces the existing contested-adjudication issue.",
+        "title": "RaceControl: failed reports, window closed before response, and disputed penalties",
+        "workaround": "Save replays and clips locally before the deadline, submit reports as early as possible, and retain screenshots of technical-error responses. There is no confirmed workaround for reopening an already closed window."
+      },
+      "id": "0df485abe8f4b1e37bb15f78",
+      "integrity_type": "RaceControl adjudication and protest-processing reliability",
+      "is_integrity": true,
+      "issue_id": "87a6e17f50b8dac0883a",
+      "it": {
+        "summary": "Impatto RENOVA: Riduce l’affidabilità di proteste, revisione dei replay e penalità, con rischio di SR/DR persi senza possibilità effettiva di ricorso.\n\nSintomo: Durante più gare di campionato, diversi report ricevono una risposta tecnica generica o risultano non elaborati. Quando arriva la risposta, la finestra per ripresentare il report può essere già chiusa. Sono inoltre segnalate decisioni errate, penalità al pilota sbagliato e mancato accredito del token di protesta.\n\nNovità: Nuova conferma materiale nella finestra osservata che collega il problema al sistema di reporting 1.4 e alle gare ad alta partecipazione, con impatto su report falliti, ricorsi e adjudication.",
+        "title": "RaceControl: report che falliscono, finestra chiusa prima della risposta e penalità contestate",
+        "workaround": "Salvare localmente replay e clip prima della scadenza, inviare il report appena possibile e conservare screenshot delle risposte tecniche. Non esiste un workaround confermato per riaprire una finestra già chiusa."
+      },
+      "published_utc": "2026-10-28T14:00:01+00:00",
+      "renova_relevance": 90,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC - Can LMU stewarding get any worse?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xgr82p/can_lmu_stewarding_get_any_worse/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "QUALIFICA E GARA NOTTURNA A PO",
+      "build": "LMU corrente; build non indicata",
+      "category": "graphics/lighting/software",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA IMPROVVISA D",
+      "confidence": 60,
+      "en": {
+        "summary": "A new Portimão night-session graphics defect can abruptly remove all circuit lighting during qualifying or racing. Multiple users reported the same behavior, creating a direct collision and DNF risk. The issue is not yet officially confirmed.",
+        "title": "Portimão: circuit lighting disappears during night sessions",
+        "workaround": "No confirmed effective workaround. Temporarily avoid night sessions at Portimão or leave the session if the lighting disappears; checking GPU drivers and game files are unconfirmed troubleshooting attempts."
+      },
+      "id": "36665062377dd24cf1992ce1",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e7c7abbdc5c9ea152b49",
+      "it": {
+        "summary": "Impatto RENOVA: Può rendere la pista improvvisamente quasi invisibile, provocando incidenti, perdita di posizione e DNF nelle sessioni online.\n\nSintomo: Durante qualifiche o gare notturne a Portimão, tutta l’illuminazione può spegnersi improvvisamente. Il fenomeno è stato riferito da più partecipanti in punti diversi del circuito, inclusa la parte finale del giro e prima di T1.\n\nNovità: Nuova segnalazione nella finestra osservata con almeno tre riscontri community ravvicinati, inclusa una sessione di gara in cui il blackout ha causato un impatto contro il muro.",
+        "title": "Portimão: illuminazione del circuito che scompare durante sessioni notturne",
+        "workaround": "Nessun workaround risolutivo confermato. Evitare temporaneamente le sessioni notturne a Portimão o interrompere la partecipazione se l’illuminazione scompare; verificare driver GPU e file di gioco come tentativi non confermati."
+      },
+      "published_utc": "2026-10-28T14:00:00+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC - Portimao at night SERIOUS BUG",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xh2qt9/portimao_at_night_serious_bug_any_solutions_known/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "GUIDA IN PISTA, ONLINE E OFFLI",

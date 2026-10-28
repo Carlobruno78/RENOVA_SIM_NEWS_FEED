@@ -1,7 +1,64 @@
 {
-  "feed_version": 77,
-  "generated_utc": "2026-10-27T13:07:47+00:00",
+  "feed_version": 80,
+  "generated_utc": "2026-10-28T14:00:01+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "2.61.5.25",
+      "category": "software",
+      "en": {
+        "title": "Further confirmations of desktop crashes while driving, including freezes at race start, on build 2.61.5.25"
+      },
+      "id": "ab2eac87e2af62cfb5a79444",
+      "is_integrity": true,
+      "it": {
+        "title": "Ulteriori conferme di crash a desktop durante la guida, inclusi blocchi all'inizio gara, con build 2.61.5.25"
+      },
+      "published_utc": "2026-10-28T14:00:01+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU 1.4 reporting system; build non indicata",
+      "category": "race control/replay/integrity",
+      "en": {
+        "title": "RaceControl: failed reports, window closed before response, and disputed penalties"
+      },
+      "id": "0df485abe8f4b1e37bb15f78",
+      "is_integrity": true,
+      "it": {
+        "title": "RaceControl: report che falliscono, finestra chiusa prima della risposta e penalità contestate"
+      },
+      "published_utc": "2026-10-28T14:00:01+00:00",
+      "renova_relevance": 90,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "graphics/lighting/software",
+      "en": {
+        "title": "Portimão: circuit lighting disappears during night sessions"
+      },
+      "id": "36665062377dd24cf1992ce1",
+      "is_integrity": false,
+      "it": {
+        "title": "Portimão: illuminazione del circuito che scompare durante sessioni notturne"
+      },
+      "published_utc": "2026-10-28T14:00:00+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Ultimo aggiornamento LMU; build non indicata",
