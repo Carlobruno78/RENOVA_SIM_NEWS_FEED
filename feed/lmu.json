@@ -1,7 +1,48 @@
 {
-  "feed_version": 80,
-  "generated_utc": "2026-10-28T14:00:01+00:00",
+  "feed_version": 81,
+  "generated_utc": "2026-10-30T10:52:28+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSIONI IN PISTA CON THRUSTMA",
+      "build": "LMU corrente; build non indicata",
+      "category": "hardware/telemetry/FFB/input/software",
+      "change_reason": "OFFICIAL SEVERITY HIGH → MEDIUM",
+      "competitive_impact": "PERDITA O MALFUNZION",
+      "confidence": 68,
+      "en": {
+        "summary": "A new community report materially narrows the affected T598 configuration to the Ferrari 488 GT3 Evo rim. The exact failure mode is not available in the indexed report, but the issue overlaps the existing T598 telemetry/HID-disconnection problem. Thrustmaster recommends current base and rim firmware, including T598 firmware 1.60 and Ferrari 488 GT3/EVO rim firmware 2.06.",
+        "title": "Material update: telemetry issues on the Thrustmaster T598 with the Ferrari 488 GT3 Evo rim",
+        "workaround": "Update the T598 base to firmware 1.60 and the Ferrari 488 GT3/Evo rim to firmware 2.06 through My Thrustmaster Panel. If telemetry remains lost, fully close LMU, power-cycle the base, and relaunch the game."
+      },
+      "id": "0a677768ca576c9e1229cadf",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e3d944701e4fab51e37a",
+      "it": {
+        "summary": "Impatto RENOVA: Estende l’issue T598 già noto a una configurazione specifica con corona Ferrari 488 GT3 Evo; può compromettere display, LED o altri effetti dipendenti dalla telemetria durante le sessioni.\n\nSintomo: Nuova segnalazione community di problemi di funzionalità telemetrica usando una base Thrustmaster T598 con corona Ferrari 488 GT3 Evo.\n\nNovità: Aggiornamento materiale dell’issue T598 esistente: la segnalazione del 30 ottobre 2026 identifica esplicitamente la corona Ferrari 488 GT3 Evo come configurazione coinvolta. Thrustmaster indica inoltre firmware dedicati per ridurre disconnessioni della telemetria e problemi di FFB.",
+        "title": "Aggiornamento materiale: problemi di telemetria su Thrustmaster T598 con corona Ferrari 488 GT3 Evo",
+        "workaround": "Aggiornare la base T598 al firmware 1.60 e la corona Ferrari 488 GT3/Evo al firmware 2.06 tramite My Thrustmaster Panel. Se la telemetria resta persa, chiudere completamente LMU, spegnere e riaccendere la base, quindi rilanciare il gioco."
+      },
+      "published_utc": "2026-10-30T10:52:28+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community — Telemetry functionality issues: T598 + Ferrari 488 GT3 Evo rim",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=58380"
+        },
+        {
+          "name": "Thrustmaster — T598 drivers, firmware, manuals and troubleshooting",
+          "tier": "TECHNICAL",
+          "url": "https://support.thrustmaster.com/en/product/t598x-en/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "RACECONTROL ONLINE CHAMPIONSHI",

@@ -1,7 +1,26 @@
 {
-  "feed_version": 80,
-  "generated_utc": "2026-10-28T14:00:01+00:00",
+  "feed_version": 81,
+  "generated_utc": "2026-10-30T10:52:28+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "hardware/telemetry/FFB/input/software",
+      "en": {
+        "title": "Material update: telemetry issues on the Thrustmaster T598 with the Ferrari 488 GT3 Evo rim"
+      },
+      "id": "0a677768ca576c9e1229cadf",
+      "is_integrity": false,
+      "it": {
+        "title": "Aggiornamento materiale: problemi di telemetria su Thrustmaster T598 con corona Ferrari 488 GT3 Evo"
+      },
+      "published_utc": "2026-10-30T10:52:28+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "2.61.5.25",
