@@ -1,7 +1,48 @@
 {
-  "feed_version": 81,
-  "generated_utc": "2026-10-30T10:52:28+00:00",
+  "feed_version": 82,
+  "generated_utc": "2026-10-31T13:30:07+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE ONLINE RACECONTROL, SOPRA",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/integrity/replay",
+      "change_reason": "NEW",
+      "competitive_impact": "RISCHIO ELEVATO DI B",
+      "confidence": 70,
+      "en": {
+        "summary": "A recent Steam community report claims that RaceControl may ban the driver involved in a collision instead of the driver responsible for it. This is treated as a material update to the existing disputed-ban and missing-evidence issue, not as a separate exploit. Verification requires the associated replay and RaceControl case data.",
+        "title": "New report of bans being assigned to the driver involved in the collision rather than the responsible driver",
+        "workaround": "Keep the replay and any session data, do not treat the penalty as conclusive proof of responsibility, and submit an appeal through RaceControl support with the event identifier and timestamp. No client-side mitigation is confirmed."
+      },
+      "id": "2bedc58285ddfff02acc6fdc",
+      "integrity_type": "Possibile errore di adjudication e attribuzione della respon",
+      "is_integrity": true,
+      "issue_id": "8f3560aad3fc243bb5ff",
+      "it": {
+        "summary": "Impatto RENOVA: Può alterare direttamente SR, DR, accesso agli eventi e risultati competitivi quando una collisione viene attribuita al pilota sbagliato.\n\nSintomo: Una nuova segnalazione community descrive un sistema di ban percepito come ingiusto: dopo una collisione, la sanzione o il ban verrebbe applicato al pilota colpito o comunque coinvolto, invece che al pilota responsabile. La segnalazione non fornisce replay o dati sufficienti per verificare il singolo caso.\n\nNovità: Conferma materiale recente dello stesso filone di ban contestati già presente nello state, con enfasi specifica sull'errata attribuzione della responsabilità di collisione. Non emerge un nuovo meccanismo tecnico distinto.",
+        "title": "Nuova segnalazione di ban attribuito al pilota coinvolto nella collisione anziché al responsabile",
+        "workaround": "Conservare il replay e gli eventuali dati della sessione, evitare di interpretare la sanzione come prova conclusiva di responsabilità e presentare un reclamo tramite il supporto RaceControl con identificativo dell'evento e timestamp. Nessuna mitigazione lato client è confermata."
+      },
+      "published_utc": "2026-10-31T13:30:07+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community - Le Mans Ultimate discussions",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/discussions/"
+        },
+        {
+          "name": "RaceControl Competition Rules",
+          "tier": "TECHNICAL",
+          "url": "https://www.racecontrol.gg/rules"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "SESSIONI IN PISTA CON THRUSTMA",

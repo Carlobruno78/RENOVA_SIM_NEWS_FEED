@@ -1,7 +1,26 @@
 {
-  "feed_version": 81,
-  "generated_utc": "2026-10-30T10:52:28+00:00",
+  "feed_version": 82,
+  "generated_utc": "2026-10-31T13:30:07+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/integrity/replay",
+      "en": {
+        "title": "New report of bans being assigned to the driver involved in the collision rather than the responsible driver"
+      },
+      "id": "2bedc58285ddfff02acc6fdc",
+      "is_integrity": true,
+      "it": {
+        "title": "Nuova segnalazione di ban attribuito al pilota coinvolto nella collisione anziché al responsabile"
+      },
+      "published_utc": "2026-10-31T13:30:07+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata",
