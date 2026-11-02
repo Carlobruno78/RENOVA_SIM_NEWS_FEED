@@ -1,7 +1,79 @@
 {
-  "feed_version": 82,
-  "generated_utc": "2026-10-31T13:30:07+00:00",
+  "feed_version": 85,
+  "generated_utc": "2026-11-02T17:03:26+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "VR VIA STEAMVR/OPENXR; STEAM F",
+      "build": "Non indicata; GPU AMD driver 26.10.1",
+      "category": "graphics/VR",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA O FORTE DEGR",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report describes severe red flashing in the Steam Frame VR view when running iRacing through SteamVR/OpenXR on an AMD Radeon RX 7900 XTX. The effect may be related to mirror rendering. Disabling mirrors is a reported workaround, while OpenVR avoids the flashing at a significant performance cost. No official confirmation was found.",
+        "title": "Red flashing across the entire VR image with Steam Frame, OpenXR, and an AMD GPU",
+        "workaround": "Temporarily disable mirrors. Alternatively, try OpenVR while accounting for the reported degradation in tracking and performance; also check a direct USB connection to the motherboard."
+      },
+      "id": "d2e298a712e0cd793ceb2fd9",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "f7c9d9c5d75eedb451c7",
+      "it": {
+        "summary": "Impatto RENOVA: Il lampeggiamento può rendere la visuale VR praticamente inutilizzabile durante la guida. La segnalazione è specifica per Steam Frame, OpenXR e GPU AMD, con possibile attivazione durante il rendering degli specchietti.\n\nSintomo: Lampeggiamenti rossi continui sull'intera immagine VR durante iRacing su Steam Frame. In alcuni casi lampeggia solo la vista nel visore o solo la preview sul PC; la finestra iRacing può rimanere visivamente normale.\n\nNovità: La segnalazione, pubblicata il 2026-11-01, collega il problema a iRacing con SteamVR/OpenXR e Radeon RX 7900 XTX. Disabilitare gli specchietti elimina o riduce fortemente il fenomeno; il passaggio a OpenVR lo elimina secondo l'autore, ma con tracking e prestazioni peggiori. Il downgrade dei driver AMD e la reinstallazione di iRacing non hanno risolto il problema.",
+        "title": "Lampeggiamento rosso dell'intera immagine VR con Steam Frame, OpenXR e GPU AMD",
+        "workaround": "Disabilitare temporaneamente gli specchietti. In alternativa provare OpenVR, considerando il peggioramento riportato di tracking e prestazioni; verificare anche il collegamento USB diretto alla scheda madre."
+      },
+      "published_utc": "2026-11-02T17:03:26+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — red flashing on entire screen in VR with Steam Frame",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xlc9wi/red_flashing_on_entire_screen_in_vr_with_steam/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE GT3 SESSIONS, AI RACES,",
+      "build": "Non indicata; segnalazione pubblicata il 2026-11-02",
+      "category": "software",
+      "change_reason": "NEW",
+      "competitive_impact": "ACCESSO NEGATO O RIT",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report describes GT3 online and AI sessions hanging at approximately 90% with a generic 25–26 second simulator timeout. Test Drive and other series remained functional. Controlled AI-roster testing implicated corrupted or inconsistent local McLaren 720S GT3 EVO data, and re-downloading that vehicle resolved the issue. The report is community evidence, not an official iRacing confirmation.",
+        "title": "GT3 sessions stuck at 90% loading associated with corrupted local files for an opponent car",
+        "workaround": "As a preliminary workaround, check whether the issue also occurs in an AI race and narrow the roster to individual models. If the McLaren 720S GT3 EVO reproduces the hang, replace or re-download the vehicle's local files and contact iRacing Support if the problem persists."
+      },
+      "id": "140510254b4ffe681424569e",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "c6c561250c502babec85",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l'accesso a sessioni ufficiali o AI GT3, con errore di simulatore non responsivo dopo circa 25–26 secondi. Il problema può dipendere da un modello avversario caricato nella sessione anche se il pilota non possiede quell'auto.\n\nSintomo: Le sessioni GT3 online o AI si bloccano intorno al 90% con l'errore \"Simulator appeared to be unresponsive for more than 25 seconds\", mentre Test Drive e altre serie possono funzionare normalmente.\n\nNovità: Una riproduzione controllata ha isolato il problema ai file locali della McLaren 720S GT3 EVO: il caricamento falliva quando il modello era incluso tra gli avversari e riprendeva dopo il nuovo download dei relativi file. Un secondo utente ha riportato lo stesso modello come causa.",
+        "title": "Blocco al 90% del caricamento delle sessioni GT3 associato a file locali corrotti di un'auto avversaria",
+        "workaround": "Come workaround preliminare, verificare se il problema compare anche in una gara AI e restringere il roster a singoli modelli. Se la McLaren 720S GT3 EVO riproduce il blocco, sostituire o riscaricare i file locali del veicolo e contattare il supporto iRacing se il problema persiste."
+      },
+      "published_utc": "2026-11-02T17:03:25+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — solved 90% loading issue",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xltwkz/solved_iracing_stuck_at_90_loading_simulator/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "GARE E SESSIONI DI GUIDA, INCL",

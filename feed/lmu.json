@@ -1,7 +1,48 @@
 {
-  "feed_version": 82,
-  "generated_utc": "2026-10-31T13:30:07+00:00",
+  "feed_version": 85,
+  "generated_utc": "2026-11-02T17:03:26+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE RACECONTROL, RANKED EVE",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/integrity/replay",
+      "change_reason": "NEW",
+      "competitive_impact": "HIGH: POSSIBILE PERD",
+      "confidence": 70,
+      "en": {
+        "summary": "A newly active Steam community discussion again reports that LMU suspensions or bans may be assigned to the wrong driver after racing contact, including ordinary door-to-door racing. This materially reinforces the existing race-control integrity issue, but does not establish a new mechanism or a confirmed systemic defect.",
+        "title": "New confirmation of suspensions or bans assigned to the driver involved in a collision during normal close racing",
+        "workaround": "Retain the replay, telemetry, and incident recording and appeal the penalty through official channels; no confirmed in-game workaround is available."
+      },
+      "id": "2733b75fb0612806e0217b89",
+      "integrity_type": "Rischio di adjudication errata; rilevazione tramite confront",
+      "is_integrity": true,
+      "issue_id": "7573a0db5088e4dc343e",
+      "it": {
+        "summary": "Impatto RENOVA: Rafforza il rischio di sanzioni competitive errate dopo contatti o duelli door-to-door e indica che il problema di adjudication resta visibile nella finestra monitorata.\n\nSintomo: Segnalazione community di un sistema di ban percepito come ingiusto: il pilota che subisce o è soltanto coinvolto in una collisione può ricevere una sospensione, anche durante normali duelli ravvicinati. Il tema è stato nuovamente attivo nella finestra monitorata.\n\nNovità: Nuova attività e ulteriore conferma community tra il 1 e il 2 novembre 2026, senza evidenza di correzione ufficiale o di una modifica al criterio di adjudication.",
+        "title": "Nuova conferma di sospensioni o ban attribuiti al pilota coinvolto nella collisione durante normali duelli ravvicinati",
+        "workaround": "Conservare replay, telemetria e registrazione dell’incidente e contestare la sanzione tramite i canali ufficiali; non è disponibile un workaround in-game confermato."
+      },
+      "published_utc": "2026-11-02T17:03:25+00:00",
+      "renova_relevance": 96,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community - Unfair Banned System",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/discussions/"
+        },
+        {
+          "name": "Steam Community - Le Mans Ultimate support and discussion",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/discussions/0/587313051305368328/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "GARE ONLINE RACECONTROL, SOPRA",
