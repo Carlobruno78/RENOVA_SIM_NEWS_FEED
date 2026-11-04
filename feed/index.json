@@ -1,7 +1,121 @@
 {
-  "feed_version": 85,
-  "generated_utc": "2026-11-02T17:03:26+00:00",
+  "feed_version": 91,
+  "generated_utc": "2026-11-04T15:18:17+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "2026.11.02.01",
+      "category": "race control",
+      "en": {
+        "title": "Race control: scoring anomalies during cautions and Feature starts fixed"
+      },
+      "id": "8f77029059fce240b109e920",
+      "is_integrity": false,
+      "it": {
+        "title": "Race control: corrette anomalie di scoring durante caution e partenze Feature"
+      },
+      "published_utc": "2026-11-04T15:18:17+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026.11.02.01",
+      "category": "setup/physics",
+      "en": {
+        "title": "Caterham 420R: specific collisions could cause a moon launch or simulator crash"
+      },
+      "id": "6757b8b8661e0a5f72f01afe",
+      "is_integrity": false,
+      "it": {
+        "title": "Caterham 420R: collisioni specifiche potevano causare moon launch o crash del simulatore"
+      },
+      "published_utc": "2026-11-04T15:18:16+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026.11.02.01",
+      "category": "FFB/input",
+      "en": {
+        "title": "Simucube: new flag to prevent incorrect force-feedback shutdown with Active Pedals"
+      },
+      "id": "5299288c19bf13d7d93545b3",
+      "is_integrity": false,
+      "it": {
+        "title": "Simucube: nuovo flag per evitare lo spegnimento errato del force feedback con Active Pedals"
+      },
+      "published_utc": "2026-11-04T15:18:16+00:00",
+      "renova_relevance": 90,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026.11.02.01",
+      "category": "race control",
+      "en": {
+        "title": "Dirt Sprint Car: brake-bias adjustment was unintentionally available through control bindings, fixed in Patch 2"
+      },
+      "id": "6592077feffcca84ef8d107c",
+      "is_integrity": false,
+      "it": {
+        "title": "Dirt Sprint Car: regolazione del brake bias disponibile involontariamente tramite binding, corretta in Patch 2"
+      },
+      "published_utc": "2026-11-04T15:18:15+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026.11.02.01",
+      "category": "setup/physics",
+      "en": {
+        "title": "BMW M2 Racing G87: rear-end lockup and spin after rapid shifts fixed"
+      },
+      "id": "64528d353067d7a72928ddad",
+      "is_integrity": false,
+      "it": {
+        "title": "BMW M2 Racing G87: bloccaggio del retrotreno e spin dopo cambiate rapide corretto"
+      },
+      "published_utc": "2026-11-04T15:18:15+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "2026.11.02.01",
+      "category": "software",
+      "en": {
+        "title": "Audio device changes or failures: correction added to prevent simulator errors"
+      },
+      "id": "58d69be034dda2b805fbf543",
+      "is_integrity": false,
+      "it": {
+        "title": "Cambio o failure del dispositivo audio: introdotta una correzione per prevenire errori del simulatore"
+      },
+      "published_utc": "2026-11-04T15:18:14+00:00",
+      "renova_relevance": 83,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Non indicata; GPU AMD driver 26.10.1",

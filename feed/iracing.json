@@ -1,7 +1,223 @@
 {
-  "feed_version": 85,
-  "generated_utc": "2026-11-02T17:03:26+00:00",
+  "feed_version": 91,
+  "generated_utc": "2026-11-04T15:18:17+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "DNC CAUTIONS AND FEATURE RACE",
+      "build": "2026.11.02.01",
+      "category": "race control",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE ALTERAZION",
+      "confidence": 99,
+      "en": {
+        "summary": "This is a material race-control integrity correction affecting lap counting and scoring during caution transitions and Feature starts. It is distinct from the previously tracked Oulton Park post-pit-return ordering issue.",
+        "title": "Race control: scoring anomalies during cautions and Feature starts fixed",
+        "workaround": "Update to build 2026.11.02.01; before updating, retain replays and results if scoring discrepancies occur during cautions or Feature starts."
+      },
+      "id": "8f77029059fce240b109e920",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "ea74caf81ffc22eae4df",
+      "it": {
+        "summary": "Impatto RENOVA: Correzione di errori che potevano alterare giri, classifiche e risultati ufficiali durante caution e partenze di gare Feature.\n\nSintomo: Il crossing del giro successivo poteva essere conteggiato erroneamente quando una caution DNC iniziava al primo giro davanti al leader; inoltre lo scoring poteva risultare errato quando una caution veniva dichiarata durante la partenza di una Feature race.\n\nNovità: Patch 2 corregge entrambe le anomalie di scoring.",
+        "title": "Race control: corrette anomalie di scoring durante caution e partenze Feature",
+        "workaround": "Aggiornare alla build 2026.11.02.01; prima dell'aggiornamento conservare replay e risultati in caso di discrepanze di scoring durante caution o Feature start."
+      },
+      "published_utc": "2026-11-04T15:18:17+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing 2026 Season 4 Patch 2 Release Notes",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179983-2026-season-4-patch-2-release-notes-2026-11-02-01-"
+        }
+      ],
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "CATERHAM 420R ROAD SESSIONS AN",
+      "build": "2026.11.02.01",
+      "category": "setup/physics",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILI INCIDENTI",
+      "confidence": 99,
+      "en": {
+        "summary": "This is a distinct Caterham 420R collision defect, separate from the previously known pit-exit suspension issue and wheel/contact sensitivity. It materially affects both physics reliability and session stability.",
+        "title": "Caterham 420R: specific collisions could cause a moon launch or simulator crash",
+        "workaround": "Update to build 2026.11.02.01; before updating, avoid high-energy contacts involving the 420R where possible."
+      },
+      "id": "6757b8b8661e0a5f72f01afe",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "aaced98d597b0081a7e9",
+      "it": {
+        "summary": "Impatto RENOVA: Rischio di comportamento fisico estremo e crash durante contatti o incidenti, con possibile abbandono della sessione e impatto sul risultato gara.\n\nSintomo: In determinate collisioni con la Caterham 420R la vettura poteva essere lanciata violentemente oppure il simulatore poteva chiudersi.\n\nNovità: Patch 2 corregge il comportamento responsabile del moon launch e del crash del simulatore.",
+        "title": "Caterham 420R: collisioni specifiche potevano causare moon launch o crash del simulatore",
+        "workaround": "Aggiornare alla build 2026.11.02.01; fino all'aggiornamento, evitare contatti ad alta energia con la 420R quando possibile."
+      },
+      "published_utc": "2026-11-04T15:18:16+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing 2026 Season 4 Patch 2 Release Notes",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179983-2026-season-4-patch-2-release-notes-2026-11-02-01-"
+        }
+      ],
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SIMUCUBE ACTIVE PEDALS CONFIGU",
+      "build": "2026.11.02.01",
+      "category": "FFB/input",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA DEL FORCE FE",
+      "confidence": 99,
+      "en": {
+        "summary": "Patch 2 adds a targeted Simucube compatibility control for Active Pedals configurations without a Simucube wheel. This is distinct from the existing Simagic 360 Hz simulator-freeze issue and from total FFB dropouts reported after the Season 4 release.",
+        "title": "Simucube: new flag to prevent incorrect force-feedback shutdown with Active Pedals",
+        "workaround": "Set simucubeTreatLinkPortAsWheel=0 in the configuration file when using Simucube Active Pedals without a Simucube wheel and FFB is incorrectly disabled."
+      },
+      "id": "5299288c19bf13d7d93545b3",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e3affd5b940c7a0837cd",
+      "it": {
+        "summary": "Impatto RENOVA: Rilevante per utenti Simucube con Active Pedals senza volante Simucube, che potevano perdere gli effetti FFB per un rilevamento errato della porta link.\n\nSintomo: iRacing poteva verificare la porta link Simucube e spegnere erroneamente gli effetti FFB quando erano presenti Active Pedals ma non un volante Simucube.\n\nNovità: È stato aggiunto il flag simucubeTreatLinkPortAsWheel=1; impostandolo a 0 si impedisce il controllo della porta link come volante.",
+        "title": "Simucube: nuovo flag per evitare lo spegnimento errato del force feedback con Active Pedals",
+        "workaround": "Impostare simucubeTreatLinkPortAsWheel=0 nel file di configurazione se si usano Simucube Active Pedals senza volante Simucube e il FFB viene disattivato erroneamente."
+      },
+      "published_utc": "2026-11-04T15:18:16+00:00",
+      "renova_relevance": 90,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing 2026 Season 4 Patch 2 Release Notes",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179983-2026-season-4-patch-2-release-notes-2026-11-02-01-"
+        }
+      ],
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "DIRT SPRINT CAR SESSIONS",
+      "build": "2026.11.02.01",
+      "category": "race control",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE VANTAGGIO",
+      "confidence": 99,
+      "en": {
+        "summary": "Patch 2 confirms and fixes a competitive-control exploit affecting all Dirt Sprint Car variants. The issue could provide an unintended input-based setup advantage and should be treated as an integrity change, not merely a control/UI correction.",
+        "title": "Dirt Sprint Car: brake-bias adjustment was unintentionally available through control bindings, fixed in Patch 2",
+        "workaround": "Update to build 2026.11.02.01 and verify Dirt Sprint Car bindings; results obtained by exploiting the unintended adjustment should not be treated as valid."
+      },
+      "id": "6592077feffcca84ef8d107c",
+      "integrity_type": "COMPETITIVE EXPLOIT",
+      "is_integrity": false,
+      "issue_id": "afde68e549fc9c855ad3",
+      "it": {
+        "summary": "Impatto RENOVA: Correzione di un vantaggio competitivo ottenibile tramite input configurati, rilevante per integrità e validazione dei risultati.\n\nSintomo: Sulle Dirt Sprint Car la regolazione del brake bias risultava disponibile tramite binding di controllo, nonostante non dovesse esserlo.\n\nNovità: iRacing ha rimosso la disponibilità involontaria della regolazione del brake bias tramite binding.",
+        "title": "Dirt Sprint Car: regolazione del brake bias disponibile involontariamente tramite binding, corretta in Patch 2",
+        "workaround": "Aggiornare alla build 2026.11.02.01 e verificare i binding delle Dirt Sprint Car; non considerare validi eventuali risultati ottenuti sfruttando la regolazione non prevista."
+      },
+      "published_utc": "2026-11-04T15:18:15+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing 2026 Season 4 Patch 2 Release Notes",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179983-2026-season-4-patch-2-release-notes-2026-11-02-01-"
+        }
+      ],
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "BMW M2 RACING G87 SESSIONS AND",
+      "build": "2026.11.02.01",
+      "category": "setup/physics",
+      "change_reason": "NEW",
+      "competitive_impact": "SPIN IMPROVVISI E PE",
+      "confidence": 99,
+      "en": {
+        "summary": "Patch 2 introduces a material BMW M2 drivetrain-physics correction. The issue could create sudden, non-driver-induced losses of control and is distinct from the previously tracked Season 4 GT3 balance changes.",
+        "title": "BMW M2 Racing G87: rear-end lockup and spin after rapid shifts fixed",
+        "workaround": "Update to build 2026.11.02.01; before updating, avoid aggressive multiple shifts, especially from fifth to seventh."
+      },
+      "id": "64528d353067d7a72928ddad",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "f9be1c8626395a1be657",
+      "it": {
+        "summary": "Impatto RENOVA: Riduce un comportamento fisico anomalo che poteva causare spin improvvisi, soprattutto durante cambiate ravvicinate o salti di marcia.\n\nSintomo: Il retrotreno poteva bloccarsi dopo cambiate rapide; un doppio cambio dalla quinta alla settima poteva causare uno spin istantaneo.\n\nNovità: iRacing ha aumentato l'inerzia della trasmissione per correggere il bloccaggio e la tendenza allo spin.",
+        "title": "BMW M2 Racing G87: bloccaggio del retrotreno e spin dopo cambiate rapide corretto",
+        "workaround": "Aggiornare alla build 2026.11.02.01; prima dell'aggiornamento evitare cambiate multiple aggressive, soprattutto dalla quinta alla settima."
+      },
+      "published_utc": "2026-11-04T15:18:15+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing 2026 Season 4 Patch 2 Release Notes",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179983-2026-season-4-patch-2-release-notes-2026-11-02-01-"
+        }
+      ],
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ALL SIMULATOR SESSIONS",
+      "build": "2026.11.02.01",
+      "category": "software",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILI ERRORI O I",
+      "confidence": 99,
+      "en": {
+        "summary": "The official patch records a material simulator-stability fix for audio-device changes or failures. It is not the same as the previously tracked graphics, UI, or general mid-race crash reports.",
+        "title": "Audio device changes or failures: correction added to prevent simulator errors",
+        "workaround": "Update to build 2026.11.02.01; avoid disconnecting or changing audio devices during a session until updated."
+      },
+      "id": "58d69be034dda2b805fbf543",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "f697e38ca2a5941337d1",
+      "it": {
+        "summary": "Impatto RENOVA: Riduce la possibilità che cambi di periferica audio o failure del dispositivo provochino errori o instabilità del simulatore durante l'uso.\n\nSintomo: Cambiamenti o guasti del dispositivo audio potevano contribuire a errori del simulatore.\n\nNovità: Patch 2 migliora l'elaborazione dei cambiamenti e dei failure dei dispositivi audio per prevenire errori del simulatore.",
+        "title": "Cambio o failure del dispositivo audio: introdotta una correzione per prevenire errori del simulatore",
+        "workaround": "Aggiornare alla build 2026.11.02.01; evitare di scollegare o cambiare dispositivi audio durante una sessione fino all'aggiornamento."
+      },
+      "published_utc": "2026-11-04T15:18:14+00:00",
+      "renova_relevance": 83,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "iRacing 2026 Season 4 Patch 2 Release Notes",
+          "tier": "OFFICIAL",
+          "url": "https://support.iracing.com/support/solutions/articles/31000179983-2026-season-4-patch-2-release-notes-2026-11-02-01-"
+        }
+      ],
+      "status": "CONFIRMED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "VR VIA STEAMVR/OPENXR; STEAM F",
