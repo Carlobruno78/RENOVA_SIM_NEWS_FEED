@@ -1,7 +1,43 @@
 {
-  "feed_version": 91,
-  "generated_utc": "2026-11-04T15:18:17+00:00",
+  "feed_version": 92,
+  "generated_utc": "2026-11-05T15:19:01+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "RACECONTROL ONLINE; TOOL TERZI",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/telemetry/UI/plugin/network/security",
+      "change_reason": "SEVERITY MEDIUM → HIGH",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 99,
+      "en": {
+        "summary": "Studio 397 officially warned that LMU has no public API and that some third-party data aggregation services access player names, results, and rankings through Steam authorization or game tokens. These services have generated millions of backend calls, so automatic rate limiting and IP bans are now active for abnormal traffic. This materially expands the previously known third-party API and companion-app disruption issue into an explicit availability, credential-handling, and enforcement risk.",
+        "title": "RaceControl: automatic rate limiting and IP bans against third-party data aggregation tools",
+        "workaround": "Do not use or install unofficial tools that collect SR/DR, rankings, or results history through Steam authentication or game tokens. Use only the official LMU/RaceControl clients and services, and do not provide credentials or tokens to third-party services."
+      },
+      "id": "5b5544d752c49635ab72bb3e",
+      "integrity_type": "Third-party credential/token access and automated service-en",
+      "is_integrity": false,
+      "issue_id": "e7cbc6f346db6069be92",
+      "it": {
+        "summary": "Impatto RENOVA: Cambio ufficiale di enforcement che può rendere inaccessibili RaceControl e gli strumenti companion di telemetria, ranking e storico risultati; introduce inoltre un rischio di esposizione o impersonificazione quando servizi terzi usano credenziali Steam o token di gioco.\n\nSintomo: Studio 397 segnala che alcuni progetti di aggregazione dati effettuano milioni di chiamate backend usando login Steam o, in alcuni casi, token di gioco. Sono ora attivi rate limiting automatico e ban automatici degli IP per richieste fuori norma.\n\nNovità: Nuova comunicazione ufficiale del 4 novembre 2026: l'uso o la creazione di strumenti che monitorano e mostrano SR/DR e storico risultati è dichiarato contrario a EULA e Privacy Policy; l'enforcement automatico può bloccare gli IP dei servizi o degli utenti associati a richieste anomale.",
+        "title": "RaceControl: rate limiting e ban IP automatici contro tool di aggregazione dati di terze parti",
+        "workaround": "Non usare né installare tool non ufficiali che raccolgono SR/DR, ranking o storico risultati tramite autenticazione Steam o token di gioco. Usare esclusivamente i client e i servizi ufficiali LMU/RaceControl e non fornire credenziali o token a servizi terzi."
+      },
+      "published_utc": "2026-11-05T15:19:01+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate – UPDATED Community Update – November 2026",
+          "tier": "OFFICIAL",
+          "url": "https://lemansultimate.com/community-update-november-2026/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ONLINE RACECONTROL, RANKED EVE",
