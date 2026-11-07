@@ -1,7 +1,58 @@
 {
-  "feed_version": 92,
-  "generated_utc": "2026-11-05T15:19:01+00:00",
+  "feed_version": 95,
+  "generated_utc": "2026-11-07T13:59:45+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE RACES, RACECONTROL PROF",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/telemetry/UI/plugin/network/security/anti-cheat",
+      "change_reason": "INTEGRITY_CLASS_CHANGED",
+      "competitive_impact": "HIGH: AFFECTED USERS",
+      "confidence": 84,
+      "en": {
+        "summary": "Recent reports extend the existing third-party data-tool enforcement issue: users report temporary online bans, inaccessible RaceControl features, and temporarily missing profile, team, statistics, or custom-livery data. Community reports suggest that tools or overlays accessing private RaceControl data are at risk, while local-only telemetry readers are considered separate, although this distinction is not uniformly understood or independently confirmed for every tool.",
+        "title": "Update: new temporary bans and loss of online access associated with third-party tools/overlays",
+        "workaround": "Temporarily disable or remove apps/overlays that require login, account linking, or access to private RaceControl endpoints; prefer tools that only read local files or shared memory. If blocked, open an LMU/RaceControl support ticket with trace files and details of the involved app; do not treat every community report as confirmation of the actual ban reason."
+      },
+      "id": "0dd87160ec4ac82f9426196c",
+      "integrity_type": "Third-party API enforcement with possible false-positive ban",
+      "is_integrity": true,
+      "issue_id": "e7cbc6f346db6069be92",
+      "it": {
+        "summary": "Impatto RENOVA: Il problema può impedire l’accesso alle gare online e far apparire temporaneamente assenti profilo, statistiche, team o livree personalizzate. È materialmente rilevante per l’integrità perché coinvolge ban automatici e falsi positivi legati all’uso di strumenti esterni.\n\nSintomo: Segnalazioni del 7 novembre di accesso online non disponibile, profilo e dati di gara assenti nell’interfaccia, fino a ban temporanei di 24 ore. In almeno un caso la community ha collegato il blocco a un overlay SimHub DoX; altri utenti riferiscono ban/IP ban dopo l’uso di siti o app che accedono a endpoint RaceControl non autorizzati.\n\nNovità: Nuove testimonianze indicano che il rate limiting e i ban automatici possono produrre blocchi temporanei o falsi positivi percepiti anche quando l’utente utilizza più applicazioni locali, mentre la community distingue questi casi dagli strumenti che leggono soltanto file locali o telemetry/shared memory. Il supporto ufficiale continua a indicare rate limiting e ban IP automatici per l’accesso non autorizzato ai dati di terze parti.",
+        "title": "Aggiornamento: nuovi ban temporanei e perdita dell’accesso online associati a tool/overlay di terze parti",
+        "workaround": "Disabilitare o rimuovere temporaneamente app/overlay che richiedono login, collegamento dell’account o accesso a endpoint RaceControl privati; preferire strumenti che leggono solo file locali o shared memory. In caso di blocco, aprire un ticket al supporto LMU/RaceControl allegando trace file e dettagli dell’app coinvolta; non considerare ogni segnalazione community come conferma dell’effettivo motivo del ban."
+      },
+      "published_utc": "2026-11-07T13:59:44+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate – Community Update / Updates archive",
+          "tier": "OFFICIAL",
+          "url": "https://lemansultimate.com/category/updates/"
+        },
+        {
+          "name": "Reddit – Community Update on third-party plugins/apps",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xo9kzo/community_update_on_thirdparty_pluginsapps/"
+        },
+        {
+          "name": "Reddit – Am I banned?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMans_Ultimate/comments/1xq2s4z/am_i_banned/"
+        },
+        {
+          "name": "Reddit – Issues with liveries and login",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xoa7yk/issues_with_liveries_and_login/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "RACECONTROL ONLINE; TOOL TERZI",

@@ -1,7 +1,64 @@
 {
-  "feed_version": 92,
-  "generated_utc": "2026-11-05T15:19:01+00:00",
+  "feed_version": 95,
+  "generated_utc": "2026-11-07T13:59:45+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "replay/UI",
+      "en": {
+        "title": "New Sim UI: Results page sometimes fails to load and remains stuck loading"
+      },
+      "id": "f658de73e0e56d86d18433b5",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova Sim UI: pagina dei risultati talvolta non carica e resta in caricamento"
+      },
+      "published_utc": "2026-11-07T13:59:45+00:00",
+      "renova_relevance": 68,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "replay/UI",
+      "en": {
+        "title": "New Sim UI: \"Eligible\" filter omits available series from the Up Next list"
+      },
+      "id": "f371a19b495922774657ffd9",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova Sim UI: filtro \"Eligible\" omette serie disponibili dalla lista Up Next"
+      },
+      "published_utc": "2026-11-07T13:59:44+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/telemetry/UI/plugin/network/security/anti-cheat",
+      "en": {
+        "title": "Update: new temporary bans and loss of online access associated with third-party tools/overlays"
+      },
+      "id": "0dd87160ec4ac82f9426196c",
+      "is_integrity": true,
+      "it": {
+        "title": "Aggiornamento: nuovi ban temporanei e perdita dell’accesso online associati a tool/overlay di terze parti"
+      },
+      "published_utc": "2026-11-07T13:59:44+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata",
