@@ -1,7 +1,43 @@
 {
-  "feed_version": 95,
-  "generated_utc": "2026-11-07T13:59:45+00:00",
+  "feed_version": 98,
+  "generated_utc": "2026-11-08T14:12:10+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "NUOVA SIM UI; VISUALIZZAZIONE",
+      "build": "Non indicata",
+      "category": "replay/UI",
+      "change_reason": "NEW",
+      "competitive_impact": "BASSO; RISCHIO PRINC",
+      "confidence": 60,
+      "en": {
+        "summary": "A newly confirmed Sim UI issue can display incorrect session times for users in some Canadian regions affected by the recent time-zone/daylight-saving change. iRacing Support acknowledged the bug; no build or release date for the fix was provided.",
+        "title": "New Sim UI: incorrect times displayed after the time-zone change in some Canadian areas",
+        "workaround": "As a temporary workaround, the thread reports using a compatible time zone such as Yukon, Arizona, or UTC. Support also suggested installing Windows updates and clearing the new Sim UI cache, but the issue was subsequently acknowledged as a bug to be fixed in the future."
+      },
+      "id": "0b19366cb648b2ec39277238",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "8c43ee8133a218a59163",
+      "it": {
+        "summary": "Impatto RENOVA: Può mostrare orari errati nella UI, confondere la programmazione delle sessioni e influire sulla selezione o interpretazione degli eventi. Il supporto iRacing ha riconosciuto il problema e indicato una correzione futura.\n\nSintomo: Dopo il recente cambio delle regole di ora legale in alcune aree canadesi, l'orario mostrato nella UI di iRacing può risultare errato. Il problema è stato confermato dal supporto iRacing.\n\nNovità: Conferma materiale entro la finestra osservata: il supporto iRacing ha riconosciuto il problema come un bug lato servizio e ha dichiarato che verrà corretto in un aggiornamento futuro.",
+        "title": "Nuova Sim UI: orari visualizzati errati dopo il cambio di fuso orario in alcune aree canadesi",
+        "workaround": "Come workaround temporaneo, il thread riporta l'uso di un fuso orario compatibile, come Yukon, Arizona o UTC. Il supporto ha anche suggerito di installare gli aggiornamenti di Windows e cancellare la cache della nuova Sim UI, ma il problema è stato successivamente riconosciuto come un bug da correggere in futuro."
+      },
+      "published_utc": "2026-11-08T14:12:10+00:00",
+      "renova_relevance": 72,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Fun with Time Zones!",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xplija/fun_with_time_zones/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "SIM UI / RESULTS",

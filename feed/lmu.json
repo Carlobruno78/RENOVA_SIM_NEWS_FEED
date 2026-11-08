@@ -1,7 +1,79 @@
 {
-  "feed_version": 95,
-  "generated_utc": "2026-11-07T13:59:45+00:00",
+  "feed_version": 98,
+  "generated_utc": "2026-11-08T14:12:10+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ACCOUNT RACECONTROL E MODALITÀ",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/account/integrity",
+      "change_reason": "NEW",
+      "competitive_impact": "IMPOSSIBILITÀ DI ACC",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report describes an account suspension for using an abbreviated real name. The user reports no notification email and no available RaceControl path to change the name. This may represent a moderation or account-recovery workflow defect rather than a driving-rule adjudication error, but it directly affects online access.",
+        "title": "New report of a suspension for an abbreviated name with no notification email or way to correct the name",
+        "workaround": "Open an official RaceControl/support ticket with the Steam ID, account name, profile identity evidence, and screenshots of the suspension; avoid attempts to bypass enforcement or create duplicate accounts."
+      },
+      "id": "f32ada35fd8f2b8b6f069c09",
+      "integrity_type": "Account moderation and suspension workflow failure; possible",
+      "is_integrity": true,
+      "issue_id": "ed226c7300fc04b1a499",
+      "it": {
+        "summary": "Impatto RENOVA: Un blocco dell'account può impedire la partecipazione online anche quando il motivo è una presunta violazione del formato del nome, mentre l'assenza di una email o di un controllo modificabile rende difficile contestare o correggere il provvedimento.\n\nSintomo: Un utente riferisce di essere stato sospeso perché il nome reale risultava abbreviato, senza ricevere una email e senza poter modificare il nome dall'account RaceControl.\n\nNovità: Nuovo caso nella finestra osservata di sospensione legata al nome dell'account, con percorso di notifica o correzione apparentemente assente.",
+        "title": "Nuova segnalazione di sospensione per nome abbreviato senza email di notifica né percorso per correggere il nome",
+        "workaround": "Aprire un ticket ufficiale RaceControl/supporto con Steam ID, nome account, prova dell'identità del profilo e screenshot della sospensione; evitare tentativi di aggiramento dell'enforcement o la creazione di account duplicati."
+      },
+      "published_utc": "2026-11-08T14:12:10+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit - Suspended for name - no email and cannot change?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xq3ybg/suspended_for_name_no_email_and_cannot_change/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE, RACECONTROL, PROFILO,",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/telemetry/UI/plugin/network/security/anti-cheat",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA TEMPORANEA D",
+      "confidence": 60,
+      "en": {
+        "summary": "A community report confirms a material extension of the existing third-party API enforcement problem: a 24-hour suspension, 403 responses in trace files, and missing teams, liveries, and statistics in-game while the data remains visible on RaceControl. This is not a new mechanism, but it materially increases the evidence of false-positive enforcement and profile synchronization impact.",
+        "title": "Material update: temporary bans, 403 errors, and profile-data loss associated with third-party overlays or tools",
+        "workaround": "Do not use applications or overlays that authenticate against, scrape, or call LMU online services; for a ban or apparent data loss, open an official support ticket and attach trace files and timestamps. Do not treat the data still being present on RaceControl as proof that it has been restored in the client."
+      },
+      "id": "28d2511873705a858b1babf2",
+      "integrity_type": "Third-party API enforcement with possible false positives, t",
+      "is_integrity": true,
+      "issue_id": "bb43a2211c3b5eece87c",
+      "it": {
+        "summary": "Impatto RENOVA: Conferma di un impatto operativo concreto: accesso online temporaneamente sospeso, errori HTTP 403 nei log e dati di profilo, team, livree o statistiche non visualizzati nel client nonostante risultino ancora presenti su RaceControl.\n\nSintomo: Dopo l'uso di SimHub/overlay o altri strumenti collegati ai servizi LMU, l'utente segnala un ban di 24 ore, risposte 403 nei trace file e assenza nel gioco di team, livree personalizzate e statistiche presenti sul portale RaceControl.\n\nNovità: Nuova conferma nella finestra osservata che l'enforcement contro accessi/API di terze parti può produrre non solo sospensioni temporanee, ma anche una desincronizzazione apparente tra profilo RaceControl e dati mostrati nel client.",
+        "title": "Aggiornamento materiale: ban temporanei, errori 403 e perdita di dati del profilo associati a overlay o strumenti di terze parti",
+        "workaround": "Non usare applicazioni o overlay che effettuano autenticazione, scraping o chiamate ai servizi online LMU; per un ban o una perdita apparente dei dati, aprire un ticket ufficiale allegando trace file e orari. Non considerare la presenza dei dati su RaceControl come prova di ripristino nel client."
+      },
+      "published_utc": "2026-11-08T14:12:10+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit - Issues with liveries and login",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xoa7yk/issues_with_liveries_and_login/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ONLINE RACES, RACECONTROL PROF",
