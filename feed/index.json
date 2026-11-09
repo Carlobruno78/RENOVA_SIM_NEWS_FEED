@@ -1,7 +1,45 @@
 {
-  "feed_version": 98,
-  "generated_utc": "2026-11-08T14:12:10+00:00",
+  "feed_version": 100,
+  "generated_utc": "2026-11-09T17:27:53+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/software/AI/UI",
+      "en": {
+        "title": "Daytona: loading a save can prevent tyre-change deselection and cause AI cars to crash into the wall"
+      },
+      "id": "fe7ea0a11914d5c7f4bb00e7",
+      "is_integrity": false,
+      "it": {
+        "title": "Daytona: il caricamento di un salvataggio può impedire di deselezionare il cambio gomme e causare crash dell’AI contro il muro"
+      },
+      "published_utc": "2026-11-09T17:27:53+00:00",
+      "renova_relevance": 79,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "network/netcode",
+      "en": {
+        "title": "Recurring Latency errors with rubber-banding and desync during online races"
+      },
+      "id": "94b1be73d5173ef28c5bb37d",
+      "is_integrity": false,
+      "it": {
+        "title": "Errore Latency ricorrente con rubber-banding e desync durante le gare online"
+      },
+      "published_utc": "2026-11-09T17:27:52+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata",

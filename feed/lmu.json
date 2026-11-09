@@ -1,7 +1,79 @@
 {
-  "feed_version": 98,
-  "generated_utc": "2026-11-08T14:12:10+00:00",
+  "feed_version": 100,
+  "generated_utc": "2026-11-09T17:27:53+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SINGLE-PLAYER RACE WEEKEND, EN",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/software/AI/UI",
+      "change_reason": "NEW",
+      "competitive_impact": "IMPATTO SUL SINGLE-P",
+      "confidence": 60,
+      "en": {
+        "summary": "A recent community report describes save/load corruption in an 8-hour Daytona single-player race. Reloading the save may lock tyre-change selection and cause AI cars to crash into the wall and retire. No confirmed workaround is available.",
+        "title": "Daytona: loading a save can prevent tyre-change deselection and cause AI cars to crash into the wall",
+        "workaround": "Temporarily avoid relying on reloaded saves for Daytona endurance race weekends until the issue is verified; retain the save and log files for reporting."
+      },
+      "id": "fe7ea0a11914d5c7f4bb00e7",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "ac1c463af9719c44082a",
+      "it": {
+        "summary": "Impatto RENOVA: Può alterare la strategia ai pit stop e rendere inattendibili o ingiocabili i race weekend single-player salvati, soprattutto nelle sessioni endurance.\n\nSintomo: Dopo aver salvato e ricaricato una gara single-player da 8 ore a Daytona, nella schermata del pit stop il cambio gomme può rimanere selezionato e non essere deselezionabile. Dopo il caricamento del salvataggio, le vetture AI possono inoltre andare contro il muro e ritirarsi.\n\nNovità: Nuova segnalazione community nella finestra osservata che associa allo stesso flusso save/load due regressioni distinte: stato pit-stop non modificabile e comportamento AI distruttivo dopo il caricamento.",
+        "title": "Daytona: il caricamento di un salvataggio può impedire di deselezionare il cambio gomme e causare crash dell’AI contro il muro",
+        "workaround": "Evitare temporaneamente di usare salvataggi ricaricati per race weekend endurance a Daytona finché il problema non viene verificato; conservare il salvataggio e il log per la segnalazione."
+      },
+      "published_utc": "2026-11-09T17:27:53+00:00",
+      "renova_relevance": 79,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community – Le Mans Ultimate General Discussions",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/discussions/0/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE ONLINE; HARDWARE RIPORTAT",
+      "build": "LMU corrente; build non indicata",
+      "category": "network/netcode",
+      "change_reason": "NEW",
+      "competitive_impact": "DESYNC E RUBBER-BAND",
+      "confidence": 60,
+      "en": {
+        "summary": "A recent report describes repeated Latency errors, severe rubber-banding, and desync during online races, occurring approximately 20–30 times in a 20-minute race. The issue can cause lost time and incidents. No LMU-specific confirmed fix is reported.",
+        "title": "Recurring Latency errors with rubber-banding and desync during online races",
+        "workaround": "No confirmed LMU-specific workaround is reported; check connection stability, packet loss, and latency before racing, and collect logs or video of the incidents."
+      },
+      "id": "94b1be73d5173ef28c5bb37d",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "fda10842e8b1497ab12b",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare perdita di tempo, uscite di pista, incidenti indiretti e risultati falsati durante gare online, anche su hardware recente.\n\nSintomo: Durante gare online di circa 20 minuti viene visualizzato l’errore Latency da circa 20–30 volte, con forte rubber-banding e desync. Il comportamento può provocare perdita di tempo e incidenti fuori pista.\n\nNovità: Nuova segnalazione recente su un portatile Intel Core Ultra 7 255H con RTX 5060; il pattern descritto è persistente e più frequente dei casi isolati di disconnessione o desync già presenti nello storico.",
+        "title": "Errore Latency ricorrente con rubber-banding e desync durante le gare online",
+        "workaround": "Nessun workaround LMU-specifico confermato; verificare stabilità della connessione, packet loss e latenza prima delle gare e raccogliere log o video degli episodi."
+      },
+      "published_utc": "2026-11-09T17:27:52+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Steam Community – Le Mans Ultimate General Discussions",
+          "tier": "COMMUNITY",
+          "url": "https://steamcommunity.com/app/2399420/discussions/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ACCOUNT RACECONTROL E MODALITÀ",
