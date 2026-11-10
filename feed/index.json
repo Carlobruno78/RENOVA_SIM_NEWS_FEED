@@ -1,7 +1,45 @@
 {
-  "feed_version": 100,
-  "generated_utc": "2026-11-09T17:27:53+00:00",
+  "feed_version": 102,
+  "generated_utc": "2026-11-10T12:51:55+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; Logitech G HUB 2026.7 segnalato",
+      "category": "FFB/input/hardware/software",
+      "en": {
+        "title": "Material update: Logitech G HUB 2026.7 may cause FFB loss on G29/G920 in LMU"
+      },
+      "id": "f235767dcbbd258fbf1ec4fb",
+      "is_integrity": false,
+      "it": {
+        "title": "Aggiornamento materiale: Logitech G HUB 2026.7 può causare perdita del FFB su G29/G920 in LMU"
+      },
+      "published_utc": "2026-11-10T12:51:55+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "graphics/performance/network/netcode/FFB/input",
+      "en": {
+        "title": "Stutter, temporary FFB freeze, and car teleportation when a player joins or leaves an online session"
+      },
+      "id": "9c8da75744a628749dbc08c9",
+      "is_integrity": false,
+      "it": {
+        "title": "Stutter, congelamento temporaneo del FFB e teletrasporto delle vetture quando un giocatore entra o lascia una sessione online"
+      },
+      "published_utc": "2026-11-10T12:51:55+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata",

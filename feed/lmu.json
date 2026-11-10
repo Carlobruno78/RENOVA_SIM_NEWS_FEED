@@ -1,7 +1,84 @@
 {
-  "feed_version": 100,
-  "generated_utc": "2026-11-09T17:27:53+00:00",
+  "feed_version": 102,
+  "generated_utc": "2026-11-10T12:51:55+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "LMU ONLINE E OFFLINE; INGRESSO",
+      "build": "LMU corrente; Logitech G HUB 2026.7 segnalato",
+      "category": "FFB/input/hardware/software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "PERDITA DEL FEEDBACK",
+      "confidence": 70,
+      "en": {
+        "summary": "Recent community reports indicate that Logitech G HUB 2026.7 may be associated with loss of FFB on G29/G920 in LMU. The issue is treated as a material update of the existing Logitech FFB-loss/full-lock problem. Reports remain community-level and do not establish an official causal link.",
+        "title": "Material update: Logitech G HUB 2026.7 may cause FFB loss on G29/G920 in LMU",
+        "workaround": "As a community mitigation, use a G HUB installation older than 2026.7 or the previous USB driver, if available, and keep an easily accessible FFB Reset control. Check the wheel safely in the pits before starting the session."
+      },
+      "id": "f235767dcbbd258fbf1ec4fb",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "479faf40cbd096025219",
+      "it": {
+        "summary": "Impatto RENOVA: La perdita del FFB all’ingresso in vettura o all’uscita dai box può causare sterzo incontrollabile, DNF e collisioni con altri piloti; il reset può inoltre lasciare il volante a full lock.\n\nSintomo: Su Logitech G29/G920 il volante può risultare completamente privo di FFB in LMU, pur funzionando in altri simulatori. Il problema può comparire entrando nella vettura o lasciando i box; il reset FFB può richiedere più tentativi e in alcuni casi bloccare lo sterzo a full lock.\n\nNovità: Nuova segnalazione nella finestra che collega il problema a Logitech G HUB 2026.7 e al relativo driver USB, trasformando un problema FFB già noto per G29/G920 in una possibile regressione lato software periferica.",
+        "title": "Aggiornamento materiale: Logitech G HUB 2026.7 può causare perdita del FFB su G29/G920 in LMU",
+        "workaround": "Come mitigazione community, usare un’installazione G HUB precedente alla 2026.7 o il driver USB precedente, se disponibile, e tenere un comando Reset FFB facilmente accessibile. Verificare il volante in sicurezza nei box prima di iniziare la sessione."
+      },
+      "published_utc": "2026-11-10T12:51:55+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC – Force feedback is not working on the G920",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wqymvt/force_feedback_is_not_working_on_the_g920/"
+        },
+        {
+          "name": "Reddit r/LeMans_Ultimate – There's no force feedback on my Logitech wheel in LMU",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMans_Ultimate/comments/1xdfsnw/theres_no_force_feedback_on_my_logitech_wheel_in/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE E SESSIONI ONLINE CON ING",
+      "build": "LMU corrente; build non indicata",
+      "category": "graphics/performance/network/netcode/FFB/input",
+      "change_reason": "STATUS UNVERIFIED → INVESTIGATING",
+      "competitive_impact": "RISCHIO ELEVATO DI P",
+      "confidence": 60,
+      "en": {
+        "summary": "A recent community report confirms a severe online-session hitch when players join or leave: the screen and FFB can freeze for several frames, nearby cars can teleport, and some replies mention temporary gear loss or neutral. This is treated as a material update of the existing high-grid join/leave stutter issue, not as a separate defect.",
+        "title": "Stutter, temporary FFB freeze, and car teleportation when a player joins or leaves an online session",
+        "workaround": "When possible, avoid entering fast corners or braking zones while players are joining or leaving; assigning FFB Reset to an accessible control may restore feedback in some cases, but it does not remove the stutter or desync risk."
+      },
+      "id": "9c8da75744a628749dbc08c9",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "627e8fcc48e059cde8f7",
+      "it": {
+        "summary": "Impatto RENOVA: Può rendere inguidabili per più frame le fasi ad alta velocità o di frenata e può causare perdita di controllo, collisioni o danni al risultato competitivo.\n\nSintomo: Durante una sessione online, l’ingresso di un nuovo giocatore può congelare schermo e FFB per più frame; le vetture circostanti possono avanzare o teletrasportarsi. Segnalata anche possibile perdita di marce o caduta in folle fino al reset del FFB.\n\nNovità: Nuova conferma nella finestra di monitoraggio con impatto esplicitamente associato all’ingresso o all’uscita dei giocatori e con perdita temporanea del FFB, oltre al precedente stutter di sessione.",
+        "title": "Stutter, congelamento temporaneo del FFB e teletrasporto delle vetture quando un giocatore entra o lascia una sessione online",
+        "workaround": "Evitare, quando possibile, di affrontare curve veloci o zone di frenata durante ingressi/uscite di giocatori; assegnare Reset FFB a un comando accessibile può ripristinare il feedback in alcuni casi, ma non elimina lo stutter o il rischio di desync."
+      },
+      "published_utc": "2026-11-10T12:51:55+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit r/LeMansUltimateWEC – Stuttering when People join an online session",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xs0skn/stuttering_when_people_join_an_online_session/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "SINGLE-PLAYER RACE WEEKEND, EN",
