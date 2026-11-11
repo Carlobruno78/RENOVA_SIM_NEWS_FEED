@@ -1,7 +1,64 @@
 {
-  "feed_version": 102,
-  "generated_utc": "2026-11-10T12:51:55+00:00",
+  "feed_version": 105,
+  "generated_utc": "2026-11-11T15:01:33+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU Portal; build LMU non indicata",
+      "category": "software/telemetry/UI/plugin/network/security/anti-cheat",
+      "en": {
+        "title": "Material update: LMU Portal reopens only its schedule after removing Steam data, results, and lap times"
+      },
+      "id": "f88ff549108eb0ed206a4532",
+      "is_integrity": true,
+      "it": {
+        "title": "Aggiornamento materiale: LMU Portal riapre il solo calendario dopo la rimozione dei dati Steam, risultati e tempi"
+      },
+      "published_utc": "2026-11-11T15:01:33+00:00",
+      "renova_relevance": 100,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Logitech G HUB 2026.7; driver USB 2026.0.1.0; LMU corrente",
+      "category": "FFB/input/hardware/software",
+      "en": {
+        "title": "Material confirmation: Logitech G HUB 2026.7 can interrupt FFB on G29/G920 through the newer USB driver"
+      },
+      "id": "bc7fc42da3f2e578a62bec78",
+      "is_integrity": false,
+      "it": {
+        "title": "Conferma materiale: Logitech G HUB 2026.7 può interrompere il FFB su G29/G920 tramite il nuovo driver USB"
+      },
+      "published_utc": "2026-11-11T15:01:32+00:00",
+      "renova_relevance": 96,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/integrity/FFB/input/hardware/software",
+      "en": {
+        "title": "New material detail: temporary input lockups can cause unintended collisions and suspensions"
+      },
+      "id": "140c08728fdb0893b4740802",
+      "is_integrity": true,
+      "it": {
+        "title": "Nuovo dettaglio materiale: blocco temporaneo degli input può causare collisioni involontarie e sospensioni"
+      },
+      "published_utc": "2026-11-11T15:01:31+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; Logitech G HUB 2026.7 segnalato",

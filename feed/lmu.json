@@ -1,7 +1,115 @@
 {
-  "feed_version": 102,
-  "generated_utc": "2026-11-10T12:51:55+00:00",
+  "feed_version": 105,
+  "generated_utc": "2026-11-11T15:01:33+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "THIRD-PARTY PORTAL, TELEMETRY,",
+      "build": "LMU Portal; build LMU non indicata",
+      "category": "software/telemetry/UI/plugin/network/security/anti-cheat",
+      "change_reason": "NEW",
+      "competitive_impact": "NESSUN IMPATTO DIRET",
+      "confidence": 60,
+      "en": {
+        "summary": "LMU Portal has partially returned as a schedule-only service. The operator states that all results and lap data were wiped and linked Steam accounts were disconnected and removed. This is an operational change related to the broader third-party data and API enforcement issue, not a new gameplay exploit.",
+        "title": "Material update: LMU Portal reopens only its schedule after removing Steam data, results, and lap times",
+        "workaround": "Use the portal only for scheduling. Do not rely on recovery of previously linked results, lap times, rankings, or historical Steam data."
+      },
+      "id": "f88ff549108eb0ed206a4532",
+      "integrity_type": "Third-party data-access and account-linkage change",
+      "is_integrity": true,
+      "issue_id": "204226d3ba00a69d3075",
+      "it": {
+        "summary": "Impatto RENOVA: Riduce il rischio operativo per il calendario, ma conferma la perdita definitiva dei dati storici e la separazione del servizio dalle funzioni di risultati, ranking e tempi.\n\nSintomo: Il portale aveva cessato le funzioni legate a risultati e statistiche. Dal 10 novembre è stato riaperto limitatamente al calendario delle gare, mentre risultati, tempi sul giro e account Steam collegati sono stati rimossi.\n\nNovità: Modifica materiale dello stato del servizio: il calendario è nuovamente disponibile, ma il database storico è stato cancellato e i sistemi Steam sono stati completamente rimossi.",
+        "title": "Aggiornamento materiale: LMU Portal riapre il solo calendario dopo la rimozione dei dati Steam, risultati e tempi",
+        "workaround": "Usare il portale esclusivamente per il calendario. Non fare affidamento sul recupero di risultati, tempi, ranking o dati storici precedentemente associati a Steam."
+      },
+      "published_utc": "2026-11-11T15:01:33+00:00",
+      "renova_relevance": 100,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – LMU Portal is back",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xsnigi/lmu_portal_is_back_well_the_schedule_is/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "OFFLINE AND ONLINE SESSIONS; E",
+      "build": "Logitech G HUB 2026.7; driver USB 2026.0.1.0; LMU corrente",
+      "category": "FFB/input/hardware/software",
+      "change_reason": "BUILD 2026.7 → 2026.0.1.0",
+      "competitive_impact": "PERDITA DEL FFB DURA",
+      "confidence": 60,
+      "en": {
+        "summary": "A new report materially strengthens the existing Logitech FFB issue by identifying G HUB 2026.7 and USB driver 2026.0.1.0 as the affected software combination. The issue can leave G29/G920 users without force feedback in LMU and may create a race-ending loss of control.",
+        "title": "Material confirmation: Logitech G HUB 2026.7 can interrupt FFB on G29/G920 through the newer USB driver",
+        "workaround": "Consider reverting to G HUB 2026.6 or an earlier USB driver, first verifying the package source and integrity. Avoid automatic updates until compatibility is confirmed."
+      },
+      "id": "bc7fc42da3f2e578a62bec78",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "479faf40cbd096025219",
+      "it": {
+        "summary": "Impatto RENOVA: Rischio elevato di perdita del force feedback durante l’uscita dai box o durante la guida, con possibile perdita di controllo e conseguenze competitive.\n\nSintomo: Su Logitech G29/G920 il FFB può non attivarsi o interrompersi in LMU dopo l’installazione di G HUB 2026.7. La segnalazione identifica il nuovo driver USB 2026.0.1.0 come componente associato al problema.\n\nNovità: Nuova conferma community con versione precisa di G HUB e del driver USB, oltre alla conferma che il driver precedente incluso in G HUB 2026.6 e versioni precedenti non manifesta lo stesso problema.",
+        "title": "Conferma materiale: Logitech G HUB 2026.7 può interrompere il FFB su G29/G920 tramite il nuovo driver USB",
+        "workaround": "Valutare il ritorno a G HUB 2026.6 o a un driver USB precedente, verificando prima la provenienza e l’integrità del pacchetto. Evitare aggiornamenti automatici fino a conferma di compatibilità."
+      },
+      "published_utc": "2026-11-11T15:01:32+00:00",
+      "renova_relevance": 96,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – FFB reset with a Logitech G29",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1wvso1t/ffb_reset_with_a_logitech_g29/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE RANKED RACES AND RACECO",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/integrity/FFB/input/hardware/software",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILI COLLISIONI",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report materially expands the existing wrong-party ban issue by describing temporary steering and throttle/brake input lockups that can make an unavoidable collision appear intentional. The evidence is currently anecdotal and does not establish whether the root cause is LMU, hardware, USB, driver, or system load.",
+        "title": "New material detail: temporary input lockups can cause unintended collisions and suspensions",
+        "workaround": "If an input lockup occurs, leave the session safely as soon as possible and preserve the replay, telemetry, video, and input logs for a possible appeal. Do not treat the report as proof of a confirmed game defect."
+      },
+      "id": "140c08728fdb0893b4740802",
+      "integrity_type": "Rischio di adjudication errata e attribuzione di wrecking in",
+      "is_integrity": true,
+      "issue_id": "f820067af3e813abf5a6",
+      "it": {
+        "summary": "Impatto RENOVA: Un’interruzione temporanea di sterzo, acceleratore o freno può produrre una collisione apparentemente intenzionale e portare a perdita di SR, penalità o ban.\n\nSintomo: Durante una gara, sterzo e pedali possono rimanere temporaneamente bloccati o mantenere valori precedenti per circa 1–2 secondi, quindi cambiare bruscamente. Il comportamento può causare un impatto con un’altra vettura.\n\nNovità: La segnalazione del 10 novembre aggiunge un possibile meccanismo tecnico agli episodi di collisione e ban contestati: input congelati o mantenuti dall’interfaccia, con conseguente adjudication che può interpretare l’evento come wrecking intenzionale.",
+        "title": "Nuovo dettaglio materiale: blocco temporaneo degli input può causare collisioni involontarie e sospensioni",
+        "workaround": "Se si verifica un blocco degli input, abbandonare la sessione in sicurezza appena possibile e conservare replay, telemetria, video e log degli input per un eventuale ricorso. Non considerare la segnalazione come prova di un difetto certo del gioco."
+      },
+      "published_utc": "2026-11-11T15:01:31+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit – LMU Needs to Update BAN/Review Process",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xsqqoy/lmu_needs_to_update_banreview_process/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "LMU ONLINE E OFFLINE; INGRESSO",
