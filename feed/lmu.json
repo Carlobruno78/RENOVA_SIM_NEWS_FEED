@@ -1,7 +1,192 @@
 {
-  "feed_version": 105,
-  "generated_utc": "2026-11-11T15:01:33+00:00",
+  "feed_version": 110,
+  "generated_utc": "2026-11-12T15:53:43+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARA E SESSIONI DI GUIDA CON F",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/hardware/setup/physics",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "PERDITA DI CONTROLLO",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report materially confirms the violent flat-spot FFB issue, describing abrupt high-frequency oscillations that remain active until the car stops and may loosen rig hardware.",
+        "title": "New confirmation: extremely violent and persistent flat-spot vibrations at high speed",
+        "workaround": "Temporarily reduce high-frequency FFB components or use a flat-spot suppressor in a trusted FFB plugin; stop the session if the oscillations become uncontrollable."
+      },
+      "id": "b159f4d3662743eba0040d29",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "93c26599e6ab2cc1a197",
+      "it": {
+        "summary": "Impatto RENOVA: Le oscillazioni possono rendere la vettura inguidabile e trasmettere carichi potenzialmente dannosi a volante e rig.\n\nSintomo: Dopo un flat spot, il FFB può passare improvvisamente a vibrazioni molto intense, spesso oltre una soglia di velocità; il fenomeno può persistere fino all’arresto della vettura.\n\nNovità: La nuova segnalazione documenta un impatto hardware concreto sul rig e una riproduzione su più periferiche, inclusi Simucube e Moza, rafforzando la materialità del problema già noto.",
+        "title": "Nuova conferma: vibrazioni da flat spot estremamente violente e persistenti ad alta velocità",
+        "workaround": "Ridurre temporaneamente il livello delle componenti FFB ad alta frequenza o usare un soppressore flat spot in un plugin FFB affidabile; interrompere la sessione se le oscillazioni diventano incontrollabili."
+      },
+      "published_utc": "2026-11-12T15:53:43+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit - Returning racer surprised by flatspot vibrations",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xtezwh/returning_racer_surprised_by_flatspot_vibrations/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE RACECONTROL; ACCOUNT E",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/account/integrity",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA TEMPORANEA D",
+      "confidence": 67,
+      "en": {
+        "summary": "A new community report describes a 30-day LMU ban with no clear appeal or transparency process. It is treated as an unverified material update to the existing account-moderation workflow issue, not as evidence of a new ban mechanism.",
+        "title": "New report of a 30-day ban with no appeal path or procedural transparency",
+        "workaround": "Keep screenshots, replays, messages, and race identifiers; open an official support ticket and request a manual case review. Avoid unsupported public accusations."
+      },
+      "id": "17c3d97a3daf59f8b643cf66",
+      "integrity_type": "Account moderation and suspension workflow / possible false-",
+      "is_integrity": true,
+      "issue_id": "8b165bb88a783b06299f",
+      "it": {
+        "summary": "Impatto RENOVA: Un ban prolungato senza spiegazione o canale di appello verificabile può causare perdita dell’accesso online e ridurre la fiducia nella correttezza dell’adjudication.\n\nSintomo: Un utente riferisce una sospensione di 30 giorni e lamenta l’assenza di un percorso di appello o di informazioni sufficienti sulla motivazione.\n\nNovità: Nuova segnalazione pubblicata nella finestra obbligatoria che amplia il precedente pattern di sospensioni contestate, concentrandosi sulla durata del ban e sull’assenza di trasparenza procedurale.",
+        "title": "Nuova segnalazione di ban di 30 giorni senza appello né trasparenza procedurale",
+        "workaround": "Conservare screenshot, replay, messaggi e identificativi della gara; aprire un ticket ufficiale e richiedere revisione manuale del caso. Evitare accuse pubbliche non supportate da prove."
+      },
+      "published_utc": "2026-11-12T15:53:43+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community - 25 Years of Gaming, My First-Ever Ban Is 30 Days in LMU",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=46727"
+        }
+      ],
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSIONI ONLINE CON INGRESSO O",
+      "build": "LMU corrente; build non indicata",
+      "category": "graphics/performance/network/netcode/FFB/input",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "COLLISIONI FANTASMA",
+      "confidence": 86,
+      "en": {
+        "summary": "Recent community activity materially confirms the online join/leave stutter issue, including frame freezes, FFB interruption, and teleporting cars that can directly affect race outcomes.",
+        "title": "Material confirmation: player join or leave can cause stutter, FFB loss, and car teleportation",
+        "workaround": "When possible, avoid sessions with frequent join/leave events; bind an FFB reset command and reduce operational risk in high-speed areas. No confirmed official fix exists."
+      },
+      "id": "241ad14e98af197fbcb56706",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "627e8fcc48e059cde8f7",
+      "it": {
+        "summary": "Impatto RENOVA: Il blocco temporaneo durante una curva o una frenata può causare collisioni, perdita di posizione e danni competitivi non attribuibili alla guida.\n\nSintomo: Quando un giocatore entra o lascia una sessione online, il gioco può bloccarsi per più frame, il FFB può interrompersi e le altre vetture possono teletrasportarsi o avanzare a scatti.\n\nNovità: Nuove discussioni e commenti nella finestra confermano che il fenomeno resta attivo e può produrre perdita FFB durante una fase critica della gara, non solo un breve calo grafico.",
+        "title": "Conferma materiale: join o leave dei giocatori può causare stutter, perdita FFB e teletrasporto delle vetture",
+        "workaround": "Evitare, quando possibile, sessioni con frequenti join/leave; assegnare un comando di reset FFB e ridurre il rischio operativo nelle zone ad alta velocità. Non esiste un fix ufficiale confermato."
+      },
+      "published_utc": "2026-11-12T15:53:42+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit - Stuttering when People join an online session",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xs0skn/stuttering_when_people_join_an_online_session/"
+        },
+        {
+          "name": "Le Mans Ultimate Community - constant stuttering since a while",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=99868"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "TUTTE LE SESSIONI CON THRUSTMA",
+      "build": "LMU corrente; build non indicata",
+      "category": "hardware/telemetry/FFB/input/software",
+      "change_reason": "SEVERITY MEDIUM → HIGH",
+      "competitive_impact": "PERDITA DI CONTROLLO",
+      "confidence": 81,
+      "en": {
+        "summary": "A new community report materially confirms the existing Thrustmaster T598 telemetry/input issue, adding disconnection and frozen LEDs/display after the latest LMU update.",
+        "title": "Material confirmation: Thrustmaster T598 may disconnect after the latest LMU update",
+        "workaround": "No verified workaround is available; check Thrustmaster firmware and drivers, reconnect the peripheral only when off-track, and send logs and hardware details to support."
+      },
+      "id": "02cda368c85c15b724ea8e6c",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e3d944701e4fab51e37a",
+      "it": {
+        "summary": "Impatto RENOVA: La perdita simultanea di input, FFB, LED o display può causare perdita di controllo e DNF durante sessioni competitive.\n\nSintomo: Il T598 si disconnette durante l’uso di LMU; LED e display della periferica possono bloccarsi.\n\nNovità: Nuova discussione hardware pubblicata nella finestra obbligatoria che collega il problema all’ultimo aggiornamento di LMU, confermando la precedente segnalazione T598 con un sintomo di freeze dei display.",
+        "title": "Conferma materiale: Thrustmaster T598 può disconnettersi dopo l’ultimo aggiornamento LMU",
+        "workaround": "Non è disponibile un workaround verificato; verificare firmware e driver Thrustmaster, ricollegare la periferica solo fuori dalla pista e inviare log e dettagli hardware al supporto."
+      },
+      "published_utc": "2026-11-12T15:53:40+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community - Thrustmaster T598 disconnects after the latest LMU update",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=30314"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "AVVIO DEL GIOCO; SOPRATTUTTO A",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/anti-cheat",
+      "change_reason": "NEW",
+      "competitive_impact": "IMPOSSIBILITÀ DI PAR",
+      "confidence": 60,
+      "en": {
+        "summary": "A community report describes LMU failing to complete startup after the EAC stage. The report does not establish a new EAC mechanism, so it is treated as a material confirmation of the existing EAC startup compatibility issue.",
+        "title": "New report: Easy Anti-Cheat prevents LMU from completing startup",
+        "workaround": "Try reinstalling Easy Anti-Cheat, verifying the Steam files, and launching with administrator privileges; if the problem persists, collect logs and open an official support ticket."
+      },
+      "id": "b887d1b845d65f9ac4ad7047",
+      "integrity_type": "ANTI-CHEAT startup compatibility / availability failure",
+      "is_integrity": true,
+      "issue_id": "da336e3895ae5d77c157",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l’avvio del simulatore e quindi l’accesso alle sessioni online; il problema è compatibile con la famiglia di regressioni EAC/startup già osservata.\n\nSintomo: LMU si avvia solo parzialmente e non completa il passaggio alla finestra di gioco; reinstallazione di EAC e verifica dei file non risolvono il problema.\n\nNovità: Nuova segnalazione nella finestra temporale di un blocco persistente dell’avvio associato a Easy Anti-Cheat, con workaround standard già tentati senza successo.",
+        "title": "Nuova segnalazione: Easy Anti-Cheat non completa l’avvio di LMU",
+        "workaround": "Provare la reinstallazione di Easy Anti-Cheat, la verifica dei file Steam e l’avvio con privilegi amministrativi; se il problema persiste, raccogliere i log e aprire un ticket ufficiale."
+      },
+      "published_utc": "2026-11-12T15:53:39+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit - Easy anti cheat not working",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xtv2to/easy_anti_cheat_not_working/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "THIRD-PARTY PORTAL, TELEMETRY,",
