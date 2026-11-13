@@ -1,7 +1,84 @@
 {
-  "feed_version": 110,
-  "generated_utc": "2026-11-12T15:53:43+00:00",
+  "feed_version": 113,
+  "generated_utc": "2026-11-13T11:31:37+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE E OFFLINE; PARTICOLARME",
+      "build": "LMU corrente; firmware rim Thrustmaster 2.06",
+      "category": "hardware/telemetry/FFB/input/software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 84,
+      "en": {
+        "summary": "The existing T598 compatibility issue gained a concrete manufacturer-side mitigation. T598 users with Ferrari 488 GT3, EVO Racing 32 or Hypercar rims should be treated as affected until the rim firmware and LMU interaction are confirmed stable.",
+        "title": "Material update: Thrustmaster rim firmware 2.06 identified as a mitigation for T598 telemetry disconnects",
+        "workaround": "Update the compatible rim firmware to version 2.06 through My Thrustmaster Panel; also verify the telemetry/Hardware Display configuration in LMU. If the issue persists, collect logs and rim details for support."
+      },
+      "id": "c0f487c065e9872983517ed4",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e3d944701e4fab51e37a",
+      "it": {
+        "summary": "Impatto RENOVA: Rafforza la diagnosi di un problema di compatibilità tra LMU, T598 e rim Ferrari 488 GT3/EVO/Hyperscar; la perdita di telemetry o il congelamento di LED/display può accompagnarsi a perdita di informazioni durante la guida e potenzialmente a problemi FFB/input.\n\nSintomo: Il T598 o il rim Ferrari 488 GT3 possono disconnettersi dopo l’ultimo aggiornamento LMU, con LED e display congelati. La documentazione Thrustmaster indica il firmware rim 2.06 come correzione per disconnessioni telemetry e alcuni problemi FFB.\n\nNovità: Nuovo dettaglio di mitigazione materiale: oltre alla segnalazione LMU, Thrustmaster specifica che il firmware 2.06 dei rim compatibili evita disconnessioni telemetry e alcuni problemi FFB. La segnalazione community è stata aggiornata nella finestra osservata.",
+        "title": "Aggiornamento materiale: firmware 2.06 dei rim Thrustmaster indicato come mitigazione per disconnessioni telemetry del T598",
+        "workaround": "Aggiornare il firmware del rim compatibile alla versione 2.06 tramite My Thrustmaster Panel; verificare anche la configurazione telemetry/Hardware Display in LMU. Se il problema persiste, raccogliere log e dettagli del rim per il supporto."
+      },
+      "published_utc": "2026-11-13T11:31:37+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Telemetry functionality issues: T598 + Ferrari 488 GT3 Evo rim",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?threads/telemetry-functionality-issues-t598-ferrari-488-gt3-evo-rim.19480/"
+        },
+        {
+          "name": "Thrustmaster – T598 drivers, firmware and troubleshooting",
+          "tier": "TECHNICAL",
+          "url": "https://support.thrustmaster.com/product/T598x"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "HYPERCAR, SETUP/PHYSICS E COMP",
+      "build": "Hypercar tyre v1.2.3",
+      "category": "setup/physics/FFB/input",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE ALTERAZION",
+      "confidence": 59,
+      "en": {
+        "summary": "A community report raises a possible Hypercar tyre-model regression in v1.2.3, specifically an excessive reduction in peak slip angle. Treat as an unverified physics warning pending controlled comparison and developer confirmation.",
+        "title": "Preliminary report: Hypercar v1.2.3 tyres show an excessive reduction in peak slip angle",
+        "workaround": "No confirmed workaround. Avoid treating Hypercar setup or performance comparisons based solely on this report as conclusive until the behaviour is verified."
+      },
+      "id": "561e7e83254a6fd62265daec",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "168320e569982e1ac3bc",
+      "it": {
+        "summary": "Impatto RENOVA: Una possibile regressione del modello pneumatici può modificare il limite di aderenza, il bilanciamento delle vetture Hypercar e la validità comparativa dei setup e dei tempi recenti.\n\nSintomo: Una nuova discussione community segnala una possibile riduzione eccessiva del peak slip angle sui pneumatici Hypercar v1.2.3.\n\nNovità: La segnalazione è comparsa nella finestra osservata e introduce un possibile cambiamento materiale del comportamento al limite rispetto alla versione precedente; non risultano ancora conferme ufficiali o riproduzioni sufficienti.",
+        "title": "Segnalazione preliminare: pneumatici Hypercar v1.2.3 con riduzione eccessiva del picco di angolo di deriva",
+        "workaround": "Nessun workaround confermato. Evitare di considerare conclusivi i confronti di setup o prestazione Hypercar basati esclusivamente su questa segnalazione finché il comportamento non viene verificato."
+      },
+      "published_utc": "2026-11-13T11:31:36+00:00",
+      "renova_relevance": 79,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Hypercar tire v1.2.3 - excessive reduction of peak slip angle?",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=49556"
+        }
+      ],
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "GARA E SESSIONI DI GUIDA CON F",

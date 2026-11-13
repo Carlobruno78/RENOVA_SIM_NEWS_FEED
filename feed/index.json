@@ -1,7 +1,64 @@
 {
-  "feed_version": 110,
-  "generated_utc": "2026-11-12T15:53:43+00:00",
+  "feed_version": 113,
+  "generated_utc": "2026-11-13T11:31:37+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "hardware",
+      "en": {
+        "title": "Fanatec CSL DD: steering and pedals can freeze during driving until the wheel base is restarted"
+      },
+      "id": "d2c885eb95efe075d5ab97fc",
+      "is_integrity": false,
+      "it": {
+        "title": "Fanatec CSL DD: sterzo e pedali possono congelarsi durante la guida fino al riavvio della wheel base"
+      },
+      "published_utc": "2026-11-13T11:31:37+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; firmware rim Thrustmaster 2.06",
+      "category": "hardware/telemetry/FFB/input/software",
+      "en": {
+        "title": "Material update: Thrustmaster rim firmware 2.06 identified as a mitigation for T598 telemetry disconnects"
+      },
+      "id": "c0f487c065e9872983517ed4",
+      "is_integrity": false,
+      "it": {
+        "title": "Aggiornamento materiale: firmware 2.06 dei rim Thrustmaster indicato come mitigazione per disconnessioni telemetry del T598"
+      },
+      "published_utc": "2026-11-13T11:31:37+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Hypercar tyre v1.2.3",
+      "category": "setup/physics/FFB/input",
+      "en": {
+        "title": "Preliminary report: Hypercar v1.2.3 tyres show an excessive reduction in peak slip angle"
+      },
+      "id": "561e7e83254a6fd62265daec",
+      "is_integrity": false,
+      "it": {
+        "title": "Segnalazione preliminare: pneumatici Hypercar v1.2.3 con riduzione eccessiva del picco di angolo di deriva"
+      },
+      "published_utc": "2026-11-13T11:31:36+00:00",
+      "renova_relevance": 79,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "UNVERIFIED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata",

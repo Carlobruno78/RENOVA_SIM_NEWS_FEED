@@ -1,7 +1,43 @@
 {
-  "feed_version": 110,
-  "generated_utc": "2026-11-12T15:53:43+00:00",
+  "feed_version": 113,
+  "generated_utc": "2026-11-13T11:31:37+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "DRIVING SESSIONS USING FANATEC",
+      "build": "Non indicata",
+      "category": "hardware",
+      "change_reason": "NEW",
+      "competitive_impact": "RISCHIO DIRETTO DI P",
+      "confidence": 58,
+      "en": {
+        "summary": "Community-only early warning of a race-critical input-freeze condition affecting a Fanatec CSL DD. Both steering and pedals may retain their last values while the sim remains responsive. No official confirmation or verified iRacing-specific workaround is available.",
+        "title": "Fanatec CSL DD: steering and pedals can freeze during driving until the wheel base is restarted",
+        "workaround": "No verified workaround. The community reports possible improvement from using a powered USB hub or connecting the wheel base and pedals directly to the PC; treat these suggestions as unconfirmed."
+      },
+      "id": "d2c885eb95efe075d5ab97fc",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "6eece1a2e49e2063840f",
+      "it": {
+        "summary": "Impatto RENOVA: Input persistente e non aggiornato durante una sessione può causare perdita di controllo, incidenti e risultati compromessi. Segnalazione ancora community-only e non confermata da iRacing o Fanatec.\n\nSintomo: Con una Fanatec CSL DD 8 Nm, l’angolo di sterzo e gli input dei pedali possono rimanere bloccati al valore presente quando il problema si verifica. Il simulatore continua a funzionare, ma gli input restano congelati finché la wheel base non viene spenta e riaccesa.\n\nNovità: Nuova segnalazione nella finestra obbligatoria; l’autore riferisce quattro occorrenze nel 2026, incluse due in giorni consecutivi. La causa non è isolata; la discussione indica come possibili fattori alimentazione o saturazione del bus USB.",
+        "title": "Fanatec CSL DD: sterzo e pedali possono congelarsi durante la guida fino al riavvio della wheel base",
+        "workaround": "Nessun workaround verificato. La community riferisce possibili miglioramenti usando un hub USB alimentato o collegando direttamente wheel base e pedali al PC; considerare queste indicazioni non confermate."
+      },
+      "published_utc": "2026-11-13T11:31:37+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Inputs freezing",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xuquok/inputs_freezing/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "NUOVA SIM UI; VISUALIZZAZIONE",
