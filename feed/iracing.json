@@ -1,7 +1,43 @@
 {
-  "feed_version": 113,
-  "generated_utc": "2026-11-13T11:31:37+00:00",
+  "feed_version": 115,
+  "generated_utc": "2026-11-15T14:38:13+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "INGRESSO ALLE SESSIONI; MODALI",
+      "build": "Non indicata",
+      "category": "software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE MANCATA PA",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report confirms that the simulator can crash while joining a session, reportedly around 15% loading progress. This is materially consistent with the existing session-entry/session-exit crash issue and does not represent a distinct mechanism.",
+        "title": "New confirmation of crashes while joining sessions, sometimes around 15% loading progress",
+        "workaround": "Restart the iRacing UI before joining the session and verify that updates have been applied. If the issue persists, collect the crash logs and submit them to iRacing Support."
+      },
+      "id": "a819bbf72ae13b55b38cadf5",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "262007c075682d123f38",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l’ingresso alle gare e causare perdita della sessione; la segnalazione rafforza la persistenza del problema già noto durante l’ingresso alle sessioni.\n\nSintomo: Il simulatore può chiudersi durante l’ingresso a una sessione, con una segnalazione riportata intorno al 15% del caricamento.\n\nNovità: Nuova conferma community nella finestra obbligatoria, con un punto di riproduzione più specifico durante il caricamento iniziale della sessione.",
+        "title": "Nuova conferma di crash durante l’ingresso alle sessioni, talvolta intorno al 15% del caricamento",
+        "workaround": "Riavviare la iRacing UI prima di unirsi alla sessione; verificare che gli aggiornamenti siano stati applicati. Se il problema persiste, raccogliere i crash log e inviarli al supporto iRacing."
+      },
+      "published_utc": "2026-11-15T14:38:13+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit - Why is it crashing?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xwkfgu/why_is_it_crashing/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "DRIVING SESSIONS USING FANATEC",

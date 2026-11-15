@@ -1,7 +1,43 @@
 {
-  "feed_version": 113,
-  "generated_utc": "2026-11-13T11:31:37+00:00",
+  "feed_version": 115,
+  "generated_utc": "2026-11-15T14:38:13+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "LMU SU LINUX TRAMITE PROTON; L",
+      "build": "SDL 3.4.20 / sdl2-compat 2.32.74; GE-Proton11-12; LMU su Linux",
+      "category": "FFB/input/hardware/software",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA COMPLETA DEL",
+      "confidence": 60,
+      "en": {
+        "summary": "A Linux/Proton-specific LMU FFB failure affected Logitech G29 users when SDL HIDAPI LG4FF processed LMU’s spherical 9000 direction as a pure-Y force on a single-axis wheel. Steering input still worked, but no force was generated. SDL marked the issue fixed on November 14, 2026.",
+        "title": "Linux/Proton: Logitech G29 can lose all FFB in LMU when SDL interprets the effect direction as pure Y",
+        "workaround": "The report lists using the patched new-lg4ff path while disabling SDL HIDAPI LG4FF and SDL HIDAPI with SDL_JOYSTICK_HIDAPI_LG4FF=0 SDL_JOYSTICK_HIDAPI=0. The SDL fix has been integrated, but actual availability depends on the runtime/distribution in use."
+      },
+      "id": "50eb2ea1509ebf1afdae82d5",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "f7fe225a769039a68cd0",
+      "it": {
+        "summary": "Impatto RENOVA: Impatto competitivo elevato per gli utenti Linux che eseguono LMU tramite Proton: lo sterzo e l’input possono funzionare mentre il Force Feedback resta completamente assente. Il problema è distinto dal caso Windows Logitech G HUB già presente nello state.\n\nSintomo: Con il driver SDL HIDAPI LG4FF, un effetto constant-force con direzione sferica 9000 può produrre zero forza su Logitech G29. LMU invia questa direzione tramite Wine; l’input di sterzo continua a funzionare, ma il FFB scompare.\n\nNovità: Il problema è stato segnalato il 14 novembre 2026 e SDL lo ha chiuso lo stesso giorno come corretto tramite una modifica che tratta il guadagno direzionale nullo come non significativo e applica la forza completa.",
+        "title": "Linux/Proton: Logitech G29 può perdere completamente il FFB in LMU quando SDL interpreta la direzione dell’effetto come Y puro",
+        "workaround": "La segnalazione indica come workaround l’uso del percorso new-lg4ff patchato disabilitando SDL HIDAPI LG4FF e SDL HIDAPI tramite SDL_JOYSTICK_HIDAPI_LG4FF=0 SDL_JOYSTICK_HIDAPI=0. La correzione SDL è stata già integrata, ma la disponibilità effettiva dipende dal runtime/distribuzione usata."
+      },
+      "published_utc": "2026-11-15T14:38:13+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "SDL GitHub issue #16714",
+          "tier": "TECHNICAL",
+          "url": "https://github.com/libsdl-org/SDL/issues/16714"
+        }
+      ],
+      "status": "FIXED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ONLINE E OFFLINE; PARTICOLARME",

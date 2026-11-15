@@ -1,7 +1,45 @@
 {
-  "feed_version": 113,
-  "generated_utc": "2026-11-13T11:31:37+00:00",
+  "feed_version": 115,
+  "generated_utc": "2026-11-15T14:38:13+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "software",
+      "en": {
+        "title": "New confirmation of crashes while joining sessions, sometimes around 15% loading progress"
+      },
+      "id": "a819bbf72ae13b55b38cadf5",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma di crash durante l’ingresso alle sessioni, talvolta intorno al 15% del caricamento"
+      },
+      "published_utc": "2026-11-15T14:38:13+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "SDL 3.4.20 / sdl2-compat 2.32.74; GE-Proton11-12; LMU su Linux",
+      "category": "FFB/input/hardware/software",
+      "en": {
+        "title": "Linux/Proton: Logitech G29 can lose all FFB in LMU when SDL interprets the effect direction as pure Y"
+      },
+      "id": "50eb2ea1509ebf1afdae82d5",
+      "is_integrity": false,
+      "it": {
+        "title": "Linux/Proton: Logitech G29 può perdere completamente il FFB in LMU quando SDL interpreta la direzione dell’effetto come Y puro"
+      },
+      "published_utc": "2026-11-15T14:38:13+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "FIXED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Non indicata",
