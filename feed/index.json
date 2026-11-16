@@ -1,7 +1,64 @@
 {
-  "feed_version": 115,
-  "generated_utc": "2026-11-15T14:38:13+00:00",
+  "feed_version": 118,
+  "generated_utc": "2026-11-16T16:54:24+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Ultimo aggiornamento LMU; build non indicata",
+      "category": "hardware/telemetry/FFB/input/software",
+      "en": {
+        "title": "New confirmation: Thrustmaster T598 may disconnect after the latest LMU update with LEDs and display frozen"
+      },
+      "id": "e6d28775242b02a58d2358db",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma: Thrustmaster T598 può disconnettersi dopo l’ultimo aggiornamento LMU con LED e display bloccati"
+      },
+      "published_utc": "2026-11-16T16:54:24+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/hardware/setup/physics",
+      "en": {
+        "title": "Material confirmation: violent Hypercar oscillations with Moza wheelbases, including R5/R9/R12"
+      },
+      "id": "82fc1c22ae5e0c5b10dba238",
+      "is_integrity": false,
+      "it": {
+        "title": "Conferma materiale: oscillazioni violente delle Hypercar con basi Moza, inclusi R5/R9/R12"
+      },
+      "published_utc": "2026-11-16T16:54:24+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "network/netcode/race control/software",
+      "en": {
+        "title": "New reports of server unavailability and inability to play for consecutive days"
+      },
+      "id": "14d779a6a0a3e9326f11f8a1",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuove segnalazioni di indisponibilità dei server e impossibilità di giocare per più giorni consecutivi"
+      },
+      "published_utc": "2026-11-16T16:54:23+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Non indicata",

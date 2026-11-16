@@ -1,7 +1,120 @@
 {
-  "feed_version": 115,
-  "generated_utc": "2026-11-15T14:38:13+00:00",
+  "feed_version": 118,
+  "generated_utc": "2026-11-16T16:54:24+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "TUTTE LE SESSIONI CHE USANO UN",
+      "build": "Ultimo aggiornamento LMU; build non indicata",
+      "category": "hardware/telemetry/FFB/input/software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 82,
+      "en": {
+        "summary": "A new community report confirms that the T598 can disconnect after the latest LMU update, leaving the wheel LEDs and display frozen. This materially strengthens the existing hardware/telemetry issue but does not establish a definitive root cause.",
+        "title": "New confirmation: Thrustmaster T598 may disconnect after the latest LMU update with LEDs and display frozen",
+        "workaround": "Not confirmed. Check Thrustmaster firmware and drivers, restart the device, and collect logs before another competitive session."
+      },
+      "id": "e6d28775242b02a58d2358db",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "e3d944701e4fab51e37a",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare perdita di telemetria, blocco del display e potenziale perdita di input o FFB durante sessioni competitive.\n\nSintomo: Disconnessione del Thrustmaster T598 dopo l’aggiornamento LMU, con LED e display del rim bloccati.\n\nNovità: Nuova conferma community nel periodo osservato; il problema viene nuovamente associato all’ultimo aggiornamento LMU.",
+        "title": "Nuova conferma: Thrustmaster T598 può disconnettersi dopo l’ultimo aggiornamento LMU con LED e display bloccati",
+        "workaround": "Non confermato. Verificare il firmware e i driver Thrustmaster, riavviare il dispositivo e raccogliere i log prima di una nuova sessione competitiva."
+      },
+      "published_utc": "2026-11-16T16:54:24+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community — Thrustmaster T598 disconnects after the latest LMU update",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=57386"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "HYPERCAR; SEGNALAZIONI ONLINE",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/hardware/setup/physics",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "PERDITA DI CONTROLLO",
+      "confidence": 60,
+      "en": {
+        "summary": "A new Reddit report materially updates the existing Hypercar straight-line oscillation issue. The recurrence is reported on multiple Moza wheelbases, with one reply narrowing the symptom to the Ferrari for an R12 user. Community workarounds exist, but no official fix or build-specific correction is confirmed.",
+        "title": "Material confirmation: violent Hypercar oscillations with Moza wheelbases, including R5/R9/R12",
+        "workaround": "Community workarounds include setting FFB equalizer bands above 50 Hz to zero or using the AZOM plugin with Pit House closed. These are unofficial and not universally confirmed."
+      },
+      "id": "82fc1c22ae5e0c5b10dba238",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "b4ccb97802eab29aa152",
+      "it": {
+        "summary": "Impatto RENOVA: Le oscillazioni sui rettilinei possono rendere la vettura incontrollabile e aumentare il rischio di incidente o danno hardware al volante.\n\nSintomo: Oscillazioni violente delle Hypercar sui rettilinei; segnalate con Moza R5, R9 e R12, con almeno una segnalazione specifica sulla Ferrari.\n\nNovità: Il problema viene descritto come nuovamente presente e viene indicato in community/Discord come problema noto in lavorazione; l’ambito hardware e il collegamento a una vettura specifica sono ora più chiari.",
+        "title": "Conferma materiale: oscillazioni violente delle Hypercar con basi Moza, inclusi R5/R9/R12",
+        "workaround": "Segnalati dalla community: azzerare le bande dell’equalizzatore FFB sopra 50 Hz oppure usare il plugin AZOM con Pit House chiuso. Workaround non ufficiali e non universalmente confermati."
+      },
+      "published_utc": "2026-11-16T16:54:24+00:00",
+      "renova_relevance": 88,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Reddit — Moza R5 HyperCar oscillating",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/LeMansUltimateWEC/comments/1xw7t21/moza_r5_hypercar_oscillating/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SERVIZI ONLINE, RACECONTROL ED",
+      "build": "LMU corrente; build non indicata",
+      "category": "network/netcode/race control/software",
+      "change_reason": "NEW",
+      "competitive_impact": "IMPOSSIBILITÀ DI PAR",
+      "confidence": 68,
+      "en": {
+        "summary": "Two community discussions report server unavailability and inability to play for consecutive days. The evidence is community-only and does not establish whether this was a confirmed outage, regional issue, maintenance event, or account-specific failure, but it is materially relevant to online availability.",
+        "title": "New reports of server unavailability and inability to play for consecutive days",
+        "workaround": "No confirmed workaround. Check service status, restart the client, and retry after an interval; avoid starting official races until access is stable."
+      },
+      "id": "14d779a6a0a3e9326f11f8a1",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "b15790be98d7f76203b3",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l’accesso agli eventi online, interrompere la partecipazione a gare e compromettere la disponibilità operativa del servizio.\n\nSintomo: Segnalazioni community di server offline e di impossibilità ad accedere o giocare per due giorni consecutivi.\n\nNovità: Due nuove discussioni nello stesso periodo indicano un possibile problema recente di disponibilità dei servizi online, distinto dai singoli casi di latenza o desync già presenti nello state.",
+        "title": "Nuove segnalazioni di indisponibilità dei server e impossibilità di giocare per più giorni consecutivi",
+        "workaround": "Nessun workaround confermato. Verificare lo stato dei servizi, riavviare il client e riprovare dopo un intervallo; evitare di iniziare gare ufficiali finché l’accesso non è stabile."
+      },
+      "published_utc": "2026-11-16T16:54:23+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community — Servers offline this morning?",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?threads/servers-offline-this-morning.19599/"
+        },
+        {
+          "name": "Le Mans Ultimate Community — I can't play for two consecutive days",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?threads/i-cant-play-for-two-consecutive-days.19605/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "LMU SU LINUX TRAMITE PROTON; L",
