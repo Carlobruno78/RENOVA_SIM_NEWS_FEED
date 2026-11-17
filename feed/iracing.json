@@ -1,7 +1,43 @@
 {
-  "feed_version": 118,
-  "generated_utc": "2026-11-16T16:54:24+00:00",
+  "feed_version": 121,
+  "generated_utc": "2026-11-17T13:15:00+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "NUOVA SIM UI; UTENTI IN BRITIS",
+      "build": "Non indicata",
+      "category": "replay/UI",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE PERDITA O",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report confirms that the new Sim UI still mishandles the new Canadian time zone used in British Columbia and Alberta, producing a one-hour display offset. The report says a fix is expected in a future patch. This is an update to the existing Canadian time-zone display issue, not a distinct defect.",
+        "title": "New Sim UI: confirmation of incorrect times in British Columbia and Alberta for the new Canadian time zone; fix expected in a future patch",
+        "workaround": "Manually verify the correct UTC or local time before registering for or joining a session; no reliable official workaround is available."
+      },
+      "id": "325c6125c4c05072f7b171b9",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "8c43ee8133a218a59163",
+      "it": {
+        "summary": "Impatto RENOVA: Può mostrare orari errati per registrazioni, sessioni e pianificazione gare agli utenti di British Columbia e Alberta, con rischio di confusione sulle finestre di gara.\n\nSintomo: Utenti di British Columbia e Alberta segnalano che la nuova Sim UI non offre ancora il nuovo fuso orario locale e visualizza gli orari con uno scarto di un'ora. La discussione riferisce che il problema dovrebbe essere corretto in una prossima patch.\n\nNovità: Nuova conferma geografica e indicazione community di una correzione pianificata in una prossima patch; il meccanismo resta quello del bug di visualizzazione dei fusi orari canadesi già noto.",
+        "title": "Nuova Sim UI: conferma di orari errati in British Columbia e Alberta per il nuovo fuso orario canadese; correzione attesa in una patch futura",
+        "workaround": "Verificare manualmente l'orario UTC o l'orario locale corretto prima di registrare o partecipare a una sessione; non è disponibile un workaround ufficiale affidabile."
+      },
+      "published_utc": "2026-11-17T13:14:59+00:00",
+      "renova_relevance": 84,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Time Zone Issue",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xy3k1f/time_zone_issue/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "INGRESSO ALLE SESSIONI; MODALI",

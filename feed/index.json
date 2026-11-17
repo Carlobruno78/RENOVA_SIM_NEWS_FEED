@@ -1,7 +1,64 @@
 {
-  "feed_version": 118,
-  "generated_utc": "2026-11-16T16:54:24+00:00",
+  "feed_version": 121,
+  "generated_utc": "2026-11-17T13:15:00+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "software/crash/graphics/network/content",
+      "en": {
+        "title": "New report: online-race crashes to desktop possibly associated with missing DLC cars"
+      },
+      "id": "55e60153617da57ec1d352cb",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova segnalazione: crash al desktop durante gare online forse associato a vetture DLC mancanti"
+      },
+      "published_utc": "2026-11-17T13:15:00+00:00",
+      "renova_relevance": 84,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "replay/UI",
+      "en": {
+        "title": "New Sim UI: confirmation of incorrect times in British Columbia and Alberta for the new Canadian time zone; fix expected in a future patch"
+      },
+      "id": "325c6125c4c05072f7b171b9",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova Sim UI: conferma di orari errati in British Columbia e Alberta per il nuovo fuso orario canadese; correzione attesa in una patch futura"
+      },
+      "published_utc": "2026-11-17T13:14:59+00:00",
+      "renova_relevance": 84,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/hardware/setup/physics/plugin",
+      "en": {
+        "title": "Updated confirmation: Hypercar oscillation with Moza wheelbases, also reported on the Ferrari"
+      },
+      "id": "2737e8754db923a19852f15d",
+      "is_integrity": false,
+      "it": {
+        "title": "Conferma aggiornata: oscillazioni Hypercar con basi Moza, con impatto segnalato anche sulla Ferrari"
+      },
+      "published_utc": "2026-11-17T13:14:59+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Ultimo aggiornamento LMU; build non indicata",
