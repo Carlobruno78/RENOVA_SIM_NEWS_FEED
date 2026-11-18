@@ -1,7 +1,45 @@
 {
-  "feed_version": 121,
-  "generated_utc": "2026-11-17T13:15:00+00:00",
+  "feed_version": 123,
+  "generated_utc": "2026-11-18T16:20:07+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "network/netcode/race control/software",
+      "en": {
+        "title": "Material confirmation: server unavailability and inability to play persist for multiple consecutive days"
+      },
+      "id": "ed68bd41289574939dc50c86",
+      "is_integrity": false,
+      "it": {
+        "title": "Conferma materiale: indisponibilità dei server e impossibilità di giocare persistono per più giorni consecutivi"
+      },
+      "published_utc": "2026-11-18T16:20:07+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Ultimo aggiornamento LMU; build non indicata",
+      "category": "anti-cheat/FFB/input/hardware/software",
+      "en": {
+        "title": "New report: Easy Anti-Cheat may disable FFB on the Fanatec CSR after the latest update"
+      },
+      "id": "2dfaf16c873e093013213a57",
+      "is_integrity": true,
+      "it": {
+        "title": "Nuova segnalazione: Easy Anti-Cheat può disattivare il FFB su Fanatec CSR dopo l’ultimo aggiornamento"
+      },
+      "published_utc": "2026-11-18T16:20:06+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata",
