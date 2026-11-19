@@ -1,5 +1,5 @@
 {
-  "feed_version": 123,
+  "feed_version": 124,
   "generated_utc": "2026-11-18T16:20:07+00:00",
   "items": [
     {
@@ -320,42 +320,6 @@
       "published_utc": "2026-11-04T15:18:16+00:00",
       "renova_relevance": 90,
       "severity": "MEDIUM",
-      "sim": "IRACING",
-      "sources": [
-        {
-          "name": "iRacing 2026 Season 4 Patch 2 Release Notes",
-          "tier": "OFFICIAL",
-          "url": "https://support.iracing.com/support/solutions/articles/31000179983-2026-season-4-patch-2-release-notes-2026-11-02-01-"
-        }
-      ],
-      "status": "CONFIRMED",
-      "translation_status": "complete"
-    },
-    {
-      "access_class": "STANDARD",
-      "affected_mode": "DIRT SPRINT CAR SESSIONS",
-      "build": "2026.11.02.01",
-      "category": "race control",
-      "change_reason": "NEW",
-      "competitive_impact": "POSSIBILE VANTAGGIO",
-      "confidence": 99,
-      "en": {
-        "summary": "Patch 2 confirms and fixes a competitive-control exploit affecting all Dirt Sprint Car variants. The issue could provide an unintended input-based setup advantage and should be treated as an integrity change, not merely a control/UI correction.",
-        "title": "Dirt Sprint Car: brake-bias adjustment was unintentionally available through control bindings, fixed in Patch 2",
-        "workaround": "Update to build 2026.11.02.01 and verify Dirt Sprint Car bindings; results obtained by exploiting the unintended adjustment should not be treated as valid."
-      },
-      "id": "6592077feffcca84ef8d107c",
-      "integrity_type": "COMPETITIVE EXPLOIT",
-      "is_integrity": false,
-      "issue_id": "afde68e549fc9c855ad3",
-      "it": {
-        "summary": "Impatto RENOVA: Correzione di un vantaggio competitivo ottenibile tramite input configurati, rilevante per integrità e validazione dei risultati.\n\nSintomo: Sulle Dirt Sprint Car la regolazione del brake bias risultava disponibile tramite binding di controllo, nonostante non dovesse esserlo.\n\nNovità: iRacing ha rimosso la disponibilità involontaria della regolazione del brake bias tramite binding.",
-        "title": "Dirt Sprint Car: regolazione del brake bias disponibile involontariamente tramite binding, corretta in Patch 2",
-        "workaround": "Aggiornare alla build 2026.11.02.01 e verificare i binding delle Dirt Sprint Car; non considerare validi eventuali risultati ottenuti sfruttando la regolazione non prevista."
-      },
-      "published_utc": "2026-11-04T15:18:15+00:00",
-      "renova_relevance": 100,
-      "severity": "HIGH",
       "sim": "IRACING",
       "sources": [
         {
