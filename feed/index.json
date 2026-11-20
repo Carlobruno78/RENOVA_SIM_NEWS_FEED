@@ -1,7 +1,102 @@
 {
-  "feed_version": 123,
-  "generated_utc": "2026-11-18T16:20:07+00:00",
+  "feed_version": 128,
+  "generated_utc": "2026-11-20T09:10:32+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/replay/integrity",
+      "en": {
+        "title": "Material update: users report no way to challenge a factual error in a protest outcome"
+      },
+      "id": "f03c280fc3f258d99ac5421f",
+      "is_integrity": true,
+      "it": {
+        "title": "Aggiornamento materiale: segnalata l’assenza di un percorso per contestare un errore fattuale nell’esito di una protesta"
+      },
+      "published_utc": "2026-11-20T09:10:32+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "hardware",
+      "en": {
+        "title": "Further confirmation of freezes, packet loss, and possible crashes associated with USB or peripheral disconnects during races"
+      },
+      "id": "ce32a5778d5ad96dbf529788",
+      "is_integrity": false,
+      "it": {
+        "title": "Ulteriore conferma di freeze, packet loss e possibile crash associati a disconnessioni USB o periferiche durante le gare"
+      },
+      "published_utc": "2026-11-20T09:10:32+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "setup/physics/FFB/input/hardware/software",
+      "en": {
+        "title": "New report: the clutch input may appear inactive during a spin and cause the engine to stall"
+      },
+      "id": "6cf88fec94103787ff7a860a",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova segnalazione: il comando frizione può apparire inattivo durante un testacoda e causare lo spegnimento del motore"
+      },
+      "published_utc": "2026-11-20T09:10:32+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/account/integrity",
+      "en": {
+        "title": "New confirmation: a 30-day ban is disputed as having no appeal path or procedural transparency"
+      },
+      "id": "3efb197adbc0292ec769034f",
+      "is_integrity": true,
+      "it": {
+        "title": "Nuova conferma: ban di 30 giorni contestato senza appello né trasparenza procedurale"
+      },
+      "published_utc": "2026-11-20T09:10:31+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "software",
+      "en": {
+        "title": "Further confirmation of crashes while joining sessions at around 15% loading"
+      },
+      "id": "39db930c4d9cf62527d6d3d5",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma del crash durante l’ingresso alle sessioni intorno al 15% del caricamento"
+      },
+      "published_utc": "2026-11-20T09:10:31+00:00",
+      "renova_relevance": 89,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata",
