@@ -1,7 +1,115 @@
 {
-  "feed_version": 124,
-  "generated_utc": "2026-11-18T16:20:07+00:00",
+  "feed_version": 129,
+  "generated_utc": "2026-11-20T09:10:32+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE RACECONTROL; PROTESTE E",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/replay/integrity",
+      "change_reason": "NEW",
+      "competitive_impact": "RISCHIO ELEVATO DI P",
+      "confidence": 70,
+      "en": {
+        "summary": "A new community report says that users cannot report a factual error in a protest outcome. This reinforces the existing issue involving failed reports, disputed penalties, and limited protest correction paths.",
+        "title": "Material update: users report no way to challenge a factual error in a protest outcome",
+        "workaround": "No confirmed correction path is provided in the report."
+      },
+      "id": "f03c280fc3f258d99ac5421f",
+      "integrity_type": "RaceControl adjudication and protest-process integrity",
+      "is_integrity": true,
+      "issue_id": "2f91b107866c547ed367",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire la correzione di penalità o decisioni errate e aumentare il rischio di risultati competitivi non rettificabili.\n\nSintomo: Un esito di protesta ritenuto fattualmente errato non dispone di un percorso evidente per essere segnalato o corretto.\n\nNovità: Nuova segnalazione nella finestra osservata che dettaglia l’assenza di un meccanismo per riportare errori fattuali negli esiti delle proteste; è un aggiornamento materiale dell’issue RaceControl già nota.",
+        "title": "Aggiornamento materiale: segnalata l’assenza di un percorso per contestare un errore fattuale nell’esito di una protesta",
+        "workaround": "Nessun percorso di correzione confermato nella segnalazione."
+      },
+      "published_utc": "2026-11-20T09:10:32+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community — No way to report a factual error in a protest outcome",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?threads/no-way-to-report-a-factual-error-in-a-protest-outcome.19623/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "MODALITÀ NON SPECIFICATA; POSS",
+      "build": "LMU corrente; build non indicata",
+      "category": "setup/physics/FFB/input/hardware/software",
+      "change_reason": "NEW",
+      "competitive_impact": "PUÒ CAUSARE PERDITA",
+      "confidence": 63,
+      "en": {
+        "summary": "A community report describes an apparent clutch-input failure during a spin, followed by an engine stall. The report is currently unverified and does not establish a reproducible exploit.",
+        "title": "New report: the clutch input may appear inactive during a spin and cause the engine to stall",
+        "workaround": "No confirmed workaround is provided in the report."
+      },
+      "id": "6cf88fec94103787ff7a860a",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "b4c401bf8b4d8cc11b14",
+      "it": {
+        "summary": "Impatto RENOVA: Possibile perdita di controllo e interruzione della gara; al momento è una singola segnalazione community non confermata.\n\nSintomo: Durante un testacoda il comando frizione appare inattivo e il motore si spegne.\n\nNovità: Nuova segnalazione pubblicata nella finestra osservata; non risultano ancora conferme ufficiali o workaround verificati.",
+        "title": "Nuova segnalazione: il comando frizione può apparire inattivo durante un testacoda e causare lo spegnimento del motore",
+        "workaround": "Nessun workaround confermato nella segnalazione."
+      },
+      "published_utc": "2026-11-20T09:10:32+00:00",
+      "renova_relevance": 78,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community — Clutch appears inactive during a spin-off; engine stalls",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=25719"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ACCOUNT, ACCESSO ONLINE E RACE",
+      "build": "LMU corrente; build non indicata",
+      "category": "race control/account/integrity",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE ESCLUSIONE",
+      "confidence": 76,
+      "en": {
+        "summary": "A fresh community discussion reiterates concerns about a 30-day LMU ban issued without an appeal route or transparent procedure. This is a material confirmation of the existing moderation-workflow issue, not a separate ban mechanism.",
+        "title": "New confirmation: a 30-day ban is disputed as having no appeal path or procedural transparency",
+        "workaround": "No confirmed appeal path or mitigation is provided in the report."
+      },
+      "id": "3efb197adbc0292ec769034f",
+      "integrity_type": "Account moderation and suspension workflow",
+      "is_integrity": true,
+      "issue_id": "9054a3350f38cad021b3",
+      "it": {
+        "summary": "Impatto RENOVA: Rischio diretto per l’accesso online e per l’affidabilità del sistema di moderazione, soprattutto se il provvedimento è errato o non verificabile.\n\nSintomo: Un giocatore riferisce un ban di 30 giorni senza percorso di appello o spiegazioni procedurali sufficienti.\n\nNovità: Nuova discussione pubblicata nella finestra osservata che riconferma materialmente il problema già registrato dei ban di 30 giorni privi di appello e trasparenza.",
+        "title": "Nuova conferma: ban di 30 giorni contestato senza appello né trasparenza procedurale",
+        "workaround": "Nessun percorso di appello o mitigazione confermato nella segnalazione."
+      },
+      "published_utc": "2026-11-20T09:10:31+00:00",
+      "renova_relevance": 95,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community — 25 Years of Gaming, My First-Ever Ban Is 30 Days in LMU — No Appeal, No",
+          "tier": "OFFICIAL",
+          "url": "https://community.lemansultimate.com/index.php?threads/25-years-of-gaming-my-first-ever-ban-is-30-days-in-lmu-%E2%80%94-no-appeal-no-transparency-is-this-fair.19571/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ONLINE, RACECONTROL E SERVER D",

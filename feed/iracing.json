@@ -1,7 +1,84 @@
 {
-  "feed_version": 124,
-  "generated_utc": "2026-11-18T16:20:07+00:00",
+  "feed_version": 129,
+  "generated_utc": "2026-11-20T09:10:32+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "ONLINE RACES; POTENTIALLY ANY",
+      "build": "Non indicata",
+      "category": "hardware",
+      "change_reason": "SEVERITY MEDIUM → HIGH",
+      "competitive_impact": "RISCHIO DI PERDITA D",
+      "confidence": 70,
+      "en": {
+        "summary": "Community reports during the window materially reinforce the existing USB disconnect/reconnect issue. The reported impact now includes short freezes, iRacing packet loss, and isolated black-screen simulator crashes. The reports remain community evidence rather than an official iRacing confirmation.",
+        "title": "Further confirmation of freezes, packet loss, and possible crashes associated with USB or peripheral disconnects during races",
+        "workaround": "No confirmed workaround. Reports suggest, without validation, disabling USB selective suspend, checking Event Viewer/HWiNFO, trying an FFB refresh rate below 360 Hz, and isolating problematic USB devices or hubs."
+      },
+      "id": "ce32a5778d5ad96dbf529788",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "fe584d22ed748a8c13e1",
+      "it": {
+        "summary": "Impatto RENOVA: Può causare perdita temporanea del controllo, packet loss, freeze di 1–5 secondi e potenziale abbandono della sessione, con impatto diretto su risultati e sicurezza in gara.\n\nSintomo: Nuove segnalazioni descrivono freeze video di circa 1–5 secondi durante gare online, talvolta accompagnati dal suono Windows di disconnessione/riconnessione USB e da packet loss riportato da iRacing. Un ulteriore caso riferisce schermo nero e crash del simulatore quando il sistema rileva una periferica audio/GPU come nuovamente collegata.\n\nNovità: Nel periodo osservato il problema è stato ulteriormente corroborato da più utenti e il quadro si è esteso da freeze e packet loss a casi con schermo nero e crash. Sono stati citati anche 360 Hz del force feedback, throttling termico e dispositivi USB/audio come possibili fattori, ma nessuna causa è confermata.",
+        "title": "Ulteriore conferma di freeze, packet loss e possibile crash associati a disconnessioni USB o periferiche durante le gare",
+        "workaround": "Nessun workaround confermato. Le segnalazioni suggeriscono, senza validazione, di disattivare USB selective suspend, controllare Event Viewer/HWiNFO, provare un refresh FFB inferiore a 360 Hz e isolare periferiche o hub USB problematici."
+      },
+      "published_utc": "2026-11-20T09:10:32+00:00",
+      "renova_relevance": 94,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Problem freeze",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xz98zf/problem_freeze/"
+        },
+        {
+          "name": "Reddit r/iRacing — iRacing is crashing to desktop out of nowhere",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1x2q8r7/iracing_is_crashing_to_desktop_out_of_nowhere_no/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSION JOINING/LOADING, INCLU",
+      "build": "Non indicata",
+      "category": "software",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "MANCATO INGRESSO ALL",
+      "confidence": 60,
+      "en": {
+        "summary": "A new community report during the window reconfirms the existing session-entry crash at approximately 15% loading. Community-suggested mitigations remain unverified, and no official fix or build attribution was found.",
+        "title": "Further confirmation of crashes while joining sessions at around 15% loading",
+        "workaround": "Close and reopen the Sim UI and check for pending updates; the community also suggests deleting the iracing-electron folder, but that workaround is not officially confirmed."
+      },
+      "id": "39db930c4d9cf62527d6d3d5",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "262007c075682d123f38",
+      "it": {
+        "summary": "Impatto RENOVA: Può impedire l’ingresso a una sessione ufficiale o causare una perdita di partecipazione prima della gara.\n\nSintomo: Un nuovo report descrive il crash del simulatore ogni volta che si tenta di entrare in una sessione, con arresto intorno al 15% del caricamento.\n\nNovità: Il pattern specifico del crash al 15% è stato nuovamente riportato nella finestra osservata, confermando la persistenza del problema già presente nello stato. La community cita come workaround il riavvio della Sim UI o la rimozione della cartella iracing-electron, ma senza conferma ufficiale o validazione consistente.",
+        "title": "Nuova conferma del crash durante l’ingresso alle sessioni intorno al 15% del caricamento",
+        "workaround": "Chiudere e riaprire la Sim UI; verificare gli aggiornamenti; la community suggerisce anche di cancellare la cartella iracing-electron, ma il workaround non è ufficialmente confermato."
+      },
+      "published_utc": "2026-11-20T09:10:31+00:00",
+      "renova_relevance": 89,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Why is it crashing?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xwkfgu/why_is_it_crashing/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "NUOVA SIM UI; UTENTI IN BRITIS",
