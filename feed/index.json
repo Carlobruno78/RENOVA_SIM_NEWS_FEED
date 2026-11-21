@@ -1,5 +1,5 @@
 {
-  "feed_version": 128,
+  "feed_version": 129,
   "generated_utc": "2026-11-20T09:10:32+00:00",
   "items": [
     {
@@ -758,25 +758,6 @@
       "published_utc": "2026-11-04T15:18:16+00:00",
       "renova_relevance": 90,
       "severity": "MEDIUM",
-      "sim": "IRACING",
-      "status": "CONFIRMED",
-      "translation_status": "complete"
-    },
-    {
-      "access_class": "STANDARD",
-      "build": "2026.11.02.01",
-      "category": "race control",
-      "en": {
-        "title": "Dirt Sprint Car: brake-bias adjustment was unintentionally available through control bindings, fixed in Patch 2"
-      },
-      "id": "6592077feffcca84ef8d107c",
-      "is_integrity": false,
-      "it": {
-        "title": "Dirt Sprint Car: regolazione del brake bias disponibile involontariamente tramite binding, corretta in Patch 2"
-      },
-      "published_utc": "2026-11-04T15:18:15+00:00",
-      "renova_relevance": 100,
-      "severity": "HIGH",
       "sim": "IRACING",
       "status": "CONFIRMED",
       "translation_status": "complete"
