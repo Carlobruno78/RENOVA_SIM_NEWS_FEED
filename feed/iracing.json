@@ -1,7 +1,43 @@
 {
-  "feed_version": 130,
-  "generated_utc": "2026-11-22T01:17:29+00:00",
+  "feed_version": 132,
+  "generated_utc": "2026-11-22T15:16:54+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "DRE COLLEGATO A IRACING; CAMBI",
+      "build": "DRE 2026.5; build iRacing non indicata",
+      "category": "plugin",
+      "change_reason": "NEW",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 60,
+      "en": {
+        "summary": "Summary: Digital Race Engineer version 2026.5 states that it fixes telemetry crashes or freezes after a session change. The issue can interrupt the spotter, warnings, and live-data features during a competitive session.\n\nSymptom: After a session change, DRE telemetry could freeze or cause a plugin crash, interrupting voice functions and iRacing-data-based warnings.\n\nWhat changed: The plugin developer reports that DRE version 2026.5 includes a fix for telemetry freezes and crashes after session changes.",
+        "title": "DRE 2026.5: fixed telemetry crashes and freezes after session changes",
+        "workaround": "Update DRE to version 2026.5 or later; if the issue persists, restart the plugin after changing sessions and check the telemetry logs."
+      },
+      "id": "7cee9dce91ba78072f44f356",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "892e266eaa27acdd819c",
+      "it": {
+        "summary": "Impatto RENOVA: Digital Race Engineer versione 2026.5 dichiara di correggere i crash e i blocchi della telemetria dopo un cambio di sessione. Il problema può interrompere lo spotter, gli avvisi e le funzioni dei dati in tempo reale durante una sessione competitiva.\n\nSintomo: Dopo un cambio di sessione, la telemetria di DRE poteva bloccarsi o causare un crash del plugin, interrompendo le funzioni vocali e gli avvisi basati sui dati di iRacing.\n\nNovità: Lo sviluppatore del plugin riferisce che DRE versione 2026.5 include una correzione per i blocchi della telemetria e i crash dopo i cambi di sessione.",
+        "title": "DRE 2026.5: corretti i crash e i blocchi della telemetria dopo i cambi di sessione",
+        "workaround": "Aggiorna DRE alla versione 2026.5 o successiva; se il problema persiste, riavvia il plugin dopo aver cambiato sessione e controlla i log della telemetria."
+      },
+      "published_utc": "2026-11-22T15:16:54+00:00",
+      "renova_relevance": 76,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Weekly App Self-Promotion Thread, annuncio DRE 2026.5",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1y030ut/weekly_app_selfpromotion_thread/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "GARE ONLINE; PARTICOLARMENTE R",

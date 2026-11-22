@@ -1,7 +1,43 @@
 {
-  "feed_version": 130,
-  "generated_utc": "2026-11-22T01:17:29+00:00",
+  "feed_version": 132,
+  "generated_utc": "2026-11-22T15:16:54+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SINGLE-PLAYER E ONLINE; PARTIC",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/hardware/setup/physics",
+      "change_reason": "SEVERITY MEDIUM → HIGH",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 60,
+      "en": {
+        "summary": "Summary: A new report specifically affecting the Ferrari 499P: very large straight-line oscillations may occur with cold tyres, potentially causing loss of control and increasing the risk of contact or crashes online. The report strengthens the existing Hypercar/FFB stability issue, but does not identify an official fix or a build-specific regression.\n\nSymptom: The Ferrari 499P may oscillate violently on straights during the initial phase, while the tyres are cold. The report is vehicle-specific and differs from earlier confirmations that mainly mentioned other Hypercars.\n\nWhat changed: A material confirmation published on November 22, 2026 extends the phenomenon to the Ferrari 499P; the source does not provide a verified cause, an exact build, or an official intervention.",
+        "title": "Updated confirmation: very severe straight-line oscillations of the Ferrari 499P with cold tyres",
+        "workaround": "No verified workaround is provided by the source. Pending further confirmation, avoid evaluating the car's stability before the tyres reach a minimum temperature and use conservative FFB settings."
+      },
+      "id": "f4334c48a61cc00c8bab8460",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "b4c401bf8b4d8cc11b14",
+      "it": {
+        "summary": "Impatto RENOVA: Un nuovo report riguarda specificamente la Ferrari 499P: con pneumatici freddi possono verificarsi oscillazioni molto ampie sul rettilineo, con possibile perdita di controllo e aumento del rischio di contatti o incidenti online. Il report rafforza il problema di stabilità esistente relativo a Hypercar/FFB, ma non identifica una correzione ufficiale né una regressione specifica di una build.\n\nSintomo: La Ferrari 499P può oscillare violentemente sui rettilinei nella fase iniziale, quando i pneumatici sono freddi. Il report è specifico per il veicolo e si distingue dalle conferme precedenti, che menzionavano principalmente altre Hypercar.\n\nNovità: Una conferma sostanziale, pubblicata il 22 novembre 2026, estende il fenomeno alla Ferrari 499P; la fonte non fornisce una causa verificata, una build esatta o un intervento ufficiale.",
+        "title": "Conferma aggiornata: oscillazioni molto gravi sul rettilineo della Ferrari 499P con pneumatici freddi",
+        "workaround": "La fonte non fornisce alcun workaround verificato. In attesa di ulteriori conferme, evitare di valutare la stabilità dell'auto prima che i pneumatici raggiungano una temperatura minima e usare impostazioni FFB conservative."
+      },
+      "published_utc": "2026-11-22T15:16:52+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Huge oscillations on straight with cold tires, only with 499P",
+          "tier": "COMMUNITY",
+          "url": "https://community.lemansultimate.com/index.php?threads/huge-oscillations-on-straight-with-cold-tires-only-with-499p.19659/post-103037"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ONLINE RACECONTROL; PROTESTE E",
