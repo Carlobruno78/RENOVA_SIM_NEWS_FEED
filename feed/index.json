@@ -1,7 +1,64 @@
 {
-  "feed_version": 129,
-  "generated_utc": "2026-11-20T09:10:32+00:00",
+  "feed_version": 130,
+  "generated_utc": "2026-11-22T01:17:29+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "graphics/VR",
+      "en": {
+        "title": "Further confirmation of major FPS drops and stutters at Silverstone"
+      },
+      "id": "e4553ceea63dd0d37ea852ad",
+      "is_integrity": false,
+      "it": {
+        "title": "Ulteriore conferma di forti cali di FPS e stutter a Silverstone"
+      },
+      "published_utc": "2026-11-22T01:17:29+00:00",
+      "renova_relevance": 84,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "hardware",
+      "en": {
+        "title": "Further confirmation of freezes and packet loss linked to USB disconnects; power-management workaround reported"
+      },
+      "id": "d7f67cec017e42e9de5aaecf",
+      "is_integrity": false,
+      "it": {
+        "title": "Ulteriore conferma di blocchi e perdita di pacchetti collegati a disconnessioni USB; segnalato un workaround relativo alla gestione dell’alimentazione"
+      },
+      "published_utc": "2026-11-22T01:17:28+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "network/netcode",
+      "en": {
+        "title": "Further report of race kicks after persistent packet loss"
+      },
+      "id": "dc80acc772f02fe68c701148",
+      "is_integrity": false,
+      "it": {
+        "title": "Ulteriore segnalazione di espulsione dalla gara dopo una perdita di pacchetti persistente"
+      },
+      "published_utc": "2026-11-22T01:17:27+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "LMU corrente; build non indicata",

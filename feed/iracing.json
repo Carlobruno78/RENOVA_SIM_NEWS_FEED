@@ -1,7 +1,115 @@
 {
-  "feed_version": 129,
-  "generated_utc": "2026-11-20T09:10:32+00:00",
+  "feed_version": 130,
+  "generated_utc": "2026-11-22T01:17:29+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE ONLINE; PARTICOLARMENTE R",
+      "build": "Non indicata",
+      "category": "graphics/VR",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "STUTTER E CALI FPS D",
+      "confidence": 60,
+      "en": {
+        "summary": "Summary: An abnormal performance reduction was reported at Silverstone, with FPS nearly halved compared with normal performance and stutters lasting about one second. The user reported that the issue can cause off-tracks and penalties during races.\n\nSymptom: FPS much lower than normal at Silverstone, long stutters, and a perceived regression after a recent update. The issue was also reported at other tracks and in traffic.\n\nWhat changed: New Silverstone-specific confirmation during the observation window, on an RTX 5080 and Ryzen 7 7800X3D: normally above 100 FPS but dropping to around 40 FPS, with stutters lasting about one second.",
+        "title": "Further confirmation of major FPS drops and stutters at Silverstone",
+        "workaround": "Reducing graphics settings such as grandstands, crowds, and LOD detail may increase FPS, but it is not a confirmed fix for the regression."
+      },
+      "id": "e4553ceea63dd0d37ea852ad",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "0494e01c21b7a2f710e6",
+      "it": {
+        "summary": "Impatto RENOVA: A Silverstone è stata segnalata un'anomala riduzione delle prestazioni, con FPS quasi dimezzati rispetto al normale e stutter della durata di circa un secondo. L'utente ha riferito che il problema può causare uscite di pista e penalità durante le gare.\n\nSintomo: FPS molto più bassi del normale a Silverstone, lunghi stutter e una regressione percepita dopo un aggiornamento recente. Il problema è stato segnalato anche su altri circuiti e nel traffico.\n\nNovità: Nuova conferma specifica per Silverstone durante la finestra di osservazione, su una RTX 5080 e un Ryzen 7 7800X3D: normalmente oltre 100 FPS, ma con cali fino a circa 40 FPS e stutter della durata di circa un secondo.",
+        "title": "Ulteriore conferma di forti cali di FPS e stutter a Silverstone",
+        "workaround": "Ridurre le impostazioni grafiche, come tribune, folla e dettaglio LOD, può aumentare gli FPS, ma non è una soluzione confermata per la regressione."
+      },
+      "published_utc": "2026-11-22T01:17:29+00:00",
+      "renova_relevance": 84,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing – FPS at Silverstone",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1y12e1g/fps_at_silverstone/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "GARE ONLINE; PERIFERICHE USB E",
+      "build": "Non indicata",
+      "category": "hardware",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "FREEZE DURANTE LA GU",
+      "confidence": 60,
+      "en": {
+        "summary": "Summary: The discussion adds a possible trigger and an operational workaround: a balanced power profile may allow USB devices to enter sleep during a session. The issue can produce multi-second freezes and in-race packet loss.\n\nSymptom: A 1–5 second video freeze, Windows USB disconnect/reconnect sound, packet loss, and in some cases a black screen or crash.\n\nWhat changed: New discussion update: one user attributed the issue to the balanced power mode, which allowed USB devices to enter sleep while driving. They suggested using a performance power mode or disabling USB suspension.",
+        "title": "Further confirmation of freezes and packet loss linked to USB disconnects; power-management workaround reported",
+        "workaround": "Try a high-performance power profile and disable USB selective suspend and USB-controller power saving. The workaround is not universally confirmed."
+      },
+      "id": "d7f67cec017e42e9de5aaecf",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "fe584d22ed748a8c13e1",
+      "it": {
+        "summary": "Impatto RENOVA: La discussione aggiunge un possibile fattore scatenante e un workaround operativo: un profilo di alimentazione bilanciato può consentire ai dispositivi USB di entrare in sospensione durante una sessione. Il problema può causare blocchi di più secondi e perdita di pacchetti in gara.\n\nSintomo: Un blocco video di 1–5 secondi, il suono di disconnessione/riconnessione USB di Windows, perdita di pacchetti e, in alcuni casi, schermata nera o crash.\n\nNovità: Nuovo aggiornamento della discussione: un utente ha attribuito il problema alla modalità di alimentazione bilanciata, che consentiva ai dispositivi USB di entrare in sospensione durante la guida. Ha suggerito di usare una modalità di alimentazione a prestazioni elevate oppure di disabilitare la sospensione USB.",
+        "title": "Ulteriore conferma di blocchi e perdita di pacchetti collegati a disconnessioni USB; segnalato un workaround relativo alla gestione dell’alimentazione",
+        "workaround": "Provare un profilo di alimentazione a prestazioni elevate e disabilitare la sospensione selettiva USB e il risparmio energetico del controller USB. Il workaround non è confermato universalmente."
+      },
+      "published_utc": "2026-11-22T01:17:28+00:00",
+      "renova_relevance": 91,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing – Problem freeze",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1xz98zf/problem_freeze/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSIONI ONLINE",
+      "build": "Non indicata",
+      "category": "network/netcode",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "RISCHIO DI ESPULSION",
+      "confidence": 60,
+      "en": {
+        "summary": "Summary: New report of being kicked from a race after packet loss changed from orange to red and did not recover during the session. The user reported a stable wired connection and said the problem had already occurred multiple times.\n\nSymptom: Persistent packet loss that did not recover during the race, followed by removal from the session. Ping was not necessarily abnormal.\n\nWhat changed: Recent confirmation of a repeated case during the observation window; changing the CDN was suggested in the discussion, but the workaround is not verified.",
+        "title": "Further report of race kicks after persistent packet loss",
+        "workaround": "No confirmed workaround. Community replies suggested trying a different CDN in the network settings, but the result was not verified."
+      },
+      "id": "dc80acc772f02fe68c701148",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "00d157e721620c238365",
+      "it": {
+        "summary": "Impatto RENOVA: Nuova segnalazione di espulsione da una gara dopo che la perdita di pacchetti è passata da arancione a rossa e non si è ripristinata durante la sessione. L'utente ha riferito di disporre di una connessione cablata stabile e ha dichiarato che il problema si era già verificato più volte.\n\nSintomo: Perdita di pacchetti persistente che non si è ripristinata durante la gara, seguita dalla rimozione dalla sessione. Il ping non era necessariamente anomalo.\n\nNovità: Recente conferma di un caso ripetuto durante la finestra di osservazione; nella discussione è stato suggerito di cambiare la CDN, ma la soluzione alternativa non è verificata.",
+        "title": "Ulteriore segnalazione di espulsione dalla gara dopo una perdita di pacchetti persistente",
+        "workaround": "Nessuna soluzione alternativa confermata. Nelle risposte della community è stato suggerito di provare una CDN diversa nelle impostazioni di rete, ma il risultato non è stato verificato."
+      },
+      "published_utc": "2026-11-22T01:17:27+00:00",
+      "renova_relevance": 86,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing – Packet loss Iracing",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1y1yisa/packet_loss_iracing/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "ONLINE RACES; POTENTIALLY ANY",
