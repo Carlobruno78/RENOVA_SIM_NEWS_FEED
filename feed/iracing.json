@@ -1,7 +1,43 @@
 {
-  "feed_version": 132,
-  "generated_utc": "2026-11-22T15:16:54+00:00",
+  "feed_version": 134,
+  "generated_utc": "2026-11-24T10:25:27+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSIONI ONLINE; CONFIGURAZION",
+      "build": "Non indicata",
+      "category": "hardware",
+      "change_reason": "NEW",
+      "competitive_impact": "RIDUZIONE DELLE INFO",
+      "confidence": 60,
+      "en": {
+        "summary": "Summary: Possible loss of shift lights and pit-limiter indicators during online races on Asetek Forte configurations using RaceHub; the issue was also reported during a session and has not yet been confirmed by iRacing.\n\nSymptom: Shift lights and pit-limiter indicators work in offline test sessions but may stop working when moving to online races or during a session. The user reports that a full PC restart temporarily restores operation.\n\nWhat changed: New report limited to Asetek Forte peripherals and RaceHub; the behavior appears related to the offline-to-online transition, but the cause has not been attributed to anti-cheat, drivers, or iRacing.",
+        "title": "Asetek Forte/RaceHub: LEDs and pit-limiter indicators may stop working in online sessions",
+        "workaround": "Perform a full PC restart; also verify the peripheral drivers and RaceHub operation. No confirmed workaround is available."
+      },
+      "id": "ddeb7029236b14181f1531ca",
+      "integrity_type": "ANTI-CHEAT",
+      "is_integrity": true,
+      "issue_id": "d4fd8bad3a8d6c910dda",
+      "it": {
+        "summary": "Impatto RENOVA: Possibile perdita delle shift lights e degli indicatori del pit limiter durante le gare online su configurazioni Asetek Forte che utilizzano RaceHub; il problema è stato segnalato anche durante una sessione e non è stato ancora confermato da iRacing.\n\nSintomo: Le shift lights e gli indicatori del pit limiter funzionano nelle sessioni di test offline, ma potrebbero smettere di funzionare passando alle gare online o nel corso di una sessione. L'utente riferisce che un riavvio completo del PC ripristina temporaneamente il funzionamento.\n\nNovità: Nuova segnalazione limitata alle periferiche Asetek Forte e a RaceHub; il comportamento sembra essere legato al passaggio da offline a online, ma la causa non è stata attribuita ad anti-cheat, driver o iRacing.",
+        "title": "Asetek Forte/RaceHub: i LED e gli indicatori del pit limiter potrebbero smettere di funzionare nelle sessioni online",
+        "workaround": "Eseguire un riavvio completo del PC; verificare anche i driver della periferica e il funzionamento di RaceHub. Non è disponibile alcun workaround confermato."
+      },
+      "published_utc": "2026-11-24T10:25:27+00:00",
+      "renova_relevance": 100,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Shift leds working in test session, not online?",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1y2oesj/shift_leds_working_in_test_session_not_online/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "DRE COLLEGATO A IRACING; CAMBI",

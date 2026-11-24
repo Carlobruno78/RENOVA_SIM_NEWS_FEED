@@ -1,7 +1,48 @@
 {
-  "feed_version": 132,
-  "generated_utc": "2026-11-22T15:16:54+00:00",
+  "feed_version": 134,
+  "generated_utc": "2026-11-24T10:25:27+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "LINUX/PROTON; GIOCO PIATTO E V",
+      "build": "GE-Proton11-13",
+      "category": "software/Linux/Proton/hardware/input/FFB",
+      "change_reason": "NEW",
+      "competitive_impact": "PERDITA DEGLI INPUT",
+      "confidence": 70,
+      "en": {
+        "summary": "Summary: Material change for Linux/Proton users: physically reconnecting a wheel should no longer leave LMU without a detected input device. The fix concerns wheel detection, not LMU’s FFB model or physics.\n\nSymptom: After unplugging and reconnecting a wheel, LMU could fail to detect the device again, preventing wheel input; the issue was associated with Linux/Proton compatibility rather than a native LMU build.\n\nWhat changed: GE-Proton 11-13, released on November 23, 2026, includes an LMU-specific fix: the wheel is detected again after reconnecting. The fix is related to DInput hot-plug support developed in the context of Proton-GE issue #944.",
+        "title": "GE-Proton 11-13 fixes LMU wheel detection after reconnecting",
+        "workaround": "Use GE-Proton 11-13 or a later version containing the same fix; before updating, restarting LMU after reconnecting the wheel may be necessary."
+      },
+      "id": "bebf1d73c3f296f658575bc9",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "fcc3b7dc5ced3f33acd3",
+      "it": {
+        "summary": "Impatto RENOVA: Cambiamento significativo per gli utenti Linux/Proton: ricollegare fisicamente un volante non dovrebbe più lasciare LMU senza un dispositivo di input rilevato. La correzione riguarda il rilevamento del volante, non il modello FFB o la fisica di LMU.\n\nSintomo: Dopo aver scollegato e ricollegato un volante, LMU poteva non rilevare nuovamente il dispositivo, impedendo l’input del volante; il problema era associato alla compatibilità Linux/Proton piuttosto che a una build nativa di LMU.\n\nNovità: GE-Proton 11-13, rilasciato il 23 novembre 2026, include una correzione specifica per LMU: il volante viene nuovamente rilevato dopo la riconnessione. La correzione è legata al supporto hot-plug di DInput sviluppato nel contesto del problema Proton-GE #944.",
+        "title": "GE-Proton 11-13 risolve il rilevamento del volante in LMU dopo la riconnessione",
+        "workaround": "Usare GE-Proton 11-13 o una versione successiva che contenga la stessa correzione; prima dell’aggiornamento, potrebbe essere necessario riavviare LMU dopo aver ricollegato il volante."
+      },
+      "published_utc": "2026-11-24T10:25:26+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "GE-Proton 11-13 release notes",
+          "tier": "TECHNICAL",
+          "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases"
+        },
+        {
+          "name": "Proton-GE issue #944 – Le Mans Ultimate input and VR compatibility",
+          "tier": "TECHNICAL",
+          "url": "https://github.com/GloriousEggroll/proton-ge-custom/issues/944"
+        }
+      ],
+      "status": "FIXED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "SINGLE-PLAYER E ONLINE; PARTIC",

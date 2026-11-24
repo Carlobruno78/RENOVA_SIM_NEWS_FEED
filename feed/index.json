@@ -1,7 +1,45 @@
 {
-  "feed_version": 132,
-  "generated_utc": "2026-11-22T15:16:54+00:00",
+  "feed_version": 134,
+  "generated_utc": "2026-11-24T10:25:27+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "hardware",
+      "en": {
+        "title": "Asetek Forte/RaceHub: LEDs and pit-limiter indicators may stop working in online sessions"
+      },
+      "id": "ddeb7029236b14181f1531ca",
+      "is_integrity": true,
+      "it": {
+        "title": "Asetek Forte/RaceHub: i LED e gli indicatori del pit limiter potrebbero smettere di funzionare nelle sessioni online"
+      },
+      "published_utc": "2026-11-24T10:25:27+00:00",
+      "renova_relevance": 100,
+      "severity": "MEDIUM",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "GE-Proton11-13",
+      "category": "software/Linux/Proton/hardware/input/FFB",
+      "en": {
+        "title": "GE-Proton 11-13 fixes LMU wheel detection after reconnecting"
+      },
+      "id": "bebf1d73c3f296f658575bc9",
+      "is_integrity": false,
+      "it": {
+        "title": "GE-Proton 11-13 risolve il rilevamento del volante in LMU dopo la riconnessione"
+      },
+      "published_utc": "2026-11-24T10:25:26+00:00",
+      "renova_relevance": 82,
+      "severity": "MEDIUM",
+      "sim": "LMU",
+      "status": "FIXED",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "DRE 2026.5; build iRacing non indicata",
