@@ -1,7 +1,84 @@
 {
-  "feed_version": 134,
-  "generated_utc": "2026-11-24T10:25:27+00:00",
+  "feed_version": 137,
+  "generated_utc": "2026-11-27T19:38:51+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "AVVIO DEL GIOCO E MODALITÀ ONL",
+      "build": "Aggiornamento recente non identificato",
+      "category": "anti-cheat/software/hardware",
+      "change_reason": "NEW",
+      "competitive_impact": "BLOCCO DELL’AVVIO PR",
+      "confidence": 60,
+      "en": {
+        "summary": "Summary: The issue may completely prevent protected LMU startup on Windows ARM systems virtualized through Parallels, effectively blocking access to the game and online modes. It is an anti-cheat availability and compatibility problem, not evidence of cheat detection.\n\nSymptom: Easy Anti-Cheat returns an “ARM64 not supported” error on a Mac mini M4 running LMU through Parallels.\n\nWhat changed: A new report published on November 25, 2026 links the failed startup to an EAC compatibility limitation or regression involving the Windows ARM/Parallels environment after a recent update. This is distinct from previous generic EAC startup failures because it explicitly concerns the ARM64 architecture.",
+        "title": "EAC: “ARM64 not supported” error on Mac mini M4 with Parallels after a recent update",
+        "workaround": "No verified workaround was reported by the source. No official mitigation for running on Windows ARM through Parallels was identified."
+      },
+      "id": "64a4559124bc98b8998d6721",
+      "integrity_type": "ANTI-CHEAT startup compatibility / availability",
+      "is_integrity": true,
+      "issue_id": "d8044c03c9d71dc03a8a",
+      "it": {
+        "summary": "Impatto RENOVA: Il problema può impedire completamente l’avvio protetto di LMU su sistemi Windows ARM virtualizzati tramite Parallels, bloccando di fatto l’accesso al gioco e alle modalità online. Si tratta di un problema di disponibilità e compatibilità dell’anti-cheat, non di una prova di rilevamento di cheat.\n\nSintomo: Easy Anti-Cheat restituisce l’errore “ARM64 not supported” su un Mac mini M4 che esegue LMU tramite Parallels.\n\nNovità: Una nuova segnalazione pubblicata il 25 novembre 2026 collega il mancato avvio a una limitazione o a una regressione di compatibilità di EAC con l’ambiente Windows ARM/Parallels dopo un recente aggiornamento. Il caso è distinto dai precedenti errori generici di avvio di EAC perché riguarda esplicitamente l’architettura ARM64.",
+        "title": "EAC: errore “ARM64 not supported” su Mac mini M4 con Parallels dopo un recente aggiornamento",
+        "workaround": "Nessun workaround verificato riportato nella fonte. Non è stata individuata una mitigazione ufficiale per l’esecuzione su Windows ARM tramite Parallels."
+      },
+      "published_utc": "2026-11-27T19:38:50+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Easy Anti-Cheat “ARM64 not supported” error on Mac mini M4 (Parallels)",
+          "tier": "COMMUNITY",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=11739"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSIONI CON HYPERCAR, SOPRATT",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/hardware/setup/physics",
+      "change_reason": "NEW_WORKAROUND",
+      "competitive_impact": "POSSIBILE PERDITA DI",
+      "confidence": 70,
+      "en": {
+        "summary": "Summary: New community activity confirms that the issue remains reproducible and may be dangerous for car control and FFB hardware, with a potential competitive impact during the early stages of a session or after a pit stop.\n\nSymptom: Very violent and persistent oscillations on straights with Hypercars, specifically reported on the Ferrari 499P when the tyres are cold.\n\nWhat changed: Between November 25 and 26, 2026, new community threads reconfirmed the phenomenon on the 499P and also described it more generally as Hypercar oscillation on straights. No official fix or associated new build was identified.",
+        "title": "New confirmation: very violent Ferrari 499P oscillations on straights with cold tyres",
+        "workaround": "No new verified workaround was identified during the window. Unconfirmed setup or FFB changes should not be treated as a resolution."
+      },
+      "id": "1c265f38d323b87a50538982",
+      "integrity_type": "COMPETITIVE ISSUE",
+      "is_integrity": false,
+      "issue_id": "b4c401bf8b4d8cc11b14",
+      "it": {
+        "summary": "Impatto RENOVA: Nuova attività della community conferma che il problema resta riproducibile e può essere pericoloso per il controllo della vettura e per l'hardware FFB, con un potenziale impatto competitivo nelle prime fasi di una sessione o dopo una sosta ai box.\n\nSintomo: Oscillazioni molto violente e persistenti sui rettilinei con le Hypercar, segnalate nello specifico sulla Ferrari 499P quando i pneumatici sono freddi.\n\nNovità: Tra il 25 e il 26 novembre 2026, nuovi thread della community hanno riconfermato il fenomeno sulla 499P e lo hanno descritto anche più in generale come oscillazione delle Hypercar sui rettilinei. Non è stata identificata alcuna correzione ufficiale né alcuna nuova build associata.",
+        "title": "Nuova conferma: oscillazioni molto violente della Ferrari 499P sui rettilinei con pneumatici freddi",
+        "workaround": "Non è stato identificato alcun nuovo workaround verificato durante la finestra considerata. Modifiche non confermate al setup o all'FFB non devono essere trattate come una soluzione."
+      },
+      "published_utc": "2026-11-27T19:38:49+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "sources": [
+        {
+          "name": "Le Mans Ultimate Community – Huge oscillations on straight with cold tires, only with 499P",
+          "tier": "COMMUNITY",
+          "url": "https://community.lemansultimate.com/index.php?threads/huge-oscillations-on-straight-with-cold-tires-only-with-499p.19659/"
+        },
+        {
+          "name": "Le Mans Ultimate Community – Hard oscillation with Hypercars on straights",
+          "tier": "COMMUNITY",
+          "url": "https://community.lemansultimate.com/index.php?goto/post=&id=14688"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "LINUX/PROTON; GIOCO PIATTO E V",

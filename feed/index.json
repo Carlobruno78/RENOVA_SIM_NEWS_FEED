@@ -1,7 +1,64 @@
 {
-  "feed_version": 134,
-  "generated_utc": "2026-11-24T10:25:27+00:00",
+  "feed_version": 137,
+  "generated_utc": "2026-11-27T19:38:51+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "build": "Non indicata",
+      "category": "plugin",
+      "en": {
+        "title": "SimHub with bass shakers and USB/audio devices may cause packet loss, stuttering, and session exits"
+      },
+      "id": "302e92e85268052af37c815d",
+      "is_integrity": true,
+      "it": {
+        "title": "SimHub con bass shakers e dispositivi USB/audio può causare packet loss, stuttering e uscite dalla sessione"
+      },
+      "published_utc": "2026-11-27T19:38:51+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "Aggiornamento recente non identificato",
+      "category": "anti-cheat/software/hardware",
+      "en": {
+        "title": "EAC: “ARM64 not supported” error on Mac mini M4 with Parallels after a recent update"
+      },
+      "id": "64a4559124bc98b8998d6721",
+      "is_integrity": true,
+      "it": {
+        "title": "EAC: errore “ARM64 not supported” su Mac mini M4 con Parallels dopo un recente aggiornamento"
+      },
+      "published_utc": "2026-11-27T19:38:50+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
+    {
+      "access_class": "STANDARD",
+      "build": "LMU corrente; build non indicata",
+      "category": "FFB/input/hardware/setup/physics",
+      "en": {
+        "title": "New confirmation: very violent Ferrari 499P oscillations on straights with cold tyres"
+      },
+      "id": "1c265f38d323b87a50538982",
+      "is_integrity": false,
+      "it": {
+        "title": "Nuova conferma: oscillazioni molto violente della Ferrari 499P sui rettilinei con pneumatici freddi"
+      },
+      "published_utc": "2026-11-27T19:38:49+00:00",
+      "renova_relevance": 92,
+      "severity": "HIGH",
+      "sim": "LMU",
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "build": "Non indicata",

@@ -1,7 +1,43 @@
 {
-  "feed_version": 134,
-  "generated_utc": "2026-11-24T10:25:27+00:00",
+  "feed_version": 137,
+  "generated_utc": "2026-11-27T19:38:51+00:00",
   "items": [
+    {
+      "access_class": "STANDARD",
+      "affected_mode": "SESSIONI ONLINE CON SIMHUB, BA",
+      "build": "Non indicata",
+      "category": "plugin",
+      "change_reason": "NEW",
+      "competitive_impact": "PUÒ PROVOCARE STUTTE",
+      "confidence": 58,
+      "en": {
+        "summary": "Summary: A new community report describes a potentially critical interaction between SimHub, bass shakers, USB/audio peripherals, and multiple FFB channels: the symptoms combine packet-loss warnings, CPU saturation, severe stuttering, and exiting the session. The mechanism is not yet confirmed as a general iRacing or SimHub defect.\n\nSymptom: With SimHub active for wireless DDUs and bass shakers, the simulator showed packet-loss and CPU warnings, continuous stuttering and freezing, and eventually exited the session. The issue disappeared after disconnecting additional peripherals and disabling iRacing FFB channels other than the wheel.\n\nWhat changed: Reported on November 26, 2026; the author states that SimHub and the bass-shaker system were associated with the problem. Comments mention similar cases involving haptic reactors, USB devices, and USB audio, but there is no official confirmation of a common regression.",
+        "title": "SimHub with bass shakers and USB/audio devices may cause packet loss, stuttering, and session exits",
+        "workaround": "As a temporary diagnostic measure, disable SimHub and the bass shakers, disconnect non-essential USB/audio peripherals, and reconnect them one at a time. Also check iRacing’s FFB channels and leave only the wheel channel enabled until the cause is isolated."
+      },
+      "id": "302e92e85268052af37c815d",
+      "integrity_type": "ANTI-CHEAT",
+      "is_integrity": true,
+      "issue_id": "abf8ea4fb6e83de693c8",
+      "it": {
+        "summary": "Impatto RENOVA: Un nuovo report della community descrive una potenziale interazione critica tra SimHub, bass shakers, periferiche USB/audio e più canali FFB: i sintomi comprendono avvisi di packet loss, saturazione della CPU, stuttering grave e uscite dalla sessione. Il meccanismo non è ancora confermato come un difetto generale di iRacing o SimHub.\n\nSintomo: Con SimHub attivo per DDUs wireless e bass shakers, il simulatore ha mostrato avvisi di packet loss e CPU, stuttering e blocchi continui, fino a uscire dalla sessione. Il problema è scomparso dopo aver scollegato periferiche aggiuntive e disabilitato i canali FFB di iRacing diversi da quello del volante.\n\nNovità: Segnalato il 26 novembre 2026; l’autore afferma che SimHub e il sistema bass-shaker erano associati al problema. I commenti menzionano casi simili che coinvolgono haptic reactors, dispositivi USB e audio USB, ma non c’è alcuna conferma ufficiale di una regressione comune.",
+        "title": "SimHub con bass shakers e dispositivi USB/audio può causare packet loss, stuttering e uscite dalla sessione",
+        "workaround": "Come misura diagnostica temporanea, disabilita SimHub e i bass shakers, scollega le periferiche USB/audio non essenziali e ricollegale una alla volta. Controlla anche i canali FFB di iRacing e lascia abilitato solo il canale del volante finché la causa non viene isolata."
+      },
+      "published_utc": "2026-11-27T19:38:51+00:00",
+      "renova_relevance": 100,
+      "severity": "HIGH",
+      "sim": "IRACING",
+      "sources": [
+        {
+          "name": "Reddit r/iRacing — Help needed",
+          "tier": "COMMUNITY",
+          "url": "https://www.reddit.com/r/iRacing/comments/1y63wg6/help_needed/"
+        }
+      ],
+      "status": "INVESTIGATING",
+      "translation_status": "complete"
+    },
     {
       "access_class": "STANDARD",
       "affected_mode": "SESSIONI ONLINE; CONFIGURAZION",
